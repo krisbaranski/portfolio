@@ -106,7 +106,24 @@ Indentation also helps make code easier to read. It makes parent-child relations
         <label for="username">Username</label>
         <input type="text" name="username" value="Davie">
         <input type="password" name="user-pw" id="user-pw">
+
+        <label for="amount">How many panties would you like?</label>
+        <input type="number" step="1" name="amount" id="amount">
     </form>
+    <form>
+        <label for="volume"> Volume Control</label>
+        <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+
+    </form>
+    <section class="cooked">
+        <label for="doneness">How do you want your patty cooked</label>
+        <br>
+        <span>Rare</span>
+        <!--Add your code below-->
+        <input id="doneness" type="range" name="doneness" min="0" max="5" step="0.5">
+
+        <span>Well-Done</span>
+    </section>
 </body>
 
 </html>
