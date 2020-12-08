@@ -157,6 +157,32 @@ Indentation also helps make code easier to read. It makes parent-child relations
         <input id="no" type="radio" name="cheese" value="no">
         <label for="no">No</label>
     </section>
+    <!-- Dropdown list-->
+    <form>
+        <label for="lunch">What's for lunch?</label>
+        <select id="lunch" name="lunch">
+            <option value="pizza">Pizza</option>
+            <option value="curry">Curry</option>
+            <option value="salad">Salad</option>
+            <option value="ramen">Ramen</option>
+            <option value="tacos">Tacos</option>
+        </select>
+
+    </form>
+    <!-- Datalist input-->
+    <form>
+        <label for="city">Ideal city to visit?</label>
+        <input type="text" list="cities" id="city" name="city">
+
+        <datalist id="cities">
+            <option value="New York City"></option>
+            <option value="Tokyo"></option>
+            <option value="Barcelona"></option>
+            <option value="Mexico City"></option>
+            <option value="Melbourne"></option>
+            <option value="Other"></option>
+        </datalist>
+    </form>
 </body>
 
 </html>
