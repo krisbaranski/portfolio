@@ -234,7 +234,12 @@ Indentation also helps make code easier to read. It makes parent-child relations
         <input id="guests" name="guests" type="number" min="1" max="10">
         <input type="submit" value="Submit">
     </form>
-
+    <!-- Checking (defying) Text lenght in forms-->
+    <form action="/example.html" method="POST">
+        <label for="summary">Summarize your feelings in less than 250 characters</label>
+        <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
