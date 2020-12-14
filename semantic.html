@@ -40,9 +40,45 @@ The content at the bottom of the subject information is known as the footer, ind
 - Terms of use
 - Site Map
 - Reference to top of page links
-
-
 -->
+
+    <!-- Article and Section
+Now that we covered the body of Semantic HTML, let’s focus on what can go in the body. The two elements we’re going to focus on now are section> and article>.
+
+section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. For example, content with the same theme such as articles about cricket can go under a single section>. A website’s home page could be split into sections for the introduction, news items, and contact information.
+
+The article> element holds content that makes sense on its own. article> can hold content such as articles, blogs, comments, magazines, etc. An article> tag would help someone using a screen reader understand where the article content (that might contain a combination of text, images, audio, etc.) begins and ends.
+
+the article> element containing a fact about cricket was placed inside of the section> element. It is important to note that a section> element could also be placed in an article> element depending on the context.   
+-->
+
+    <section>
+        <h2>Fun Facts About Cricket</h2>
+        <article>
+            <p>A single match of cricket can last up to 5 days.</p>
+        </article>
+    </section>
+
+    <!--  Aside element 
+    
+    The aside> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content. This element can be used alongside other elements such as article> or section>. Some common uses of the aside> element are for:
+
+Bibliographies
+Endnotes
+Comments
+Pull quotes
+Editorial sidebars
+Additional information
+-->
+
+    <article>
+        <p>The first World Series was played between Pittsburgh and Boston in 1903 and was a nine-game series.</p>
+    </article>
+    <aside>
+        <p>
+            Babe Ruth once stated, “Heroes get remembered, but legends never die.”
+        </p>
+    </aside>
 </body>
 
 </html>
