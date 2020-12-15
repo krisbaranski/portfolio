@@ -94,7 +94,42 @@ figcaption> is an element used to describe the media in the figure> tag. Usually
         <img src="https://kristofbaranski.com/wp-content/uploads/2019/12/6tan2.jpg">
         <figcaption>This picture shows characters from Overwatch.</figcaption>
     </figure>
+    <!-- Audio !!! 
+    In this example, we created an audio> element. Then we created a source> element to encapsulate our audio link. In this case, iAmAnAudioFile.mp3 is our audio file. Then we specified the type by using type and named what kind of audio it is. Although not always necessary, it’s recommended that we state the type of audio as it helps the browser identify it more easily and determine if that type of audio file is supported by the browser.
 
+We linked our audio file into the browser but now we need to give it controls. This is where attributes come in. Attributes provide additional information about an element.
+
+Attributes allow us to do many different things to our audio file. There are many attributes for audio> but today we’re going to be focusing on controls and src.
+
+controls: automatically displays the audio controls into the browser such as play and mute.
+src: specifies the URL of the audio file.-->
+    <audio autoplay controls>
+        <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+    </audio>
+    <!-- Video
+By using a video> element, we can add videos to our website. The video> element makes it clear that a developer is attempting to display a video to the user.
+
+Some attributes that can alter a video playback include:
+
+controls: When added in, a play/pause button will be added onto the video along with volume control and a fullscreen option.
+autoplay: The attribute which results in a video automatically playing as soon as the page is loaded.
+loop: This attribute results in the video continuously playing on repeat.
+
+Another tag that can be used to incorporate media content into a page is the embed> tag, which can embed any media content including videos, audio files, and gifs from an external source. This means that websites that have an embed button have some form of media content that can be added to other websites. The embed> tag is a self-closing tag, unlike the video> element. Note that embed> is a deprecated tag and other alternatives, such as video>, audio> and img>, should be used in its place, but is being taught for legacy purposes.-->
+
+    <video src="coding.mp4" controls>Video not supported</video>
+    <embed src="download.gif" />
+
+    <!-- Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
+Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
+header>, nav> , main> and footer> create the basic structure of the webpage.
+section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+article> holds content that makes sense on its own such as articles, blogs, comments, etc.
+aside> contains information that is related to the main content, but not required in order to understand the dominant information.
+figure> encapsulates all types of media.
+figcaption> is used to describe the media in figure>.
+video>, embed>, and audio> elements are used for media files.
+-->
 </body>
 
 </html>
