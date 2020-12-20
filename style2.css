@@ -103,7 +103,14 @@ html, body {
   .bold {
     font-weight: bold;
   }
+
+  #large-title {font-size: 50px;
+    font-family: cursive;
+    text-transform: capitalize;
+  }
   
+  .publish-time{color: gray;}
+
   .jumbotron {
     background: url(https://content.codecademy.com/projects/innovation-cloud/jumbotron_bg.jpg) center center;
     background-size: cover;
