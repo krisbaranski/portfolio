@@ -165,3 +165,8 @@ html, body {
       width: 100%;
     }
   }
+  h1 {color: maroon;}
+    .uppercase{text-transform: uppercase;
+  }
+    .cursive {font-family: cursive;}
+    .capitalize {text-transform: capitalize;}
