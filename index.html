@@ -19,7 +19,7 @@
 </head>
 
 <!--Style sheet style2.css 
-    inline style for example p> element is now red
+        inline style for example p> element is now red
      
      -->
 
@@ -32,8 +32,9 @@
         </div>
     </div>
     <!-- The <style> Tag is in teh head element of the file 
-Inline styles are a fast way of styling HTML, but they also have limitations. If you wanted to style, for example, multiple <h1> elements, you would have to add inline styling to each element manually.
-    HTML allows you to write CSS code in its own dedicated section with the <style> element. CSS can be written between opening and closing <style> tags. To use the <style> element, it must be placed inside of the <head> element.
+        Inline styles are a fast way of styling HTML, but they also have limitations. If you wanted to style, for example, multiple <h1> elements, you would have to add inline styling to each element manually.
+
+        HTML allows you to write CSS code in its own dedicated section with the <style> element. CSS can be written between opening and closing <style> tags. To use the <style> element, it must be placed inside of the <head> element.
         -->
     <div class="nav">
         <div class="container">
@@ -46,8 +47,11 @@ Inline styles are a fast way of styling HTML, but they also have limitations. If
             </ul>
         </div>
     </div>
+
     <!-- Multiple classes
-    We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.-->
+        We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
+    -->
+
     <div class="main green bold">
         <div class="container">
             <img src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg" height="128" width="196">
@@ -75,31 +79,51 @@ Inline styles are a fast way of styling HTML, but they also have limitations. If
     </div>
 
     <!-- Class Name
-CSS is not limited to selecting elements by tag name. HTML elements can have more than just a tag name; they can also have attributes. One common attribute is the class attribute. It’s also possible to select an element by its class attribute.
+        CSS is not limited to selecting elements by tag name. HTML elements can have more than just a tag name; they can also have attributes. One common attribute is the class attribute. It’s also possible to select an element by its class attribute.
 
-The paragraph element in the example above has a class attribute within the <p> tag. The class attribute is set to "brand". To select this element using CSS, we could use the following CSS selector:
-    .brand { 
+        The paragraph element in the example above has a class attribute within the <p> tag. The class attribute is set to "brand". To select this element using CSS, we could use the following CSS selector:
+        .brand { 
         }
 -->
     <p class="brand">Sole Shoe Company</p>
+
     <!-- Id Name for individual element style
     
-    If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), we can add an ID to the element. To add an ID to an element, the element needs an id attribute
-    Then, CSS can select HTML elements by their id attribute. To select an id element, CSS prepends the id name with a hashtag (#).
-    The id name is large-title, therefore the CSS selector for it is #large-title.
+        If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), we can add an ID to the element. To add an ID to an element, the element needs an id attribute
+
+        Then, CSS can select HTML elements by their id attribute. To select an id element, CSS prepends the id name with a hashtag (#).
+
+        The id name is large-title, therefore the CSS selector for it is #large-title.
     -->
     <h1 id="large-title"> Large Title </h1>
 
     <!--Classes and ID's, difference.
         CSS can select HTML elements by their tag, class, and ID. CSS classes and IDs have different purposes, which can affect which one you use to style HTML elements.
 
-CSS classes are meant to be reused over many elements. By writing CSS classes, you can style elements in a variety of ways by mixing classes on HTML elements.
+        CSS classes are meant to be reused over many elements. By writing CSS classes, you can style elements in a variety of ways by mixing classes on HTML elements.
 
-For instance, imagine a page with two headlines. One headline needs to be bold and blue, and the other needs to be bold and green. Instead of writing separate CSS rules for each headline that repeat each other’s code, it’s better to write a .bold CSS rule, a .green CSS rule, and a .blue CSS rule. Then you can give one headline the bold green classes, and the other the bold blue classes.
+        For instance, imagine a page with two headlines. One headline needs to be bold and blue, and the other needs to be bold and green. Instead of writing separate CSS rules for each headline that repeat each other’s code, it’s better to write a .bold CSS rule, a .green CSS rule, and a .blue CSS rule. Then you can give one headline the bold green classes, and the other the bold blue classes.
 
-While classes are meant to be used many times, an ID is meant to style only one element. As we’ll learn in the next exercise, IDs override the styles of tags and classes. Since IDs override class and tag styles, they should be used sparingly and only on elements that need to always appear the same.-->
+        While classes are meant to be used many times, an ID is meant to style only one element. As we’ll learn in the next exercise, IDs override the styles of tags and classes. Since IDs override class and tag styles, they should be used sparingly and only on elements that need to always appear the same.
+    -->
+
     <h5>By: Stacy Gray</h5>
     <h6 class="publish-time">Published: 2 Days Ago</h6>
+
+
+    <!--Specificity 
+        is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity, so that if an element needs a new style, it is easy to override.
+
+        IDs are the most specific selector in CSS, followed by classes, and finally, tags.
+        
+        Over time, as files grow with code, many elements may have IDs, which can make CSS difficult to edit, since a new, more specific style must be created to change the style of an element.
+
+        To make styles easy to edit, it’s best to style with a tag selector, if possible. If not, add a class selector. If that is not specific enough, then consider using an ID selector.
+    -->
+
+    <h1 class="title cursive capitalize">Top Vacation Spots</h1>
+    <p>in the css file i add classes cursive and capitalize for h1</p>
+
 
 </body>
 
