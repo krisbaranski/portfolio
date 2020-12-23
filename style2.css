@@ -172,3 +172,8 @@ html, body {
     .capitalize {text-transform: capitalize;}
 
   .description h4 {color:teal;}
+
+  h1, 
+.menu {
+  font-family: Georgia;
+}
