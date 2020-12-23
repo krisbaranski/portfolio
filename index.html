@@ -160,6 +160,43 @@
     <div class="description">
         <h4>Teal color </h4>
     </div>
+
+    <!--Chaining and Specificity
+
+        h5 {color: rebeccapurple;}
+
+        .description h5 {color: teal;}
+        
+        the h5 elements in the descriptions will not change color. They will continue to be teal.
+
+    This is due to there being a more specific selector for h5 elements that you wrote in the last exercise. Because of the more specific CSS selector (.description h5), the more general selector of h5 will not take hold.
+    
+    -->
+
+    <!--Multiple Selectors
+
+    In order to make CSS more concise, it’s possible to add CSS styles to multiple CSS selectors all at once. This prevents writing repetitive code.
+        h1, 
+    .menu {
+    font-family: Georgia;
+    }
+    By separating the CSS selectors with a comma, both the h1 and the .menu elements will receive the font-family: Georgia styling.
+
+    <!-- SUMMARISE!!!
+
+        Review CSS Selectors
+Throughout this lesson, you learned how to select HTML elements with CSS and apply styles to them. Let’s review what you learned:
+
+CSS can change the look of HTML elements. In order to do this, CSS must select HTML elements, then apply styles to them.
+CSS can select HTML elements by tag, class, or ID.
+Multiple CSS classes can be applied to one HTML element.
+Classes can be reusable, while IDs can only be used once.
+IDs are more specific than classes, and classes are more specific than tags. That means IDs will override any styles from a class, and classes will override any styles from a tag selector.
+Multiple selectors can be chained together to select an element. This raises the specificity, but can be necessary.
+Nested elements can be selected by separating selectors with a space.
+Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+
+-->
 </body>
 
 </html>
