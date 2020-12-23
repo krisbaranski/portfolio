@@ -170,3 +170,5 @@ html, body {
   }
     .cursive {font-family: cursive;}
     .capitalize {text-transform: capitalize;}
+
+  .description h4 {color:teal;}
