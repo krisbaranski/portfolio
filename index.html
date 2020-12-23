@@ -5,9 +5,11 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
 
     <!-- this is linked "outside" stylesheet dokument-->
+
     <link href="style2.css" type="text/css" rel="stylesheet">
 
     <!-- The style tag!!! for the hole file
+
     <style>
         p {
             color: red;
@@ -32,6 +34,7 @@
         </div>
     </div>
     <!-- The <style> Tag is in teh head element of the file 
+
         Inline styles are a fast way of styling HTML, but they also have limitations. If you wanted to style, for example, multiple <h1> elements, you would have to add inline styling to each element manually.
 
         HTML allows you to write CSS code in its own dedicated section with the <style> element. CSS can be written between opening and closing <style> tags. To use the <style> element, it must be placed inside of the <head> element.
@@ -49,6 +52,7 @@
     </div>
 
     <!-- Multiple classes
+
         We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
     -->
 
@@ -79,6 +83,7 @@
     </div>
 
     <!-- Class Name
+
         CSS is not limited to selecting elements by tag name. HTML elements can have more than just a tag name; they can also have attributes. One common attribute is the class attribute. It’s also possible to select an element by its class attribute.
 
         The paragraph element in the example above has a class attribute within the <p> tag. The class attribute is set to "brand". To select this element using CSS, we could use the following CSS selector:
@@ -98,6 +103,7 @@
     <h1 id="large-title"> Large Title </h1>
 
     <!--Classes and ID's, difference.
+
         CSS can select HTML elements by their tag, class, and ID. CSS classes and IDs have different purposes, which can affect which one you use to style HTML elements.
 
         CSS classes are meant to be reused over many elements. By writing CSS classes, you can style elements in a variety of ways by mixing classes on HTML elements.
@@ -112,6 +118,7 @@
 
 
     <!--Specificity 
+
         is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity, so that if an element needs a new style, it is easy to override.
 
         IDs are the most specific selector in CSS, followed by classes, and finally, tags.
@@ -124,7 +131,35 @@
     <h1 class="title cursive capitalize">Top Vacation Spots</h1>
     <p>in the css file i add classes cursive and capitalize for h1</p>
 
+    <!--Chaining Selectors
 
+    When writing CSS rules, it’s possible to require an HTML element to have two or more CSS selectors at the same time.
+
+    This is done by combining multiple selectors, which we will refer to as chaining. For instance, if there was a
+    .special class for h1 elements, the CSS would look like:
+    h1.special {}
+    The code above would select only the h1 elements that have a class of special. If a p element also had a class of
+    special, the rule in the example would not style the paragraph.
+
+    -->
+    //////////////
+    <!--Nested Elements
+
+    In addition to chaining selectors to select elements, CSS also supports selecting elements that are nested within other HTML elements. 
+    
+    Css style in this example would be:
+    .main-list li {}
+
+    -->
+    <ul class='main-list'>
+        <li> ... </li>
+        <li> ... </li>
+        <li> ... </li>
+    </ul>
+    <p>or like this</p>
+    <div class="description">
+        <h4>Teal color </h4>
+    </div>
 </body>
 
 </html>
