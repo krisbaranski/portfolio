@@ -79,6 +79,13 @@ body {
     padding: 20px 10px;
   }
   
+  h4 {
+      color: grey;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 20px 10px;
+  }
+
   p {
     color: grey;
     font-size: 16px;
@@ -127,7 +134,7 @@ body {
   /* style for explenations of box properties */
 
   .text {
-    background-color: dimgrey;
+    background-color: #234058;;
     color: white;
     text-align: center;
     padding: 40px;
@@ -144,13 +151,6 @@ body {
       margin: 0px;
   }
 
-  #box .content {
-    position: relative;
-    top: 20px;
-    width: 200px;
-    margin: 0 auto;
-  }
-
   #box-picture {
     background-image: url(diagram.svg);
     background-size: cover;
@@ -162,4 +162,18 @@ body {
     padding-bottom: 40px;
   }
 
+ 
+  .content {
+    position: relative;
+  }
+
+  .content h1 {
+    color: grey;
+    text-align: center;
+  }
   
+  .content h4, p, li {
+    padding: 10px;
+    width: auto;
+    margin: 10px 60px;
+  }
