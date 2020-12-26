@@ -116,17 +116,20 @@ body {
     border: 1px solid red;
     color: red;
   }
-
+  .text p, li {
+      text-align: center;
+  }
   #box-picture {
     background-image: url(diagram.svg);
     background-size: cover;
+    background-color: #345453;
     background-position: center center;
     height: 800px;
     width: 100%;
   }
 
   #box-picture .content {
-    border: 3px solid white;
+    border: 20px solid rgba(255, 255, 255, 0.5);
     position: relative;
     top: 20px;
     width: 400px;
