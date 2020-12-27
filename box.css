@@ -25,7 +25,7 @@ body {
 
   .navigation  li.logo {
     color: black;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: 4px;
   }
@@ -123,7 +123,7 @@ body {
     color: white;
     display: inline-block;
     margin: 10px;
-    padding: 14px;
+    padding: 16px;
     text-decoration: none;
   }
   
@@ -149,7 +149,7 @@ body {
   }
 
   .text h2 {
-    margin: 30px auto;
+      margin: 30px auto;
   }
 
   .text p, li {
@@ -171,16 +171,16 @@ body {
 
 /* Border properties */ 
   #border {
-    position: relative;
-    padding: 5px;
-    width: auto;
-    margin: 10px 60px;
+      position: relative;
+      padding: 5px;
+      width: auto;
+      margin: 10px 60px;
   }
 
   .border h1 {
-    margin-top: 60px;
-    color: grey;
-    text-align: center;
+      margin-top: 60px;
+      color: grey;
+      text-align: center;
   }
 
   .border h2 {
@@ -191,25 +191,25 @@ body {
   }
   
   .border p, li {
-    padding: 10px;
-    line-height: 28px;
-    width: 0 auto;
+      padding: 10px;
+      line-height: 28px;
+      width: 0 auto;
   }
 
   #radius {
       position: relative;
       text-align: center;
-    margin: 0 auto;
-    max-width: auto; 
-    padding: 30 10px;
+      margin: 0 auto;
+      width: auto; 
+      padding: 50 50px;
   }
 
   .round {
-      padding: 5px;
+      padding: 15px;
       width: 100%;
-      margin: 10px 0px;
-      background-color: rgb(241, 213, 213);
-      color: maroon;
+      margin: 10px auto;
+      background: linear-gradient(-45deg, #acc2db, #141E30);
+      color: black;
   }
 
   .round h1 {
@@ -218,27 +218,66 @@ body {
   }
   
   .round ul {
-    height: 80px;
-    list-style: none;
-    margin: 0 auto; 
-    padding: 0;
-    margin-bottom: 45px;
+      height: 80px;
+      list-style: none;
+      margin: 50 auto; 
+      padding: 100;
   }
 
   .round li {
-    text-align: center;
-    color: #fff;
-    display: inline-block; 
-    line-height: 80px; 
-    padding: 50 50px;
-    transition: background .5s; 
+      text-align: center;
+      color: darkgrey;
+      font-weight: 400;
+      display: inline-block; 
+      line-height: 80px; 
+      padding: 50 50px;
+      transition: background .5s; 
       height: 100px;
       width: 100px;
-      border: 2px solid rgb(9, 48, 65);
+      border: 5px solid rgb(173, 217, 236);
       border-radius: 50%;
-      background-color: rgb(78, 102, 211);
+      background-color: rgb(121, 124, 139);
   }
 
   .round p {
-      margin: 30px 220px;
+      font-weight: 700;
+      font-size:20px;
+      padding: 20px 20px;
+      margin-top: 100px; 
+      margin-bottom: 100px; 
+      background-color: rgba(255, 255, 255, 0.1);
+      color: black;
+      border-radius: 30px;
   }
+
+  #padding {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: auto; 
+  }
+
+  .inside h1{
+    color: olive;
+      border: 1px solid olive;
+      position: relative;
+      width: 350px;
+      margin: 0 auto;
+      top: 30px;
+  }
+
+  .inside h3 {
+    color: olive;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+  .inside p {
+    color: olive;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0px 150px;
+  }
+
+  
