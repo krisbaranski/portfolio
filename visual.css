@@ -1,96 +1,106 @@
-/* Review Visual Rules
-
-- CSS declarations are structured into property and value pairs.
-- The font-family property defines the typeface of an element.
-- font-size controls the size of text displayed.
-- font-weight defines how thin or thick text is displayed.
-- The text-align property places text in the left, right, or center of its parent container.
-- Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.
-- CSS can make an element transparent with the opacity property.
-- CSS can also set the background of an element to an image with the background-image property.
-- The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.
-*/
-
-
-
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ 
 body {
-    /* Old browsers */
+  font-family: 'Roboto', sans-serif;
+}
+ /* Background color and gradient in different browser versions: 
+
+    Old browsers 
     background: #141E30;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(-45deg, #35577D, #141E30);
-    margin: 0;
-    padding: 0;
-  }
+
+     Chrome 10-25, Safari 5.1-6 
+     background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+
+     W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+     background: linear-gradient(-45deg, #35577D, #141E30);
+     */
+
+
+
+  .header {
+      background: url(backblueup.svg);
+      background-size: cover;
+      background-position: bottom center;
+      height: 250px;
+      margin-bottom: 250px;
+    }
   
+    .container {
+      margin: 0 auto;
+      max-width: 1200px; 
+    }
+
   h1 {
-    text-align: center;  
+    text-align: left;  
     color: #FFF;
-    font-size: 2em;
-    padding-top: 100px;
-    width: 100%;
+    font-size: 35px;
+
   }
   
   h2 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
     font-weight: 100;
-    font-size: 22px;
-    line-height: 24px;
-    padding-bottom: 30px;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 32px;
     text-align: left;
-    width: 70%;
+    padding-top: 30px;
   }
-  
-  h1, h2 {font-family: Georgia;}
 
   p {
     font-family: Helvetica;
-    font-size: 18px;  
-    font-weight: bold;
-    color: AliceBlue;
-    line-height: 1.3em;
-    text-align: left;
-    width: 100%;
+    font-size: 20px;  
+    color: rgb(28, 55, 78);
+    line-height: 1.2em;
+    padding: 10px;
   }
   
-  .byline {
-    font-family: Helvetica;
-    color: rgba(255, 255, 255, 0.5);
-    float: left;
-    font-size: 14px;
-    padding-left: 10px;
-    text-transform: uppercase;
+  .image {
+  background-image: url(backbluedown.svg);
+  background-size: cover;
+  background-position: top center;
+  height: 500px;
+  width: auto;
+  margin: 0 auto;
   }
-  
+
   .caption {
-    background-color: white;
-    opacity: 0.75;
-    color: black;  
+    color: rgb(22, 60, 95);
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     font-style: italic;
     line-height: 14px;
-    margin-left: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     position: relative;
-    top: 80%;
-    width: 60%;
   }
-  
-  .content {
+
+  .caption h1 {
+    text-align: right;
+    color: whitesmoke;
+    padding: 120px 50px 50px 0px;
+  }
+
+  .caption p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
     padding: 40px;
   }
   
-  .image {
-    background-image: url("https://content.codecademy.com/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-  }
-  
+  /* Important
+    !important can be applied to specific attributes instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
+    Since !important is used on the p selector’s color attribute, all p elements will appear blue, even though there is a more specific .main p selector that sets the color attribute to red.*/
+
+    
+
+
+/*//////////////////////////////////////////////////////////////
+      
   .writer-img {
     -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
     -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
@@ -98,7 +108,4 @@ body {
     float: left;
     width: 50px;
   }
-  
-  /* Important
-    !important can be applied to specific attributes instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
-    Since !important is used on the p selector’s color attribute, all p elements will appear blue, even though there is a more specific .main p selector that sets the color attribute to red.*/
+  */
