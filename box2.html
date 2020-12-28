@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The New BOX Model</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="box2.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li id="top" class="logo">THE New BOX MODEL</li>
+            <li><a href="#content">Content BOX</a></li>
+            <li><a href="#border">Border BOX</a></li>
+            <li><a href="#review">Review</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <p>The box model has an awkward limitation regarding box dimensions. This limitation is best
+            illustrated with an example. Unfortunately, under the current box model, the border thickness and the
+            padding will affect the dimensions of the box.
+
+            The 10 pixels of padding increases the height of the box to 220 pixels and the width to 320 pixels. Next,
+            the 1-pixel thick border increases the height to 222 pixels and the width to 322 pixels. Under this box
+            model, the border thickness and padding are added to the overall dimensions of the box. This makes it
+            difficult to accurately size a box. Over time, this can also make all of a web page’s content difficult to
+            position and manage.
+
+            In this brief lesson, you’ll learn how to use a different technique that avoids this problem altogether.
+            In CSS, the box-sizing property controls the type of box model the browser should use when interpreting a
+            web page.
+
+            The default value of this property is content-box. This is the same box model that is affected by border
+            thickness and padding.
+        </p>
+    </div>
+
+    <div id="content" class="content">
+
+        <h1>CONTENT BOX</h1>
+        <h2><img src="contentbox.svg"></h2>
+    </div>
+
+    <div id="border" class="border">
+        <h1>BORDER BOX</h1>
+        <p>Fortunately, we can reset the entire box model and specify a new one: border-box.
+            The code in the CSS example resets the box model to border-box for all HTML elements. This new box model
+            avoids the dimensional issues that exist in the former box model you learned about.
+
+            In this box model, the height and width of the box will remain fixed. The border thickness and padding will
+            be included inside of the box, which means the overall dimensions of the box do not change.
+        </p>
+        <h2><img src="borderbox.svg"></h2>
+    </div>
+
+    <div id="review" class="review">
+        <h1>Review: Changing the Box Model</h1>
+        <p>
+            In this lesson, you learned about an important limitation of the default box model: box dimensions are
+            affected by border thickness and padding.
+
+            Let’s review what you learned:
+
+            <br>In the default box model, box dimensions are affected by border thickness and padding.
+            <br>The box-sizing property controls the box model used by the browser.
+            <br>The default value of the box-sizing property is content-box.
+            <br>The value for the new box model is border-box.
+            <br>The border-box model is not affected by border thickness or padding.
+        </p>
+    </div>
+
+    <div class="share">
+        <a href="#top">TOP</a>
+    </div>
+
+
+</body>
+
+</html>
