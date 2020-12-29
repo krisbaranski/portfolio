@@ -3,6 +3,8 @@ body {
     font-family: 'New Helvetica', sans-serif;
   }
   
+  * {scroll-behavior: smooth;}
+
   .navigation {
     background-color: rgb(46, 74, 110);
   }
