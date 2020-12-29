@@ -3,6 +3,10 @@ body {
     font-family: 'Raleway', sans-serif;
   }
   
+/* !!!Scroll property for hole page!!! */
+
+  *{ scroll-behavior: smooth; }
+
   .navigation {
     background-color: thistle;
   }
@@ -16,7 +20,7 @@ body {
   .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 5px;
   }
   
   .navigation a {
@@ -51,8 +55,6 @@ body {
     padding: 40px;
     text-align: center;
     width: 400px;
-    height: 1000px;
-    overflow: scroll;
   }
   
   h1 {
@@ -63,7 +65,6 @@ body {
   }
   
   h2 {
-    border: 1px solid grey;
     position: relative;
     top: 10px;
     width: 400px;
@@ -100,6 +101,12 @@ body {
     width: 400px;
   }
   
+.pull-quote h2 {
+    border-left: 1px solid LightGrey;
+    border-right: 1px solid LightGrey;
+    width: 200px;
+}
+
   .byline {
     border-bottom: 1px solid LightGrey;
     border-top: 1px solid LightGrey;
@@ -109,7 +116,7 @@ body {
   }
   
   .share {
-    border: 1px solid LightGrey;
+    border: 3px solid lightgrey;
     padding: 40px 0px;
     position: relative;
     text-align: center;
@@ -135,6 +142,7 @@ body {
 
   /* style for explenations of box properties */
 
+
   .text {
     background-color: #234058;;
     color: white;
@@ -149,6 +157,7 @@ body {
   }
 
   .text h2 {
+    border: 1px solid lightgrey;
       margin: 30px auto;
   }
 
@@ -157,6 +166,7 @@ body {
       padding: 5px;
       margin: 0px;
   }
+
 
   #box-picture {
     background-image: url(diagram.svg);
@@ -258,8 +268,9 @@ body {
   }
 
   .inside h1{
-    color: olive;
-      border: 1px solid olive;
+      background-color: peachpuff;
+      border-radius: 5px;
+      color: olive;
       position: relative;
       width: 350px;
       margin: 0 auto;
@@ -267,9 +278,11 @@ body {
   }
 
   .inside h3 {
+    border: 1px solid olive;
     color: olive;
     font-weight: 600;
     line-height: 22px;
+    margin-top: 50px;
 }
 
   .inside p {
@@ -280,4 +293,121 @@ body {
     margin: 0px 150px;
   }
 
+  #margin, #auto {
+    position: relative;
+    background-color: powderblue;
+    text-align: left;
+    margin: -20 auto;
+    width: auto; 
+    padding: 50px 50px;
+  }
+
+.margin h2, p {
+    font-weight: 700;
+    color: #25394d;
+   text-align: center;
+}
+
+.collapse h2 {
+    color: white;
+    width: 100%;
+    background-color: #234058;
+    padding: 40px 9px;
+    margin: 0 auto;
+}
+
+.collapse h3 {
+    background-image: url(diagram-margins.svg);
+    background-size: cover;
+    background-color: #234058;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
   
+#minmax {
+    margin-top: 50px;
+}
+
+.hw {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: auto; 
+}
+
+.hw h2{
+    border: 3px solid lightgrey;
+}
+
+#over {
+    height: 200px;
+    width: auto;
+    background-color: darkred;
+    overflow: scroll;
+}
+
+.flow p {
+    text-align: left;
+    color: lightgray;
+    padding: 0px 50px ;
+}
+
+#reset {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: auto; 
+}
+
+.reset h1 {
+    color: pink;
+}
+
+.reset p {
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+}
+
+/* reset rool used in the beginning of the css file with explicit rools: 
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  */
+
+  #visible {
+    position: relative;
+    text-align: center;
+    height: 950px;
+    width: auto; 
+    background-color: lightslategrey;
+  }
+
+  .visible h2{
+    border: 3px solid lightgrey;
+    position: relative;
+    top: 20px;
+    width: 500px;
+    margin: 0 auto;
+    color: lightgray;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .visible p, li{
+     
+      font-size: 20px;
+      font-weight: 200;
+  }
+
+  .future {
+    visibility: hidden;
+  }
