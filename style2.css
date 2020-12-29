@@ -78,13 +78,21 @@ html, body {
     line-height: 80px; 
     list-style: none;
     padding: 0 10px;
-    transition: background .5s; 
+  }
+  .container a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .container a:hover {
+    color: black;
   }
   
   .btn:hover, .nav ul li:hover {
     background: #117bff;
     cursor: pointer; 
     transition: background .5s;  
+    color: lightgrey;
   }
   
   .main .container {
