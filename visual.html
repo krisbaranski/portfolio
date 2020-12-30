@@ -2,51 +2,98 @@
 <html>
 
 <head>
-    <title>Visual Rules of CSS</title>
-
-    <link href="visual.css" type="text/css" rel="stylesheet">
+    <title>CSS - Visual Rules, Display and Positioning</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="visual.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <h2>Properties and Values</h2>
-            <h1>Visual Rules - Review</h1>
-            <p style="text-align: right;"> CSS declarations are structured into property and value
-                pairs:<br>
-                <br>- The <em>font-family</em> property defines the typeface of an element.
-                <br>- <em>font-size</em> controls the size of text displayed.
-                <br>- <em>font-weight</em> defines how thin or thick text is displayed.
-                <br>- The <em>text-align</em> property places text in the left, right,
-                or center of its parent container.
-            </p>
-            <p style="text-align: left; margin-right: 10px;">Text can have two different color attributes,
-                <em>color</em> and <em>background-color</em>:
-                <br>- <em>color</em> defines the color of the text,
-                while <em>background-color</em> defines the color behind the text.
-                <br>CSS can make an element transparent with the <em>opacity</em> property.
-                <br> CSS can also set the background of an element to an image with the <em>background-image</em>
-                property.
-                <br>The <em>!important</em> flag will override any style,
-                however it should almost never be used, as it is extremely difficult to override.<br>
-            </p>
-        </div>
+    <nav class="nav">
+        <ul>
+            <li id="top" class="logo">CSS Rules, Display and Positioning</li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#imp">!Important</a></li>
+            <li><a href="#flow">Flow</a></li>
+            <li><a href="#position">Position</a></li>
+            <li><a href="#flow">Flow</a></li>
+        </ul>
+    </nav>
+
+    <div id="rules">
+        <h1>Visual Rules - Review</h2>
+            <h2>Properties and Values</h3>
+                <div class="container">
+                    <p style="text-align: right; padding-right: 100px;"> CSS declarations are structured into property
+                        and
+                        value
+                        pairs:<br>
+                        <br>- The <em>font-family</em> property defines the typeface of an element
+                        <br>- <em>font-size</em> controls the size of text displayed
+                        <br>- <em>font-weight</em> defines how thin or thick text is displayed
+                        <br>- The <em>text-align</em> property places text in the left, right,
+                        or center of its parent container
+                    </p>
+                    <p style="text-align: left; padding-left: 100px;">Text can have two different
+                        color
+                        attributes,
+                        <em>color</em> and <em>background-color</em>:
+                        <br>- <em>color</em> defines the color of the text,
+                        while <em>background-color</em> defines the color behind the text
+                        <br>CSS can make an element transparent with the <em>opacity</em> property
+                        <br> CSS can also set the background of an element to an image with the
+                        <em>background-image</em>
+                        property
+                        <br>The <em>!important</em> flag will override any style,
+                        <br>however it should almost never be used, <br>as it is extremely difficult to override<br>
+                    </p>
+                </div>
     </div>
 
-    <div class="image">
-        <div class="caption">
-            <h1>!Important</h1>
+    <div id="imp" class="space">
+        <h1 style="text-align: center;">!Important</h1>
+        <br>
+        <p> <em>!important</em> can be applied to specific attributes instead of full
+            rules. It will override any style no matter
+            how specific it is. As a result, it should almost never be used. Once !important is used, it is very
+            hard to override.
+            Since !important is used on the p selector’s color attribute, all p elements will appear blue, even
+            though there is a more specific .main p selector that sets the color attribute to red.</p>
 
-            <p> <em>!important</em> can be applied to specific attributes instead of full rules. It will override any
-                style no
-                matter
-                how specific it is. As a result, it should almost never be used. Once !important is used, it is very
-                hard to
-                override.
-                Since !important is used on the p selector’s color attribute, all p elements will appear blue, even
-                though
-                there is a more specific .main p selector that sets the color attribute to red.</p>
-        </div>
+    </div>
+
+    <div id="flow" class="caption">
+        <h1>Flow of HTML</h1>
+        <p>A browser will render the elements of an HTML document that has no CSS from left to right, top to
+            bottom, in the same order as they exist in the document. This is called the flow of elements in
+            HTML.
+
+            In addition to the properties that it provides to style HTML elements, CSS includes properties that
+            change how a browser positions elements. These properties specify where an element is located on a
+            page, if the element can share lines with other elements, and other related attributes.
+
+            In this lesson, you will learn five properties for adjusting the position of HTML elements in the
+            browser:</p>
+        <ul>
+            <li>position</li>
+            <li>display</li>
+            <li>z-index</li>
+            <li>float</li>
+            <li>clear</li>
+        </ul>
+        <p>
+            Each of these properties will allow us to position and view elements on a web page. They can be used
+            in conjunction with any other styling properties you may know.
+        </p>
+    </div>
+    <div id="position" class="position">
+        <h1>Position</h1>
+        <p>Block-level elements like these boxes create a block the full width of their parent elements, and they
+            prevent other elements from appearing in the same horizontal space.</p>
+
+    </div>
+
+    <div class="up">
+        <a href="#top">TOP</a>
     </div>
 
 </body>
