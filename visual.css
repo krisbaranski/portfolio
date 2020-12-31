@@ -19,7 +19,7 @@ body {
 * {scroll-behavior: smooth;}
 
 .nav {
-background-color: #315672;
+background-color: #31567270;
 }
 
 .nav ul {
@@ -35,8 +35,9 @@ padding: 10px;
 }
 
 .nav a {
-color: lightslategrey;
+color: grey;
 text-decoration: none;
+font-weight: 400;
 
 }
 
@@ -98,10 +99,6 @@ p {
   color: white;
 }
 
-.caption {
-
-}
-
 .caption h1{
   text-align: right;
   padding: 0px 50px;
@@ -109,13 +106,23 @@ p {
 }
 
 .caption li {
-text-align: center;
+  text-align: center;
   list-style-type: none;
   font-size: 22px;
   font-weight: 500;
 }
 
+.position {
+  background-color:  #31567298;
+}
 
+.position h1 {
+  padding: 50px;
+}
+
+.position p {
+  color: rgba(0, 0, 0, 0.692);
+}
 
 
 
