@@ -71,6 +71,11 @@ p {
   padding: 0px 50px;
 }
 
+#rules {
+  margin: 0;
+}
+
+
 .container {
   background: url(backbluedown.png) no-repeat center center; 
   background-size: cover;
@@ -78,6 +83,7 @@ p {
   width: 100%;
   padding-top: 100px;
   overflow: scroll;
+  margin: 0 auto;
 }
 
 .container p {
@@ -89,6 +95,7 @@ p {
   background-size: cover;
   height: 520px;
   width: 100%;
+  margin: 0;
 }
 .space h1{
   padding-top: 50px;
