@@ -65,15 +65,21 @@ body {
   .head {
     background-color: darkgrey;
     color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 5px;
+    padding: 20px;
   }
 
-  .head h1, h2, h3, p {
-    padding: 40px;
+  .head h1, h2, h3, h4, h5, h6, p {
+    padding: 0px 20px;
   }
 
   #attr h1 {
     text-align: center;
+  }
+
+  .attr li {
+    display: block;
+    color: cornflowerblue;
   }
 
   /* Table */
