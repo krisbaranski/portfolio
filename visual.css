@@ -127,8 +127,20 @@ p {
   padding: 50px;
 }
 
+.position h2 {
+  color: rgb(68, 68, 68);
+}
+
 .position p {
   color: rgba(0, 0, 0, 0.692);
+}
+
+.position li {
+  text-align: center;
+  list-style-type: none;
+  color: white;
+  font-size: 22px;
+
 }
 
 
