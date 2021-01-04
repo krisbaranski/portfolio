@@ -89,8 +89,40 @@
     </div>
     <div id="position" class="position">
         <h1>Position</h1>
-        <p>Block-level elements like these boxes create a block the full width of their parent elements, and they
-            prevent other elements from appearing in the same horizontal space.</p>
+        <p>Block-level elements like boxes create a block the full width of their parent elements, and they
+            prevent other elements from appearing in the same horizontal space.<br>
+            Notice the block-level elements take up their own line of space and therefore don’t
+            overlap each other. In the browser you can see block-level elements also consistently appear on
+            the left side of the browser. This is the default position for block-level elements.
+
+            The default position of an element can be changed by setting its position property. The position property
+            can take one of four values:</p>
+        <ul>
+            <li><em>static - the default value (it does not need to be specified)</em></li>
+            <li>relative</li>
+            <li>absolute</li>
+            <li>fixed</li>
+
+        </ul>
+
+        <p>If you favor the default position of an HTML element, you don’t need to set its
+            position property.
+        </p>
+
+        <h2>Relative</h2>
+        <p>This value allows you to position an element relative to its default static position on the web page.
+            Although the code in the example above instructs the browser to expect a relative positioning of the div, it
+            does not specify where the div should be positioned on the page.In the example above, the
+            div has been positioned using two of the four offset properties. The valid offset properties are:
+
+            top - moves the element down.
+            bottom - moves the element up.
+            left - moves the element right.
+            right - moves the element left.
+            In the example above, the <em>div</em> will be moved down 20 pixels and to the right 50 pixels from its
+            default static position. The image below displays the new position of the box. The dotted line represents
+            where the statically positioned (default) box was positioned.
+        </p>
 
     </div>
 
