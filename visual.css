@@ -135,12 +135,23 @@ p {
   color: rgba(0, 0, 0, 0.692);
 }
 
+.position a {
+  text-decoration: none;
+  color: rgb(204, 216, 235);
+  font-weight: 400;
+}
+
+.position a:hover{
+ color: aquamarine;
+
+}
+
 .position li {
   text-align: center;
   list-style-type: none;
   color: white;
   font-size: 22px;
-
+padding: 10px;
 }
 
 
