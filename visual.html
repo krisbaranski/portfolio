@@ -89,44 +89,71 @@
     </div>
     <div id="position" class="position">
         <h1>Position</h1>
+
         <p>Block-level elements like boxes create a block the full width of their parent elements, and they
             prevent other elements from appearing in the same horizontal space.<br>
             Notice the block-level elements take up their own line of space and therefore don’t
             overlap each other. In the browser you can see block-level elements also consistently appear on
             the left side of the browser. This is the default position for block-level elements.
 
-            The default position of an element can be changed by setting its position property. The position property
+            The default position of an element can be changed by setting its position property. The position
+            property
             can take one of four values:</p>
         <ul>
             <li><em>static - the default value (it does not need to be specified)</em></li>
-            <li>relative</li>
-            <li>absolute</li>
-            <li>fixed</li>
-
+            <li><a href="#relative">relative</a></li>
+            <li><a href="#absolute">absolute</a></li>
+            <li><a href="#fixed">fixed</a></li>
+            <p><img src="static.png"></p>
         </ul>
 
         <p>If you favor the default position of an HTML element, you don’t need to set its
             position property.
         </p>
 
-        <h2>Relative</h2>
+        <h2 id="relative">Relative</h2>
         <p>This value allows you to position an element relative to its default static position on the web page.
-            Although the code in the example above instructs the browser to expect a relative positioning of the div, it
-            does not specify where the div should be positioned on the page.In the example above, the
-            div has been positioned using two of the four offset properties. The valid offset properties are:
-
-            top - moves the element down.
-            bottom - moves the element up.
-            left - moves the element right.
-            right - moves the element left.
+            Although the code instructs the browser to expect a relative positioning of the div, it
+            does not specify where the div should be positioned on the page. The
+            div has been positioned using two (top, left) of the four offset properties. The valid offset properties
+            are:</p>
+        <ul>
+            <li>top - moves the element down</li>
+            <li>bottom - moves the element up</li>
+            <li>left - moves the element right</li>
+            <li>right - moves the element left</li>
+        </ul><br>
+        <p><img src="relative.png"></p>
+        <p>
             In the example above, the <em>div</em> will be moved down 20 pixels and to the right 50 pixels from its
-            default static position. The image below displays the new position of the box. The dotted line represents
+            default static position. The image displays the new position of the box. The dotted line represents
             where the statically positioned (default) box was positioned.
             Units for offset properties can be specified in pixels, ems, or percentages. Note that offset properties
             will not work if the value of the element’s position property is the default static.
+        </p>
+        <br>
+        <h2 id="absolute">Absolute</h2>
+        <p>Another way of modifying the position of an element is by setting its position to absolute.
+
+            When an element’s position is set to absolute all other elements on the page will ignore the element and act
+            like it is not present on the page. The element will be positioned relative to its closest positioned parent
+            element.
+            In the example above, the .box-bottom
+            div will be moved down and right from the top left corner of the view. If offset properties weren’t
+            specified,
+            the top box would be entirely covered by the bottom box. Take a look at the gif below:
+        </p>
+        <p><img src="absolute.gif"><br>
+            The bottom box in this image (colored blue) is displaced from the top left corner of its container. It is 20
+            pixels lower and 50 pixels to the right of the top box.
+
+            In the next exercise, we will compare the scrolling of absolute elements with fixed elements.
+        </p>
+        <br>
+        <h2 id="fixed">Fixed</h2>
+        <p>
 
         </p>
-
     </div>
 
     <div class="up">
