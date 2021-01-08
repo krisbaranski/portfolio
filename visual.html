@@ -10,12 +10,13 @@
 <body>
     <nav class="nav">
         <ul>
-            <li id="top" class="logo">CSS Rules, Display and Positioning</li>
+            <h1 id="top" class="logo">CSS Rules, Display and Positioning</h1>
             <li><a href="#rules">Rules</a></li>
             <li><a href="#imp">!Important</a></li>
             <li><a href="#flow">Flow</a></li>
             <li><a href="#position">Position</a></li>
-            <li><a href="#flow">Flow</a></li>
+            <li><a href="#index">Z-index</a></li>
+            <li><a href="#inline">Display</a></li>
         </ul>
     </nav>
 
@@ -50,9 +51,8 @@
         </p>
     </div>
 
-
-    <div id="imp" class="space">
-        <h1 style="text-align: center;">!Important</h1>
+    <div class="space"><br>
+        <h1 id="imp" style="text-align: center;">!Important</h1>
         <br>
         <p> <em>!important</em> can be applied to specific attributes instead of full
             rules. It will override any style no matter
@@ -63,7 +63,7 @@
 
     </div>
 
-    <div id="flow" class="caption">
+    <div id="flow" class="caption"><br>
         <h1>Flow of HTML</h1>
         <p>A browser will render the elements of an HTML document that has no CSS from left to right, top to
             bottom, in the same order as they exist in the document. This is called the flow of elements in
@@ -77,8 +77,8 @@
             browser:</p>
         <ul>
             <li>position</li>
-            <li>display</li>
             <li>z-index</li>
+            <li>display</li>
             <li>float</li>
             <li>clear</li>
         </ul>
@@ -87,9 +87,9 @@
             in conjunction with any other styling properties you may know.
         </p>
     </div>
-    <div id="position" class="position">
-        <h1>Position</h1>
 
+    <div id="position" class="position"><br>
+        <h1>Position</h1>
         <p>Block-level elements like boxes create a block the full width of their parent elements, and they
             prevent other elements from appearing in the same horizontal space.<br>
             Notice the block-level elements take up their own line of space and therefore don’t
@@ -109,14 +109,15 @@
 
         <p>If you favor the default position of an HTML element, you don’t need to set its
             position property.
-        </p>
+        </p><br>
 
         <h2 id="relative">Relative</h2>
         <p>This value allows you to position an element relative to its default static position on the web page.
             Although the code instructs the browser to expect a relative positioning of the div, it
             does not specify where the div should be positioned on the page. The
             div has been positioned using two (top, left) of the four offset properties. The valid offset properties
-            are:</p>
+            are:
+        </p>
         <ul>
             <li>top - moves the element down</li>
             <li>bottom - moves the element up</li>
@@ -174,6 +175,51 @@
             3.
             Offset the “Welcome” section by 200 pixels from the top. Everything might not be displaying correctly just
             yet; we’ll fix it in a later exercise.
+        </p>
+    </div>
+
+    <div id="index" class="index"><br>
+        <h1>Z-index</h1>
+        <p>
+            When boxes on a web page have a combination of different positions, the boxes (and therefore, their content)
+            can overlap with each other, making the content difficult to read or consume.
+            The z-index property controls how far “back” or how far “forward” an element should appear on the web page
+            when elements overlap. This can be thought of the depth of elements, with deeper elements appearing behind
+            shallower elements.
+
+            The z-index property accepts integer values. Depending on their values, the integers instruct the browser on
+            the order in which elements should be displayed on the web page.
+            In the example above, we set the .box-top position to relative and the z-index to 2. We changed position to
+            relative, because the z-index property does not work on static elements. The z-index of 2 moves the .box-top
+            element forward, because it is greater than the .box-bottom z-index, 1. See the example image below:<br>
+            <img src="z-index.png"><br>
+            In the image above, you can see the top box is moved in front of the bottom box.
+        </p>
+    </div>
+
+    <div id="inline" class="inline"><br>
+        <h1>Inline Display</h1>
+        <p>Every HTML element has a default display value that dictates if it can share horizontal space with other
+            elements. Some elements fill the entire browser from left to right regardless of the size of their content.
+            Other elements only take up as much horizontal space as their content requires and can be directly next to
+            other elements.
+
+            In this lesson, we’ll cover three values for the display property: inline, block, and inline-block.
+            The default display for some tags, such as <em>em</em>, <strong>strong</strong>, and
+            <em><strong>a</strong></em> (link), is
+            called
+            inline.
+        </p>
+        <p>Inline elements have a
+            box that wraps tightly around their content, only taking up the amount of space necessary to
+            display their content and not requiring a new line after each element. The height and width of
+            these elements cannot be specified in the CSS document. For example, the text of an anchor tag
+            (<b>a</b>) will, by default, be displayed on the same line as the surrounding text, and it will only
+            be as wide as necessary to contain its content. inline elements cannot be altered in size
+            with the height or width CSS properties.</p>
+        <p>
+            The CSS display property provides the ability to make any element an inline element. This includes elements
+            that are not inline by default such as paragraphs, divs, and headings.
         </p>
     </div>
 
