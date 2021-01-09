@@ -17,6 +17,8 @@
             <li><a href="#position">Position</a></li>
             <li><a href="#index">Z-index</a></li>
             <li><a href="#inline">Display</a></li>
+            <li><a href="#float">Float</a></li>
+
         </ul>
     </nav>
 
@@ -221,8 +223,82 @@
             The CSS display property provides the ability to make any element an inline element. This includes elements
             that are not inline by default such as paragraphs, divs, and headings.
         </p>
+        <h1>Block Display</h1>
+        <p>Some elements are not displayed in the same line as the content around them. These are called block-level
+            elements. These elements fill the entire width of the page by default, but their width property can also be
+            set. Unless otherwise specified, they are the height necessary to accommodate their content.
+
+            Elements that are block-level by default include all levels of heading elements <em>(h1 through h6), p, div
+                and footer. </em></p>
+        <p>strong {
+            display: block;
+            }<br>
+            In the example above, all strong elements will be displayed on their own line, with no content directly on
+            either side of them even though their contents may not fill the width of most computer screens.
+        </p>
+        <h1>Inline-Block Display</h1>
+        <p>
+            The third value for the display property is inline-block. Inline-block display combines features of both
+            inline and block elements. Inline-block elements can appear next to each other and we can specify their
+            dimensions using the width and height properties. Images are the best example of default inline-block
+            elements.
+
+            For example,
+            divs in the CSS below will be displayed on the same line and with the specified dimensions:
+        </p><br>
+
+        <div class="rectangle">
+            <p>I’m a rectangle!</p>
+        </div>
+        <div class="rectangle">
+            <p>So am I!</p>
+        </div>
+        <div class="rectangle">
+            <p>Me three!</p>
+        </div>
+        <p>In the example above, there are three rectangular divs that each contain a paragraph of text. The .rectangle
+            divs will all appear inline (provided there is enough space from left to right) with a width of 300 pixels
+            and height of 200 pixels, even though the text inside of them may not require 300 pixels by 200 pixels of
+            space.</p>
     </div>
 
+    <div id="float" class="float">
+        <h1>Float</h1>
+        <p>So far, you’ve learned how to specify the exact position of an element using offset properties. If you’re
+            simply interested in moving an element as far left or as far right as possible on the page, you can use the
+            float property.
+
+            The float property can be set to one of two values:
+
+            left - this value will move, or float, elements as far left as possible.
+            right - this value will move elements as far right as possible.<br></p>
+        <p>
+            <img class="imgfl" src="float-right.png">
+        </p>
+        <p>
+            Floated elements must have a width specified, as in the example above. Otherwise, the element will assume
+            the full width of its containing element, and changing the float value will not yield any visible results.
+        </p>
+    </div>
+
+    <div id="clear" class="clear">
+        <h1>Clear</h1>
+        <p>The float property can also be used to float multiple elements at once. However, when multiple floated
+            elements have different heights, it can affect their layout on the page. Specifically, elements can “bump”
+            into each other and not allow other elements to properly move to the left or right.
+
+            The clear property specifies how elements should behave when they bump into each other on the page. It can
+            take on one of the following values:
+        <ul>
+            <li>left — the left side of the element will not touch any other element within the same containing element.
+            </li>
+            <li></li>right — the right side of the element will not touch any other element within the same containing
+            element.</li>
+            <li>both — neither side of the element will touch any other element within the same containing element.</li>
+            <li>none — the element can touch either side.</li>
+        </ul>
+        </p>
+    </div>
     <div class="up">
         <a href="#top">TOP</a>
     </div>
