@@ -178,7 +178,33 @@ padding: 10px;
   float: right;
   width: 220px;
   height: 170px;
-  display: inline-block;
+  clear: left;
+}
+
+.clear li{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color:  #315672;
+  padding: 0px 50px;
+  margin-left: 40px;
+
+}
+
+.rev {
+  background-color: azure;
+  padding-top: 50px;
+}
+
+.rev li{
+  background-color: azure;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color:  #315672;
+  padding: 0px 50px;
+  margin-left: 40px;
 }
 
 .up {
