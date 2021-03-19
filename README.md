@@ -1,28 +1,10 @@
 # hello_world
 
+## HTML and CSS basics
 
- <!--
- **meck93/meck93** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
- Here are some ideas to get you started:
-
- - 🔭 I’m currently working on ...
- - 🌱 I’m currently learning ...
- - 👯 I’m looking to collaborate on ...
- - 🤔 I’m looking for help with ...
- - 💬 Ask me about ...
- - 📫 How to reach me: ...
- - 😄 Pronouns: ...
- - ⚡ Fun fact: ...
-<<<<<<< HEAD
- -->
- I'm Kris and I'm currently... 
- - :school: working on my master thesis (research and implementation of a Mix-Net for an E-Voting prototype) 
- - :briefcase: working as a software engineer (node.js, typescript, react)
-=======
-
- I'm Kris and I'm currently... 
- - :school: working on my master thesis (research and implementation of a Mix-Net for an E-Voting prototype) 
- - :briefcase: working as a software engineer (node.js, typescript, react)
- -->
->>>>>>> f152ef56e61143bad480dee1946bc34e2db0fcd4
+pics/01.png
+pics/02.png
+pics/03.png
+pics/04.png
+pics/05.png
+pics/06.png
