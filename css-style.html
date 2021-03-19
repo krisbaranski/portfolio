@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>CSS Styles and exercises</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- this is linked "outside" stylesheet document-->
 
-    <link href="style2.css" type="text/css" rel="stylesheet">
+    <link href="css/style2.css" type="text/css" rel="stylesheet" />
 
     <!-- The style tag!!! for the hole file
 
@@ -18,21 +21,20 @@
         }
     </style>
      !!!!!!!just as an example!!!!!!-->
+  </head>
 
-</head>
-
-<!--Style sheet style2.css 
+  <!--Style sheet style2.css 
         inline style for example p> element is now red
      
      -->
 
-<body>
+  <body>
     <div class="header">
-        <div class="container">
-            <h1>CSS Styles</h1>
-            <p style="color: red;">Style your HTML Page</p>
-            <a class="btn" href="#">Learn More</a>
-        </div>
+      <div class="container">
+        <h1>CSS Styles</h1>
+        <p style="color: red">Style your HTML Page</p>
+        <a class="btn" href="#">Learn More</a>
+      </div>
     </div>
     <!-- The <style> Tag is in teh head element of the file 
 
@@ -41,18 +43,18 @@
         HTML allows you to write CSS code in its own dedicated section with the <style> element. CSS can be written between opening and closing <style> tags. To use the <style> element, it must be placed inside of the <head> element.
         -->
     <div class="nav">
-        <div class="container">
-            <ul>
-                <li><a href="#multi">Multiple</a></li>
-                <li>Name</li>
-                <li>ID</li>
-                <li>Difference</li>
-                <li>Speciticity</li>
-                <li>Chaining</li>
-                <li>Nested</li>
-                <li>Selectors</li>
-            </ul>
-        </div>
+      <div class="container">
+        <ul>
+          <li><a href="#multi">Multiple</a></li>
+          <li>Name</li>
+          <li>ID</li>
+          <li>Difference</li>
+          <li>Speciticity</li>
+          <li>Chaining</li>
+          <li>Nested</li>
+          <li>Selectors</li>
+        </ul>
+      </div>
     </div>
 
     <!-- Multiple classes
@@ -61,29 +63,40 @@
     -->
 
     <div class="main green bold">
-        <div class="container">
-            <img src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg" height="128" width="196">
-            <h2>The Innovation Cloud Conference</h2>
-            <p>Connect with the best minds across a wide range of industries to share ideas and brainstorm new solutions
-                to challenging problems.</p>
-            <p>Hear industry leaders talk about what worked (and what didn't) so that you can save time on your most
-                challenging projects.</p>
-            <p>Learn about the latest research and technologies that you can use immediately to invent the future.</p>
-        </div>
+      <div class="container">
+        <img
+          src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg"
+          height="128"
+          width="196"
+        />
+        <h2>The Innovation Cloud Conference</h2>
+        <p>
+          Connect with the best minds across a wide range of industries to share
+          ideas and brainstorm new solutions to challenging problems.
+        </p>
+        <p>
+          Hear industry leaders talk about what worked (and what didn't) so that
+          you can save time on your most challenging projects.
+        </p>
+        <p>
+          Learn about the latest research and technologies that you can use
+          immediately to invent the future.
+        </p>
+      </div>
     </div>
 
     <div class="jumbotron">
-        <div class="container">
-            <h2>Stay Connected</h2>
-            <p>Receive weekly insights from industry insiders.</p>
-            <a class="btn" href="#">Join</a>
-        </div>
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly insights from industry insiders.</p>
+        <a class="btn" href="#">Join</a>
+      </div>
     </div>
 
     <div class="footer">
-        <div class="container">
-            <p>&copy; Innovation Cloud Conference</p>
-        </div>
+      <div class="container">
+        <p>&copy; Innovation Cloud Conference</p>
+      </div>
     </div>
 
     <!-- Class Name
@@ -104,7 +117,7 @@
 
         The id name is large-title, therefore the CSS selector for it is #large-title.
     -->
-    <h1 id="large-title"> Large Title </h1>
+    <h1 id="large-title">Large Title</h1>
 
     <!--Classes and ID's, difference.
 
@@ -119,7 +132,6 @@
 
     <h5>By: Stacy Gray</h5>
     <h6 class="publish-time">Published: 2 Days Ago</h6>
-
 
     <!--Specificity 
 
@@ -155,14 +167,14 @@
     .main-list li {}
 
     -->
-    <ul class='main-list'>
-        <li> ... </li>
-        <li> ... </li>
-        <li> ... </li>
+    <ul class="main-list">
+      <li>...</li>
+      <li>...</li>
+      <li>...</li>
     </ul>
     <p>or like this</p>
     <div class="description">
-        <h4>Teal color </h4>
+      <h4>Teal color</h4>
     </div>
 
     <!--Chaining and Specificity
@@ -201,6 +213,5 @@ Nested elements can be selected by separating selectors with a space.
 Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
 
 -->
-</body>
-
+  </body>
 </html>

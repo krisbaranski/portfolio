@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
 <html>
+  <html>
+    <head>
+      <title>Semantic CSS</title>
+      <meta charset="UTF-8" />
+      <link href="css/style2.css" type="text/css" rel="stylesheet" />
+    </head>
 
-<head>
-    <title>My Coding HTML Journal 2</title>
-    <meta charset="UTF-8">
-
-</head>
-
-<body>
-    <!--SEMANTIC HTML
+    <body>
+      <!--SEMANTIC HTML
 Header and Nav
 Let’s take a look at some semantic elements that assist in the structure of a web page. A header> is a container usually for either navigational links or introductory content containing h1> to h6> headings.
 By using a header> tag, our code becomes easier to read. It is much easier to identify what is inside of the h1>‘s parent tags, as opposed to a div> tag which would provide no details as to what was inside of the tag.
@@ -17,17 +17,17 @@ By using a header> tag, our code becomes easier to read. It is much easier to id
 A nav> is used to define a block of navigation links such as menus and tables of contents. It is important to note that nav> can be used inside of the header> element but can also be used on its own.
 -->
 
-    <header>
+      <header>
         <h1>Navigational Links</h1>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#posts">Posts</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-    <!-- Main and Footer
+      </header>
+      <!-- Main and Footer
 Two more structural elements are main> and footer>. These elements along with nav> and header> help describe where an element is located based on conventional web development standards.
 
 The element main> is used to encapsulate the dominant content within a webpage. This tag is separate from the footer> and the nav> of a web page since these elements don’t contain the principal content. By using <main> as opposed to a div> element, screen readers and web browsers are better able to identify that whatever is inside of the tag is the bulk of the content.
@@ -42,7 +42,7 @@ The content at the bottom of the subject information is known as the footer, ind
 - Reference to top of page links
 -->
 
-    <!-- Article and Section
+      <!-- Article and Section
 Now that we covered the body of Semantic HTML, let’s focus on what can go in the body. The two elements we’re going to focus on now are section> and article>.
 
 section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. For example, content with the same theme such as articles about cricket can go under a single section>. A website’s home page could be split into sections for the introduction, news items, and contact information.
@@ -52,14 +52,14 @@ The article> element holds content that makes sense on its own. article> can hol
 the article> element containing a fact about cricket was placed inside of the section> element. It is important to note that a section> element could also be placed in an article> element depending on the context.   
 -->
 
-    <section>
+      <section>
         <h2>Fun Facts About Cricket</h2>
         <article>
-            <p>A single match of cricket can last up to 5 days.</p>
+          <p>A single match of cricket can last up to 5 days.</p>
         </article>
-    </section>
+      </section>
 
-    <!--  Aside element 
+      <!--  Aside element 
     
     The aside> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content. This element can be used alongside other elements such as article> or section>. Some common uses of the aside> element are for:
 
@@ -71,15 +71,18 @@ Editorial sidebars
 Additional information
 -->
 
-    <article>
-        <p>The first World Series was played between Pittsburgh and Boston in 1903 and was a nine-game series.</p>
-    </article>
-    <aside>
+      <article>
         <p>
-            Babe Ruth once stated, “Heroes get remembered, but legends never die.”
+          The first World Series was played between Pittsburgh and Boston in
+          1903 and was a nine-game series.
         </p>
-    </aside>
-    <!-- Figure and Figcaption
+      </article>
+      <aside>
+        <p>
+          Babe Ruth once stated, “Heroes get remembered, but legends never die.”
+        </p>
+      </aside>
+      <!-- Figure and Figcaption
 With aside>, we learned that we can put additional information next to a main piece of content, but what if we wanted to add an image or illustration? That is where figure> and figcaption> come in.
 
 figure> is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document.
@@ -90,11 +93,11 @@ It’s possible to add a caption to the image by using figcaption>.
 
 figcaption> is an element used to describe the media in the figure> tag. Usually, figcaption> will go inside figure>. This is different than using a p> element to describe the content; if we decide to change the location of figure>, the paragraph tag may get displaced from the figure while a figcaption> will move with the figure. This is useful for grouping an image with a caption.-->
 
-    <figure>
-        <img src="semantic.png">
+      <figure>
+        <img src="semantic.png" />
         <figcaption>This picture shows characters from Overwatch.</figcaption>
-    </figure>
-    <!-- Audio !!! 
+      </figure>
+      <!-- Audio !!! 
     In this example, we created an audio> element. Then we created a source> element to encapsulate our audio link. In this case, iAmAnAudioFile.mp3 is our audio file. Then we specified the type by using type and named what kind of audio it is. Although not always necessary, it’s recommended that we state the type of audio as it helps the browser identify it more easily and determine if that type of audio file is supported by the browser.
 
 We linked our audio file into the browser but now we need to give it controls. This is where attributes come in. Attributes provide additional information about an element.
@@ -103,10 +106,10 @@ Attributes allow us to do many different things to our audio file. There are man
 
 controls: automatically displays the audio controls into the browser such as play and mute.
 src: specifies the URL of the audio file.-->
-    <audio autoplay controls>
-        <source src="iAmAnAudioFile.mp3" type="audio/mp3">
-    </audio>
-    <!-- Video
+      <audio autoplay controls>
+        <source src="iAmAnAudioFile.mp3" type="audio/mp3" />
+      </audio>
+      <!-- Video
 By using a video> element, we can add videos to our website. The video> element makes it clear that a developer is attempting to display a video to the user.
 
 Some attributes that can alter a video playback include:
@@ -117,10 +120,10 @@ loop: This attribute results in the video continuously playing on repeat.
 
 Another tag that can be used to incorporate media content into a page is the embed> tag, which can embed any media content including videos, audio files, and gifs from an external source. This means that websites that have an embed button have some form of media content that can be added to other websites. The embed> tag is a self-closing tag, unlike the video> element. Note that embed> is a deprecated tag and other alternatives, such as video>, audio> and img>, should be used in its place, but is being taught for legacy purposes.-->
 
-    <video src="coding.mp4" controls>Video not supported</video>
-    <embed src="download.gif" />
+      <video src="coding.mp4" controls>Video not supported</video>
+      <embed src="download.gif" />
 
-    <!-- Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
+      <!-- Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
 Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
 header>, nav> , main> and footer> create the basic structure of the webpage.
 section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
@@ -130,6 +133,6 @@ figure> encapsulates all types of media.
 figcaption> is used to describe the media in figure>.
 video>, embed>, and audio> elements are used for media files.
 -->
-</body>
-
+    </body>
+  </html>
 </html>

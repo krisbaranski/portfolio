@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4e899e;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+}
+
+/* Header */
+
+.head {
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  flex: 1 1 300px; /*  Stretching: */
+  flex: 0 1 300px; /*  No stretching: */
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+.box a {
+  font-size: 26px;
+  color: #123454;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+a:hover {
+  color: #11161b;
+}
+
+.purple {
+  background-color: rgba(128, 0, 128, 0.2);
+}
+.blue {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+.green {
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.yellow {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+.orange {
+  background-color: rgba(255, 166, 0, 0.4);
+}
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+ul {
+  padding: 5px 0;
+  margin: 15px 23px;
+}
+
+li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 5px;
+}

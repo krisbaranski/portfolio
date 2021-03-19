@@ -1,301 +1,357 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>The BOX Model of a Webpage with CSS Properties</title>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="box.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/box.css" />
     <script>
-        function scrollFunction1() {
-            let e = document.getElementById("box");
-            e.scrollIntoView({
-                block: 'start',
-                behavior: 'smooth',
-                inline: 'start'
-            });
-        }
-        function scrollFunction2() {
-            let e = document.getElementById("border");
-            // This ends the block to the window 
-            // bottom and also aligns the view to the center 
-            e.scrollIntoView({
-                block: 'end',
-                behavior: 'smooth',
-                inline: 'center'
-            });
-        }
+      function scrollFunction1() {
+        let e = document.getElementById("box");
+        e.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+          inline: "start",
+        });
+      }
+      function scrollFunction2() {
+        let e = document.getElementById("border");
+        // This ends the block to the window
+        // bottom and also aligns the view to the center
+        e.scrollIntoView({
+          block: "end",
+          behavior: "smooth",
+          inline: "center",
+        });
+      }
     </script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navigation">
-        <ul onclick="scrollFunction1()">
-            <li id="top" class="logo">THE BOX MODEL</li>
-            <li><a href="#box">BOX</a></li>
-            <li><a href="#border">BORDER</a></li>
-            <li><a href="#radius">RADIUS</a></li>
-            <li><a href="#padding">PADDING</a></li>
-            <li><a href="#margin">MARGIN</a></li>
-            <li><a href="#auto">AUTO and COLLAPSE</a></li>
-            <li><a href="#minmax">MINIMUM & MAXIMUM</a></li>
-            <li><a href="#over">OVERFLOW</a></li>
-            <li><a href="#reset">RESET</a></li>
-            <li><a href="#visible">VISIBILITY</a></li>
-            <li><a href="#review">REVIEW</a></li>
-        </ul>
+      <ul onclick="scrollFunction1()">
+        <li id="top" class="logo">THE BOX MODEL</li>
+        <li><a href="#box">BOX</a></li>
+        <li><a href="#border">BORDER</a></li>
+        <li><a href="#radius">RADIUS</a></li>
+        <li><a href="#padding">PADDING</a></li>
+        <li><a href="#margin">MARGIN</a></li>
+        <li><a href="#auto">AUTO and COLLAPSE</a></li>
+        <li><a href="#minmax">MINIMUM & MAXIMUM</a></li>
+        <li><a href="#over">OVERFLOW</a></li>
+        <li><a href="#reset">RESET</a></li>
+        <li><a href="#visible">VISIBILITY</a></li>
+        <li><a href="#review">REVIEW</a></li>
+      </ul>
     </nav>
 
     <div id="banner">
-        <div class="content">
-            <h1>This Page is for Box modeling with CSS purpose</h1>
-        </div>
+      <div class="content">
+        <h1>This Page is for Box modeling with CSS purpose</h1>
+      </div>
     </div>
 
     <div id="main" class="content">
-        <h3>THE LATEST CONSERVATION ARE BY TOP AS GROUNDBREAKING AND
-            FORWARD THINKING. blablabla</h3>
-        <span class="byline">WRITTEN BY:</span>
-        <p>Until recently, </p>
+      <h3>
+        THE LATEST CONSERVATION ARE BY TOP AS GROUNDBREAKING AND FORWARD
+        THINKING. blablabla
+      </h3>
+      <span class="byline">WRITTEN BY:</span>
+      <p>Until recently,</p>
 
-        <div class="pull-quote">
-            <h2>"QUOTE"</h2>
-        </div>
+      <div class="pull-quote">
+        <h2>"QUOTE"</h2>
+      </div>
     </div>
 
     <div id="box" class="text">
-        <h1>BOX</h1>
-        <h2>The properties include:</h2>
-        <p>
-            <li>Width and height - specifies the width and height of the content area.</li>
-            <li>Padding - specifies the amount of space between the content area and the border.</li>
-            <li>Border - specifies the thickness and style of the border surrounding the content area and padding.</li>
-            <li>Margin - specifies the amount of space between the border and the outside edge of the element.</li>
-        </p>
+      <h1>BOX</h1>
+      <h2>The properties include:</h2>
+      <p>
+        <li>
+          Width and height - specifies the width and height of the content area.
+        </li>
+        <li>
+          Padding - specifies the amount of space between the content area and
+          the border.
+        </li>
+        <li>
+          Border - specifies the thickness and style of the border surrounding
+          the content area and padding.
+        </li>
+        <li>
+          Margin - specifies the amount of space between the border and the
+          outside edge of the element.
+        </li>
+      </p>
     </div>
 
-    <div id="box-picture">
-    </div>
+    <div id="box-picture"></div>
 
     <div id="border" class="border">
-        <h1>BORDER</h1>
-        <h2>A border is a line that surrounds an element, like a frame around a painting. <br>
-            Borders can be set with a specific width, style, and color.</h2>
-        <p>
-            <li>width — The thickness of the border. A border’s thickness can be set in pixels or with one of the
-                following keywords: thin, medium, or thick.
-            </li>
-            <li>style — The design of the border. Web browsers can render any of 10 different styles. Some of these
-                styles include: none, dotted, and solid.</li>
-            <li>color — The color of the border. Web browsers can render colors using a few different formats, including
-                140 built-in color keywords.</li>
-            <li>The default border is medium none color, where color is the current color of the element. <br>
-                If width,style, or color are not set in the CSS file, the web browser assigns the default value for that
-                property.
-            </li>
-        </p>
+      <h1>BORDER</h1>
+      <h2>
+        A border is a line that surrounds an element, like a frame around a
+        painting. <br />
+        Borders can be set with a specific width, style, and color.
+      </h2>
+      <p>
+        <li>
+          width — The thickness of the border. A border’s thickness can be set
+          in pixels or with one of the following keywords: thin, medium, or
+          thick.
+        </li>
+        <li>
+          style — The design of the border. Web browsers can render any of 10
+          different styles. Some of these styles include: none, dotted, and
+          solid.
+        </li>
+        <li>
+          color — The color of the border. Web browsers can render colors using
+          a few different formats, including 140 built-in color keywords.
+        </li>
+        <li>
+          The default border is medium none color, where color is the current
+          color of the element. <br />
+          If width,style, or color are not set in the CSS file, the web browser
+          assigns the default value for that property.
+        </li>
+      </p>
     </div>
 
     <div id="radius" class="round">
-        <h1>RADIUS</h1>
-        <ul>
-            <li>RADIUS</li>
-            <li>RADIUS</li>
-            <li>RADIUS</li>
-            <li>RADIUS</li>
-            <li>RADIUS</li>
-            <li>RADIUS</li>
-        </ul>
-        <p>You can modify the corners of an element’s border box with the border-radius property.<br><br>
-            You can create a border that is a perfect circle by first creating an element with the same width and height
-            and then setting the radius equal to the distance between the center of the circle and the width of the box,
-            which is 50%.</p>
+      <h1>RADIUS</h1>
+      <ul>
+        <li>RADIUS</li>
+        <li>RADIUS</li>
+        <li>RADIUS</li>
+        <li>RADIUS</li>
+        <li>RADIUS</li>
+        <li>RADIUS</li>
+      </ul>
+      <p>
+        You can modify the corners of an element’s border box with the
+        border-radius property.<br /><br />
+        You can create a border that is a perfect circle by first creating an
+        element with the same width and height and then setting the radius equal
+        to the distance between the center of the circle and the width of the
+        box, which is 50%.
+      </p>
     </div>
 
     <div id="padding" class="inside">
-        <h1>PADDING</h1>
-        <h3>The padding property is often used to expand the background color and make content look less cramped.</h3>
-        <p>If you want to be more specific about the amount of padding on each side of a box’s content, you can use the
-            following properties:
-            <br>padding-top
-            <br>padding-right
-            <br>padding-bottom
-            <br>padding-left
-            <br>Each property affects the padding on only one side of the box’s content, giving you more flexibility in
-            customization.
-        </p>
-        <h3> PADDING - another implementations</h3>
-        <p>the four values 6px 11px 4px 9px correspond to the amount of padding in a clockwise rotation. In order, it
-            specifies the amount of padding on the top (6 pixels), right (11 pixels), bottom (4 pixels), and left (9
-            pixels) sides of the content.</p>
-        <p>When using this implementation of the padding property, we must specify a padding value for all four sides of
-            the element.
-
-            However, if the top and bottom values for padding will equal each other, and the left and right values for
-            padding will also equal each other, you can use the shortcut:
-            The first value, 5px, sets the padding value for the top and bottom sides of the content. The second value,
-            10px, sets the padding value for the left and right sides of the content.
-        </p>
+      <h1>PADDING</h1>
+      <h3>
+        The padding property is often used to expand the background color and
+        make content look less cramped.
+      </h3>
+      <p>
+        If you want to be more specific about the amount of padding on each side
+        of a box’s content, you can use the following properties:
+        <br />padding-top <br />padding-right <br />padding-bottom
+        <br />padding-left <br />Each property affects the padding on only one
+        side of the box’s content, giving you more flexibility in customization.
+      </p>
+      <h3>PADDING - another implementations</h3>
+      <p>
+        the four values 6px 11px 4px 9px correspond to the amount of padding in
+        a clockwise rotation. In order, it specifies the amount of padding on
+        the top (6 pixels), right (11 pixels), bottom (4 pixels), and left (9
+        pixels) sides of the content.
+      </p>
+      <p>
+        When using this implementation of the padding property, we must specify
+        a padding value for all four sides of the element. However, if the top
+        and bottom values for padding will equal each other, and the left and
+        right values for padding will also equal each other, you can use the
+        shortcut: The first value, 5px, sets the padding value for the top and
+        bottom sides of the content. The second value, 10px, sets the padding
+        value for the left and right sides of the content.
+      </p>
     </div>
 
     <div id="margin" class="margin">
-        <h1>MARGIN: VALUES</h1>
-        <h2>Margin refers to the space directly outside of the box. <br>The margin property is used to specify the size
-            of
-            this space.</h2>
-        <p>One can use only one property "margin", which will specify all four sides of the margin. If you want to
-            be even more specific about the amount of margin on each side of a box, you can use the
-            following properties:
-            <br>margin-top
-            <br>margin-right
-            <br>margin-bottom
-            <br>margin-left
-            <br>Each property affects the margin on only one side of the box, providing more flexibility in
-            customization.
-            It’s common to see margin values used only for a specific side of an element.
-        </p>
-        <p>Just like the padding shortcut, when you’re certain that the top and bottom values for margin will equal each
-            other, and that the left and right values for margin will also equal each other, you can use the shortcut of
-            two values.</p>
-        <p>A similar implementation of the margin property is used to specify exactly how much margin there should be on
-            each side of the box in a single declaration. Like in the padding of four different values.<br>
-            The four values 6px 10px 5px 12px refer to the amount of margin around the box in a clockwise rotation. In
-            order, it specifies the amount of margin on the top (6 pixels), right (10 pixels), bottom (5 pixels), and
-            left (12 pixels) sides of the box.</p>
-
-
+      <h1>MARGIN: VALUES</h1>
+      <h2>
+        Margin refers to the space directly outside of the box. <br />The margin
+        property is used to specify the size of this space.
+      </h2>
+      <p>
+        One can use only one property "margin", which will specify all four
+        sides of the margin. If you want to be even more specific about the
+        amount of margin on each side of a box, you can use the following
+        properties: <br />margin-top <br />margin-right <br />margin-bottom
+        <br />margin-left <br />Each property affects the margin on only one
+        side of the box, providing more flexibility in customization. It’s
+        common to see margin values used only for a specific side of an element.
+      </p>
+      <p>
+        Just like the padding shortcut, when you’re certain that the top and
+        bottom values for margin will equal each other, and that the left and
+        right values for margin will also equal each other, you can use the
+        shortcut of two values.
+      </p>
+      <p>
+        A similar implementation of the margin property is used to specify
+        exactly how much margin there should be on each side of the box in a
+        single declaration. Like in the padding of four different values.<br />
+        The four values 6px 10px 5px 12px refer to the amount of margin around
+        the box in a clockwise rotation. In order, it specifies the amount of
+        margin on the top (6 pixels), right (10 pixels), bottom (5 pixels), and
+        left (12 pixels) sides of the box.
+      </p>
     </div>
 
     <div id="auto" class="collapse">
-        <h1>MARGIN: AUTO and COLLAPSE</h1>
-        <h2>AUTO</h2>
-        <p>In the example above, margin: 0 auto; will center the divs in their containing elements. The 0 sets the top
-            and bottom margins to 0 pixels. The auto value instructs the browser to adjust the left and right margins
-            until the element is centered within its containing element.<br>
-            in the example above should center within an element that fills the page, but this doesn’t occur. Why?<br>
-            In order to center an element, a width must be set for that element. Otherwise, the width of the div will be
-            automatically set to the full width of its containing element, like the body</p>
+      <h1>MARGIN: AUTO and COLLAPSE</h1>
+      <h2>AUTO</h2>
+      <p>
+        In the example above, margin: 0 auto; will center the divs in their
+        containing elements. The 0 sets the top and bottom margins to 0 pixels.
+        The auto value instructs the browser to adjust the left and right
+        margins until the element is centered within its containing element.<br />
+        in the example above should center within an element that fills the
+        page, but this doesn’t occur. Why?<br />
+        In order to center an element, a width must be set for that element.
+        Otherwise, the width of the div will be automatically set to the full
+        width of its containing element, like the body
+      </p>
 
-        <h2>COLLAPSE</h2>
-        <h3></h3>
-        <p>Horizontal margins (left and right), like padding, are always displayed and added together. For example, if
-            two divs with ids #div-one and #div-two, are next to each other, they will be as far apart as the sum of
-            their adjacent margins.<br>
-            It may be helpful to think of collapsing vertical margins as a short person trying to push a taller person.
-            The tall person has longer arms and can easily push the short person, while the person with short arms
-            cannot reach the person with long arms.</p>
+      <h2>COLLAPSE</h2>
+      <h3></h3>
+      <p>
+        Horizontal margins (left and right), like padding, are always displayed
+        and added together. For example, if two divs with ids #div-one and
+        #div-two, are next to each other, they will be as far apart as the sum
+        of their adjacent margins.<br />
+        It may be helpful to think of collapsing vertical margins as a short
+        person trying to push a taller person. The tall person has longer arms
+        and can easily push the short person, while the person with short arms
+        cannot reach the person with long arms.
+      </p>
     </div>
     <div id="minmax" class="hw">
-        <h2>Minimum and Maximum Height and Width</h2>
-        <p>CSS offers two properties that can limit how narrow or how wide an element’s box can be sized to.<br>
-            min-width — this property ensures a minimum width of an element’s box.
-            <br>max-width — this property ensures a maximum width of an element’s box.
-            <br>
-            the width of all paragraphs will not shrink below 300 pixels, nor will the width exceed 600 pixels.
-        </p>
-        <p>You can also limit the minimum and maximum height of an element.
+      <h2>Minimum and Maximum Height and Width</h2>
+      <p>
+        CSS offers two properties that can limit how narrow or how wide an
+        element’s box can be sized to.<br />
+        min-width — this property ensures a minimum width of an element’s box.
+        <br />max-width — this property ensures a maximum width of an element’s
+        box.
+        <br />
+        the width of all paragraphs will not shrink below 300 pixels, nor will
+        the width exceed 600 pixels.
+      </p>
+      <p>
+        You can also limit the minimum and maximum height of an element.
 
-            <br>min-height — this property ensures a minimum height for an element’s box.
-            <br>max-height — this property ensures a maximum height of an element’s box.
-            <br>
-            the height of all paragraphs will not shrink below 150 pixels and the height will not exceed 300 pixels.
-        </p>
+        <br />min-height — this property ensures a minimum height for an
+        element’s box. <br />max-height — this property ensures a maximum height
+        of an element’s box.
+        <br />
+        the height of all paragraphs will not shrink below 150 pixels and the
+        height will not exceed 300 pixels.
+      </p>
     </div>
 
     <div id="over" class="flow">
-        <h1>Overflow</h1>
-        <p>All of the components of the box model comprise an element’s size.Sometimes, these components result in an
-            element that is larger than the parent’s containing area.
+      <h1>Overflow</h1>
+      <p>
+        All of the components of the box model comprise an element’s
+        size.Sometimes, these components result in an element that is larger
+        than the parent’s containing area. How can we ensure that we can view
+        all of an element that is larger than its parent’s containing area?
+      </p>
+      <p>
+        The overflow property controls what happens to content that spills, or
+        overflows, outside its box. It can be set to one of the following
+        values:<br />
 
-            How can we ensure that we can view all of an element that is larger than its parent’s containing area?</p>
-        <p>The overflow property controls what happens to content that spills, or overflows, outside its box. It can be
-            set to one of the following values:<br>
-
-            - hidden - when set to this value, any content that overflows will be hidden from view.
-            <br>- scroll - when set to this value, a scrollbar will be added to the element’s box so that the rest of
-            the
-            content can be viewed by scrolling.
-            <br>- visible - when set to this value, the overflow content will be displayed outside of the containing
-            element. Note, this is the default value.<br>
-        </p>
-
+        - hidden - when set to this value, any content that overflows will be
+        hidden from view.
+        <br />- scroll - when set to this value, a scrollbar will be added to
+        the element’s box so that the rest of the content can be viewed by
+        scrolling. <br />- visible - when set to this value, the overflow
+        content will be displayed outside of the containing element. Note, this
+        is the default value.<br />
+      </p>
     </div>
     <div id="reset" class="reset">
-        <h1>RESET</h1>
-        <p>Resetting Defaults
-            All major web browsers have a default stylesheet they use in the absence of an external stylesheet. These
-            default stylesheets are known as user agent stylesheets. In this case, the term “user agent“ is a technical
-            term for the browser.
-
-            User agent stylesheets often have default CSS rules that set default values for padding and margin. This
-            affects how the browser displays HTML elements, which can make it difficult for a developer to design or
-            style a web page.
-
-            Many developers choose to reset these default values so that they can truly work with a clean slate. The
-            code in the example above resets the default margin and padding values of all HTML elements. It is often the
-            first CSS rule in an external stylesheet.
-
-            Note that both properties are both set to 0. When these properties are set to 0, they do not require a unit
-            of measurement.
-
-        </p>
+      <h1>RESET</h1>
+      <p>
+        Resetting Defaults All major web browsers have a default stylesheet they
+        use in the absence of an external stylesheet. These default stylesheets
+        are known as user agent stylesheets. In this case, the term “user agent“
+        is a technical term for the browser. User agent stylesheets often have
+        default CSS rules that set default values for padding and margin. This
+        affects how the browser displays HTML elements, which can make it
+        difficult for a developer to design or style a web page. Many developers
+        choose to reset these default values so that they can truly work with a
+        clean slate. The code in the example above resets the default margin and
+        padding values of all HTML elements. It is often the first CSS rule in
+        an external stylesheet. Note that both properties are both set to 0.
+        When these properties are set to 0, they do not require a unit of
+        measurement.
+      </p>
     </div>
 
     <div id="visible" class="visible">
-        <h1>VISIBILITY</h1>
-        <p>Elements can be hidden from view with the visibility property.
+      <h1>VISIBILITY</h1>
+      <p>
+        Elements can be hidden from view with the visibility property. The
+        visibility property can be set to one of the following values:
+      </p>
 
-            The visibility property can be set to one of the following values:</p>
-
-        <li>hidden — hides an element.</li>
-        <li>visible — displays an element.</li>
-        <li class="future">hidden element, momentarly not visible on the page</li>
-        <p>In the example above, the list item with a class of future will be hidden from view in the browser.
-
-            Keep in mind, however, that users can still view the contents of the list item (e.g., Donate) by viewing
-            the
-            source code in their browser. Furthermore, the web page will only hide the contents of the element. It
-            will
-            still leave an empty space where the element is intended to display.
-        </p>
-        <h2>Note: What’s the difference between display: none and visibility: hidden? An element with display: none will
-            be completely removed from the web page. An element with visibility: hidden, however, will not be visible on
-            the web page, but the space reserved for it will.</h2>
+      <li>hidden — hides an element.</li>
+      <li>visible — displays an element.</li>
+      <li class="future">hidden element, momentarly not visible on the page</li>
+      <p>
+        In the example above, the list item with a class of future will be
+        hidden from view in the browser. Keep in mind, however, that users can
+        still view the contents of the list item (e.g., Donate) by viewing the
+        source code in their browser. Furthermore, the web page will only hide
+        the contents of the element. It will still leave an empty space where
+        the element is intended to display.
+      </p>
+      <h2>
+        Note: What’s the difference between display: none and visibility:
+        hidden? An element with display: none will be completely removed from
+        the web page. An element with visibility: hidden, however, will not be
+        visible on the web page, but the space reserved for it will.
+      </h2>
     </div>
 
     <div id="review">
-        <h1 style="color: black;">Review</h1>
-        <p style="text-align: left; margin: 0 40px;"> In this lesson, we covered the four properties of the box model:
-            height and width,
-            padding, borders, and
-            margins. Understanding the box model is an important step towards learning more advanced HTML and CSS
-            topics. Let’s take a minute to review what you learned.
+      <h1 style="color: black">Review</h1>
+      <p style="text-align: left; margin: 0 40px">
+        In this lesson, we covered the four properties of the box model: height
+        and width, padding, borders, and margins. Understanding the box model is
+        an important step towards learning more advanced HTML and CSS topics.
+        Let’s take a minute to review what you learned.
 
-            <br>- The box model comprises a set of properties used to create space around and between HTML elements.
-            <br>- The height and width of a content area can be set in pixels or percentage.
-            <br>- Borders surround the content area and padding of an element. The color, style, and thickness of a
-            border can
-            be set with CSS properties.
-            <br>- Padding is the space between the content area and the border. It can be set in pixels or percent.
-            <br>- Margin is the amount of spacing outside of an element’s border.
-            <br>- Horizontal margins add, so the total space between the borders of adjacent elements is equal to the
-            sum of
-            the right margin of one element and the left margin of the adjacent element.
-            <br>- Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger
-            margin.
-            margin: 0 auto horizontally centers an element inside of its parent content area, if it has a width.
-            <br>- The overflow property can be set to display, hide, or scroll, and dictates how HTML will render
-            content that
-            overflows its parent’s content area.
-            <br>- The visibility property can hide or show elements.
-        </p>
+        <br />- The box model comprises a set of properties used to create space
+        around and between HTML elements. <br />- The height and width of a
+        content area can be set in pixels or percentage. <br />- Borders
+        surround the content area and padding of an element. The color, style,
+        and thickness of a border can be set with CSS properties. <br />-
+        Padding is the space between the content area and the border. It can be
+        set in pixels or percent. <br />- Margin is the amount of spacing
+        outside of an element’s border. <br />- Horizontal margins add, so the
+        total space between the borders of adjacent elements is equal to the sum
+        of the right margin of one element and the left margin of the adjacent
+        element. <br />- Vertical margins collapse, so the space between
+        vertically adjacent elements is equal to the larger margin. margin: 0
+        auto horizontally centers an element inside of its parent content area,
+        if it has a width. <br />- The overflow property can be set to display,
+        hide, or scroll, and dictates how HTML will render content that
+        overflows its parent’s content area. <br />- The visibility property can
+        hide or show elements.
+      </p>
     </div>
     <div class="share">
-        <a href="#top">TOP</a>
+      <a href="#top">TOP</a>
     </div>
-
-
-
-</body>
-
+  </body>
 </html>
