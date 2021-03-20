@@ -1,6 +1,4 @@
-# hello_world
-
-## HTML and CSS basics
+# HTML and CSS basics
 
 ![HTML Structure](/pics/01.png)
 ![Semantic CSS](/pics/02.png)

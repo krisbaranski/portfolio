@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/structure.css" type="text/css" rel="stylesheet" />
+    <title>Html Structure</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="section grey">
+        <ul class="fixed">
+          <li><h1 id="#top">Html Structure</h1></li>
+          <li><a href="#headings">Headings, paragraphs</a></li>
+          <li><a href="#attributes">Attributes</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#tables">Tables</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#input">Datalist Input</a></li>
+          <li><a href="#textarea">Textarea</a></li>
+          <li><a href="#submit">Submit</a></li>
+          <li><a href="#valid">Validations</a></li>
+          <li><a href="#patterns">Patterns</a></li>
+          <li><a href="#content">Content editable</a></li>
+        </ul>
+        <div class="top">
+            <a href="#top">TOP</a>
+          </div>
+      </div>
+
+      <div class="section white">
+        <div id="intro" class="intro">
+          <h2>Introduction</h2>
+          <p>
+            Html stands for HyperText Markup Language: <br />
+            A markup language is a computer language that defines the structure
+            and presentation of raw text. In HTML, the computer can interpret
+            raw text that is wrapped in HTML elements. HyperText is text
+            displayed on a computer or device that provides access to other text
+            through links, also known as hyperlinks. You probably clicked on a
+            couple of hyperlinks on your way to this course.
+          </p>
+        </div>
+
+        <div id="headings" class="headings">
+          <h2>Headings</h2>
+          <ul>
+            <h1>H1 (biggest),</h1>
+
+            <h2>H2,</h2>
+
+            <h3>H3,</h3>
+
+            <h4>H4,</h4>
+
+            <h5>H5,</h5>
+
+            <h6>H6 (smallest)</h6>
+            and
+            <p>Paragraphs</p>
+          </ul>
+        </div>
+
+        <div id="attributes" class="attr">
+          <h2>Attributes</h2>
+          <p>
+            Attributes are content added to the opening tag of an element and
+            can be used in several different ways, from providing information to
+            changing styling. Attributes are made up of the following two parts:
+
+            <li> - The name of the attribute (id, class, name,...)</li>
+            <li> - The value of the attribute ( id="something")
+            </li>
+          <p>
+            <br />One commonly used attribute is the <b>ID</b>. We can use the
+            id attribute to specify different content (such as div's) and is
+            really helpful when you use an element more than once. ids have
+            several different purposes in HTML, but for now, we’ll focus on how
+            they can help us identify content on our page.
+          </p>
+          <p>
+            <span> SPAN </span> contains short pieces of text or other HTML.
+            They are used to separate small pieces of content that are on the
+            same line as other content. Can be modified through css inside or
+            separate doc.
+          </p>
+          <p>
+            Now, <em>this is cursiv - empphasized 'em'</em> and
+            <strong>this is strong - 'bold'</strong>.
+          </p>
+          <p>For the next line, <br />this is break <br />(br /)</p>
+          <p>Additionally, there are also different spaces: <br> 
+           <p> Regular space: &nbsp; The (& nbsp) character entity used to denote a non-breaking space which is a fixed space. This may be perceived as twice the space of a normal space. It is used to create a space in a line that cannot be broken by word wrap.</p> <br>
+           <p>Two spaces gap: &ensp; The (& ensp) character entity used to denote an ‘en’ space which means half point size of the current font. This may be perceived as twice the space of a normal space.</p> <br>
+           <p>Four spaces gap: &emsp;The (& emsp) character entity used to denote an ’em’ space which means equal to the point size of the current font. This may be perceived as four times the space of a normal space.</p>
+             <br>
+          </p>
+        </div>
+
+        <div id="lists">
+           <h2>Lists</h2>
+                <ul>
+                    Here we have an unordered list:
+                    <li>nothing</li>
+                    <li>something</li>
+                    <li>anything</li>
+                </ul>
+                <ol>
+                    Ordered List is like:
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                </ol>
+        </div>
+
+        <div>
+            <a href="https://kristofgbaranski.com" target="_blank"
+            ><img
+              src="https://kristofbaranski.com/wp-content/uploads/2019/12/6tan2.jpg"
+              alt="just an example"
+          /></a>
+          <video
+            src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
+            width="320"
+            height="240"
+            controls
+          >
+            Video not supported (example)
+          </video>
+        </div>
+
+        <div id="content" contenteditable>
+            <p>this text is editable</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perspiciatis ipsum provident ad obcaecati iste odit, quaerat distinctio tempore dolores, odio libero voluptas, dolor repellat. Natus cumque inventore odio ex!</p>
+        </div>
+      
+    </div>
+  </body>
+</html>
