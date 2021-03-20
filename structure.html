@@ -15,7 +15,7 @@
           <li><a href="#headings">Headings, paragraphs</a></li>
           <li><a href="#attributes">Attributes</a></li>
           <li><a href="#lists">Lists</a></li>
-          <li><a href="#tables">Tables</a></li>
+          <li><a href="#table">Table</a></li>
           <li><a href="#forms">Forms</a></li>
           <li><a href="#buttons">Buttons</a></li>
           <li><a href="#input">Datalist Input</a></li>
@@ -99,37 +99,146 @@
           </p>
         </div>
 
-        <div id="lists">
+       <div id="lists" class="lists">
            <h2>Lists</h2>
                 <ul>
-                    Here we have an unordered list:
+                   <b> Here we have an unordered list:</b>
                     <li>nothing</li>
                     <li>something</li>
                     <li>anything</li>
                 </ul>
                 <ol>
-                    Ordered List is like:
+                   <b> Ordered List is like:</b>
                     <li>one</li>
                     <li>two</li>
                     <li>three</li>
                 </ol>
         </div>
 
-        <div>
-            <a href="https://kristofgbaranski.com" target="_blank"
-            ><img
-              src="https://kristofbaranski.com/wp-content/uploads/2019/12/6tan2.jpg"
-              alt="just an example"
-          /></a>
-          <video
-            src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
-            width="320"
-            height="240"
-            controls
-          >
-            Video not supported (example)
-          </video>
+        <div id="table" class="table">
+            <h2>Table</h2>
+            <table>
+                <p> Table element creates a <em>table</em> . <br>
+                The <em>tr</em> element adds rows to a table.
+                To add data to a row, you can use the <em>td</em> element.
+                Table headings clarify the meaning of data. Headings are added with the <em>th</em> element.
+                Table data can span columns using the colspan attribute.
+                Table data can span rows using the rowspan attribute.
+                Tables can be split into three main sections: a head, a body, and a footer.
+                A table’s head is created with the <em>thead</em> element.
+                A table’s body is created with the <em>tbody</em> element.
+                A table’s footer is created with the <em>tfoot</em> element.
+                All the CSS properties you learned about in this course can be applied to tables and their data. </p> 
+                <thead>
+                    <tr>
+                        <th>nothing</th>
+                        <th scope="col" >table head 2, scope makes it col</th>
+                        <th scope="col" >table head 3, scope makes it col</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">table heading, scope makes it row</th>
+                        <td>Table data 2, no scope</td>
+                        <td>Table data 3, no scope</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+
+        <div id="forms" class="form">
+
+            <h2>Forms</h2>
+
+            <form action="index.html" method="POST">
+                <p>The form element is a great tool for collecting information, but then we need to send that information somewhere else for processing.</p>
+                <p>The action attribute determines where the information is sent. The method attribute is assigned a HTTP verb that is included in the HTTP request.</p>
+                <p>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" value="" placeholder="username"><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="user-pw" id="user-pw" placeholder="password">
+                </p>
+                <p>
+                <label for="amount">How many panties would you like?</label>
+                <input type="number" step="1" name="amount" id="amount"></p>
+            </form>
+
+            <form>
+                <h3>Volume</h3>
+                <p>
+                <label for="volume"> Volume Control</label>
+                <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+                </p>
+            </form>
+
+            
+            <form>
+                <p>
+                <label for="doneness">How do you want your patty cooked</label>
+                <br>
+                <span>Rare</span>
+                <input id="doneness" type="range" name="doneness" min="0" max="5" step="1">
+                <span>Well-Done</span></p>
+            </form>
+            
+    
+            <form>
+                <h3>Checkboxes</h3>
+                <p>Choose your pizza toppings:
+                    <ul>
+                        <input id="cheese" name="topping" type="checkbox" value="cheese">
+                        <label for="cheese">Extra cheese</label>
+                        <br>
+                        <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                        <br>
+                        <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+                        <label for="anchovy">Anchovy</label>
+                     </ul>
+                 </p>
+            </form>
+
+            <form>
+                <h3>Dropdown list</h3>
+                <p>
+                <label for="lunch">What's for lunch?</label>
+                <select id="lunch" name="lunch">
+                    <option value="pizza">Pizza</option>
+                    <option value="curry">Curry</option>
+                    <option value="salad">Salad</option>
+                    <option value="ramen">Ramen</option>
+                    <option value="tacos">Tacos</option>
+                </select>
+                </p>
+            </form>
+        </div>
+
+        <div class="buttons">
+            <form>
+                <!-- Radio Button Input when only one field is right
+            we use type radio and same name -->
+                <p>What is sum of 1 + 1?</p>
+                <input type="radio" id="two" name="answer" value="2">
+                <label for="two">2</label>
+                <br>
+                <input type="radio" id="eleven" name="answer" value="11">
+                <label for="eleven">11</label>
+            </form>
+            <section class="cheesy">
+                <span>Would you like to add cheese?</span>
+                <br>
+                <!--Add your first radio button below-->
+                <input id="yes" type="radio" name="cheese" value="yes">
+                <label for="yes">Yes</label>
+                <!--Add your second radio button below-->
+                <input id="no" type="radio" name="cheese" value="no">
+                <label for="no">No</label>
+            </section>
+            
+        </div>
+    
+ 
 
         <div id="content" contenteditable>
             <p>this text is editable</p>
