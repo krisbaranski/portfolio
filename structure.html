@@ -17,8 +17,7 @@
           <li><a href="#lists">Lists</a></li>
           <li><a href="#table">Table</a></li>
           <li><a href="#forms">Forms</a></li>
-          <li><a href="#buttons">Buttons</a></li>
-          <li><a href="#input">Datalist Input</a></li>
+          <li><a href="#input">Input</a></li>
           <li><a href="#textarea">Textarea</a></li>
           <li><a href="#submit">Submit</a></li>
           <li><a href="#valid">Validations</a></li>
@@ -214,8 +213,10 @@
             </form>
         </div>
 
-        <div class="buttons">
+        <div id="input" class="input">
+            <h2>Input</h2>
             <form>
+                <h3>Radio Button Input</h3> <br>
                 <!-- Radio Button Input when only one field is right
             we use type radio and same name -->
                 <p>What is sum of 1 + 1?</p>
@@ -235,6 +236,21 @@
                 <input id="no" type="radio" name="cheese" value="no">
                 <label for="no">No</label>
             </section>
+
+            <!-- Datalist input-->
+        <form>
+            <label for="city">Ideal city to visit?</label>
+            <input type="text" list="cities" id="city" name="city">
+
+            <datalist id="cities">
+                <option value="New York City"></option>
+                <option value="Tokyo"></option>
+                <option value="Barcelona"></option>
+                <option value="Mexico City"></option>
+                <option value="Melbourne"></option>
+                <option value="Other"></option>
+            </datalist>
+        </form>
             
         </div>
     
