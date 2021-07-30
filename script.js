@@ -1,6 +1,6 @@
 'use strict';
 
-const container = document.getElementById('container');
+const hero = document.getElementById('hero');
 const colors = ['turquoise', '#2ecc71', '#f6e58d', '#eb4d4b'];
 const squares = 8000;
 
@@ -11,7 +11,7 @@ for (let i = 0; i < squares; i++) {
   square.addEventListener('mouseover', () => setColor(square));
   // square.addEventListener('mouseout', () => removeColor(square));
 
-  container.appendChild(square);
+  hero.appendChild(square);
 }
 
 function setColor(element) {
