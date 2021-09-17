@@ -40,11 +40,14 @@ body {
 .hero_message {
   position: absolute;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.2rem;
   top: -65vh;
   /* border: 1px solid red; */
+  background-color: #ffffff69;
   color: #2e4992;
+  border-radius: 5px;
   margin: 0 20px;
+  max-width: 850px;
 }
 
 h1.hero_title {
@@ -54,7 +57,7 @@ h1.hero_title {
 }
 
 p.hero_message {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 100;
   top: -44vh;
 }
@@ -102,7 +105,7 @@ h2 {
 }
 
 h2.row {
-  margin: 70px auto 30px;
+  margin: 100px auto 50px;
   color: #2e4992;
 }
 
@@ -112,14 +115,13 @@ h2.row {
   flex-wrap: wrap;
   justify-content: center;
   margin: 5px auto;
+  margin-bottom: 50px;
   padding: 20px;
   background-color: #eee;
   border-radius: 5px;
   max-width: 440px;
   min-width: 280px;
-}
-
-.element {
+  box-shadow: 5px 5px 25px -6px rgba(0, 0, 0, 0.4);
 }
 
 .footer {
