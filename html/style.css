@@ -6,62 +6,84 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #000;
   margin: 0;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
 }
 
 .hero {
   position: relative;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  max-width: 1400px;
+  overflow: auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_title,
+.hero_message {
+  position: absolute;
+  text-align: center;
+  line-height: 2rem;
+  top: -65vh;
+  /* border: 1px solid red; */
+  color: #2e4992;
+  margin: 0 20px;
+}
+
+h1.hero_title {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 5rem;
+}
+
+p.hero_message {
+  font-size: 1.2rem;
+  font-weight: 100;
+  top: -44vh;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 5rem;
+  /* border: 1px solid red; */
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  /* border: 1px solid red; */
 }
 
 .container {
   position: relative;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  height: auto;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 20px auto;
   overflow: hidden;
 }
 
-.header {
-  position: absolute;
-  width: auto;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-p {
-  font-size: 1.2rem;
-  font-weight: 100;
-}
-
-h1,
-h3,
-p {
-  background-color: transparent;
-  color: #fff;
-  margin: 40px;
-  border-radius: 10px;
-  z-index: 10;
-}
-
 .square {
-  background-color: #1d1d1d;
+  background-color: #fff;
   box-shadow: 0 0 2px #000;
   height: 15px;
   width: 15px;
@@ -74,15 +96,37 @@ p {
   transition: 0s;
 }
 
-.text p {
-  width: 50%;
+.row {
+  margin: 20px auto;
+  color: white;
+}
+
+h2.row {
+  margin: 70px auto 30px;
+  color: #2e4992;
+}
+
+.col {
+  display: flex;
+  flex-basis: 30%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px auto;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  max-width: 440px;
+  min-width: 280px;
+}
+
+.element {
 }
 
 .footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #1d1d1d;
+  background-color: #eee;
   height: 200px;
   width: 100%;
 }
@@ -97,7 +141,7 @@ p {
 .fab {
   font-size: 1rem;
   font-family: inherit;
-  color: #fff;
+  color: #2e4992;
   padding: 5px 0;
 }
 
@@ -106,5 +150,5 @@ a {
   text-decoration: none;
   font-size: 1rem;
   font-family: inherit;
-  color: #fff;
+  color: #2e4992;
 }
