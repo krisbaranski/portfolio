@@ -6,6 +6,7 @@ const squares = 3500;
 
 let heroTitle = document.querySelector('.hero_title');
 let heroMessage = document.querySelector('.hero_message');
+let main = document.querySelector('.main');
 
 heroTitle.innerHTML = 'Hello World';
 heroMessage.innerHTML =
@@ -14,22 +15,46 @@ heroMessage.innerHTML =
   `I'm frontend engineer passioned with coding,  discovering new technologies and using them beyond borders.` +
   '<br/>' +
   `If you like my work... leave a comment below or contact me. I'm open for new projects`;
+main.innerHTML = 'Recent Projects';
 
+// Square Interval functionality
+//
 for (let i = 0; i < squares; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
-
-  square.addEventListener('mouseover', () => setColor(square));
-  // square.addEventListener('mouseout', () => removeColor(square));
-
   hero.appendChild(square);
+
+  function setColor(element) {
+    const colorEl = getRandomColor();
+    element.style.background = colorEl;
+    element.style.boxShadow = `0 0 2px ${colorEl}, 0 0 10px ${colorEl}`;
+  }
+
+  function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)];
+  }
+
+  function pickRandomSquare(i) {
+    return Math.floor(Math.random() * squares);
+  }
+
+  function runAnimation() {
+    pickRandomSquare();
+    setColor(square);
+  }
+
+  setInterval(runAnimation, 500);
 }
 
-function setColor(element) {
-  const color = getRandomColor();
-  element.style.background = color;
-  element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
-}
+// for (let i = 0; i < squares; i++) {
+//   const square = document.createElement('div');
+//   square.classList.add('square');
+
+//   square.addEventListener('mouseover', () => setColor(square));
+//   // square.addEventListener('mouseout', () => removeColor(square));
+
+//   hero.appendChild(square);
+// }
 
 //
 // If we want color square to disapeare after particular time, use this function
@@ -40,7 +65,3 @@ function setColor(element) {
 //   element.style.transition = '25s ease';
 // }
 //
-
-function getRandomColor() {
-  return colors[Math.floor(Math.random() * colors.length)];
-}
