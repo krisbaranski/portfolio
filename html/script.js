@@ -19,32 +19,40 @@ main.innerHTML = 'Recent Projects';
 
 // Square Interval functionality
 //
+
 for (let i = 0; i < squares; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
   hero.appendChild(square);
 
-  function setColor(element) {
-    const colorEl = getRandomColor();
-    element.style.background = colorEl;
-    element.style.boxShadow = `0 0 2px ${colorEl}, 0 0 10px ${colorEl}`;
-  }
+  setColor(square);
 
-  function getRandomColor() {
-    return colors[Math.floor(Math.random() * colors.length)];
-  }
-
-  function pickRandomSquare(i) {
-    return Math.floor(Math.random() * squares);
-  }
-
-  function runAnimation() {
-    pickRandomSquare();
-    setColor(square);
-  }
-
-  setInterval(runAnimation, 500);
+  square.addEventListener('load', () => {
+    setInterval(changeRandomSquare(square[i]), 100);
+  });
 }
+
+function setColor(element) {
+  const colorEl = getRandomColor();
+  element.style.background = colorEl;
+  element.style.boxShadow = `0 0 2px ${colorEl}, 0 0 5px ${colorEl}`;
+}
+
+function getRandomColor() {
+  return colors[Math.floor(Math.random() * colors.length)];
+}
+
+function changeRandomSquare() {
+  return Math.floor(Math.random() * squares);
+}
+
+// function removeColor(element) {
+//   element.style.background = '#1d1d1d';
+//   element.style.boxShadow = '0 0 2px #000';
+//   element.style.transition = '25s ease';
+// }
+
+// setTimeout(removeColor, 500);
 
 // for (let i = 0; i < squares; i++) {
 //   const square = document.createElement('div');
