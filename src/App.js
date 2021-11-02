@@ -1,12 +1,18 @@
-import "./index.css";
+import './index.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className='container'>
-      <header className='header'>
-        <h1>Hello World</h1>
-      </header>
-    </div>
+    <Router>
+      <div className="container">
+        <Header />
+        <Route path="/" exact component={Projects} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

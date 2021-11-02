@@ -1,22 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  margin-bottom: 0;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .black {
   background-color: #000;
+  color: #fff;
 }
 
 .white {
   background-color: #fff;
+  color: #000;
 }
+/* 
 
 .hero {
   position: relative;
@@ -43,8 +58,6 @@ body {
   text-align: center;
   line-height: 1.4rem;
   top: -80vh;
-  /* border: 1px solid red; */
-  /* background-color: #000; */
   color: #2e4992;
   border-radius: 5px;
   margin: 0 20px;
@@ -52,7 +65,7 @@ body {
   max-width: 800px;
 }
 
-h1.hero_title {
+ h1.hero_title {
   font-size: 5rem;
   font-weight: 300;
   line-height: 4.5rem;
@@ -64,22 +77,20 @@ p.hero_message {
   font-weight: 100;
   top: -48vh;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
-}
+} 
 
 h1 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 5rem;
-  /* border: 1px solid red; */
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 300;
-  /* border: 1px solid red; */
 }
 
-.container {
+/* .container {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -87,8 +98,8 @@ h2 {
   max-width: 1400px;
   margin: 20px auto;
   overflow: hidden;
-}
-
+} */
+/* 
 .square {
   background-color: #fff;
   height: 15px;
@@ -132,8 +143,6 @@ h2.row {
   justify-content: space-evenly;
   align-items: center;
   background-color: #eee;
-  height: 200px;
-  width: 100%;
 }
 
 .footer_links,
@@ -156,4 +165,4 @@ a {
   font-size: 1rem;
   font-family: inherit;
   color: #2e4992;
-}
+} */
