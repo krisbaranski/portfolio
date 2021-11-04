@@ -2,15 +2,17 @@ import React from 'react';
 import './index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import { Aboutme } from './components/Aboutme';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <div className="container">
         <Header />
-        <Route path="/" exact component={Projects} />
+        <Aboutme />
+        <Projects />
         <Footer />
       </div>
     </Router>

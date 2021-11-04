@@ -41,14 +41,14 @@ const Header = () => {
               bubble: {
                 distance: 300,
                 duration: 1,
-                opacity: 0.2,
+                opacity: 0.3,
                 size: 3,
               },
               push: {
-                quantity: 2,
+                quantity: 1,
               },
               repulse: {
-                distance: 200,
+                distance: 130,
                 duration: 0.4,
               },
             },
@@ -99,10 +99,8 @@ const Header = () => {
       <section className="header">
         <h1 className="hero_title">Frontend Developer Portfolio</h1>
         <h4 className="hero_message">
-          passion about creating projects
-          <br />
-          challenge and every day learn something new
-          <br /> change the way you experience the web
+          passion for challenging projects
+          <br /> influence the way you experience the web
         </h4>
       </section>
     </header>

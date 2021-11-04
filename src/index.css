@@ -25,7 +25,14 @@ h1 {
   font-size: 4rem;
   color: transparent;
   /* background: linear-gradient(to right, #9aa6b9 0%, #617085 30%, #2f5777 100%); */
-  background: linear-gradient(to right, #a7830c 20%, #504611 60%, #806902 80%);
+  background: linear-gradient(
+    to right,
+    #cea10ed5 0%,
+    #a7830ce5 30%,
+    #504611 60%,
+    #806902 70%,
+    #a7830ce5 100%
+  );
   -webkit-background-clip: text;
   /* text-shadow: 3px 3px 5px #111; */
 }
@@ -40,10 +47,10 @@ h4 {
 }
 
 .header {
-  padding: 10px 20px 25px;
+  padding: 20px 10px 35px;
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(to right bottom, #d3a614, #504611, #806902) 1 1
+  border-image: linear-gradient(to right, #50461159, #d3a614, #8069025d) 1 1
     100%;
 }
 
@@ -67,4 +74,38 @@ h4 {
   flex-wrap: wrap;
   width: 100%;
   overflow: hidden;
+  z-index: 1;
+}
+
+.aboutme {
+  background-color: #fff;
+  color: #3c546d;
+  padding: 30px;
+}
+
+.aboutme h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.projects {
+  background-color: #3c546d;
+  color: #fff;
+  padding: 30px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.footer {
+  color: #a79046;
+  height: 50vh;
+}
+
+.footer_text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
