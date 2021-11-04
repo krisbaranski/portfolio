@@ -39,10 +39,10 @@ const Header = () => {
             },
             modes: {
               bubble: {
-                distance: 200,
+                distance: 300,
                 duration: 1,
                 opacity: 0.2,
-                size: 5,
+                size: 3,
               },
               push: {
                 quantity: 2,
@@ -55,10 +55,10 @@ const Header = () => {
           },
           particles: {
             color: {
-              value: '#a7830c',
+              value: '#504611',
             },
             links: {
-              color: '#806902',
+              color: '#a7830c',
               distance: 150,
               enable: true,
               opacity: 0.2,
@@ -72,15 +72,15 @@ const Header = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 1.5,
+              speed: 1.4,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 300,
+                value_area: 900,
               },
-              value: 80,
+              value: 150,
             },
             opacity: {
               value: 0.5,
@@ -90,7 +90,7 @@ const Header = () => {
             },
             size: {
               random: true,
-              value: 5,
+              value: 3,
             },
           },
           detectRetina: true,
