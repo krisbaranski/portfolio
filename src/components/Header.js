@@ -59,26 +59,26 @@ const Header = () => {
             },
             links: {
               color: '#806902',
-              distance: 200,
+              distance: 150,
               enable: true,
               opacity: 0.2,
               width: 1,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               direction: 'none',
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 2,
+              speed: 1.5,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 600,
+                value_area: 300,
               },
               value: 80,
             },
