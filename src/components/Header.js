@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="hero colors" id="hero">
+    <header className="hero" id="hero">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -96,13 +96,14 @@ const Header = () => {
           detectRetina: true,
         }}
       />
+      <h1>Hello World</h1>
       <section className="header">
-        <h1 className="hero_title">Frontend Developer Portfolio</h1>
-        <h4 className="hero_message">
-          passion for challenging projects
-          <br /> influence the way you experience the web
-        </h4>
+        <h2>Frontend Developer Portfolio</h2>
       </section>
+      <h4>
+        passion for challenging projects
+        <br /> influence the way you experience the web
+      </h4>
     </header>
   );
 };
