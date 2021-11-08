@@ -59,7 +59,7 @@ const Header = () => {
             },
             links: {
               color: '#a7830c',
-              distance: 150,
+              distance: 350,
               enable: true,
               opacity: 0.2,
               width: 1,
@@ -80,7 +80,7 @@ const Header = () => {
                 enable: true,
                 value_area: 900,
               },
-              value: 150,
+              value: 50,
             },
             opacity: {
               value: 0.5,
