@@ -72,7 +72,7 @@ const Header = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 1.4,
+              speed: 1.2,
               straight: false,
             },
             number: {
@@ -96,14 +96,13 @@ const Header = () => {
           detectRetina: true,
         }}
       />
-      <h1>Hello World</h1>
       <section className="header">
         <h2>Frontend Developer Portfolio</h2>
+        <h4>
+          passion for challenging projects
+          <br /> influence the way you experience the web
+        </h4>
       </section>
-      <h4>
-        passion for challenging projects
-        <br /> influence the way you experience the web
-      </h4>
     </header>
   );
 };

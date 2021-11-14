@@ -13,47 +13,13 @@
 body {
   color: #ddd;
 }
-
+/* 
 .hero h1 {
-  font-size: 4.4rem;
+  font-size: 2rem;
   font-weight: 300;
   color: #a7830c;
   margin-bottom: 20px;
-}
-
-.header h2 {
-  font-size: 2.5rem;
-  color: transparent;
-  /* background: linear-gradient(to right, #9aa6b9 0%, #617085 30%, #2f5777 100%); */
-  background: linear-gradient(
-    to right,
-    #cea10ed5 0%,
-    #a7830ce5 30%,
-    #504611 60%,
-    #806902 70%,
-    #a7830ce5 100%
-  );
-  -webkit-background-clip: text;
-  /* text-shadow: 3px 3px 5px #111; */
-}
-
-.hero h4 {
-  font-size: 1rem;
-  letter-spacing: 0.2rem;
-  /* color: #929eb4; */
-  color: #a79046;
-  padding-top: 30px;
-  line-height: 2rem;
-}
-
-.header {
-  padding: 10px;
-  margin: 20px 0;
-  border-width: 1px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #50461159, #d3a614, #8069025d) 1 0
-    100%;
-}
+} */
 
 .hero {
   background: linear-gradient(
@@ -74,6 +40,41 @@ body {
   overflow: hidden;
 }
 
+.hero h4 {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  /* color: #929eb4; */
+  color: #a79046;
+  padding: 20px;
+  margin: 20px;
+  line-height: 2rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  color: transparent;
+  background: linear-gradient(
+    to bottom,
+    #f7d66cd5 0%,
+    #a7830ce5 45%,
+    #362f09 50%,
+    #806902 59%,
+    #d4ac27e5 80%
+  );
+  -webkit-background-clip: text;
+  /* text-shadow: 3px 3px 5px #111; */
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #50461159, #d3a614, #8069025d) 0 1
+    100%;
+  padding-bottom: 15px;
+}
+
+/* .header {
+  padding: 10px;
+  margin: 20px 0;
+} */
+
 .container {
   position: relative;
   margin: 0;
@@ -88,18 +89,10 @@ body {
   background-color: #fff;
   color: #3c546d;
   padding: 30px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  overflow: hidden;
 }
 
-.aboutme h2 {
+.aboutme h2,
+.projects h2 {
   font-size: 2rem;
   padding-bottom: 20px;
 }
@@ -108,11 +101,15 @@ body {
   background-color: #3c546d;
   color: #fff;
   padding: 30px;
-}
-
-.projects h2 {
-  font-size: 2rem;
-  padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden;
 }
 
 .footer {
@@ -126,4 +123,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
+}
+
+@media (max-width: 574px) {
+  * {
+    font-size: 12px;
+  }
 }
