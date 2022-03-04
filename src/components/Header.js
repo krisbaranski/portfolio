@@ -4,7 +4,6 @@ import Particles from 'react-tsparticles';
 const Header = () => {
   const particlesInit = main => {
     console.log(main);
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
@@ -97,7 +96,10 @@ const Header = () => {
         }}
       />
       <section className="header">
-        <h2>Frontend Developer Portfolio</h2>
+        <p>!!website is under construction!!</p>
+        <br />
+        <h2>Kristof Baranski Portfolio</h2>
+        <hr className="separator" />
         <h4>
           passion for challenging projects
           <br /> influence the way you experience the web

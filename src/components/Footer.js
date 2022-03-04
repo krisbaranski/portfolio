@@ -5,6 +5,9 @@ const Footer = () => {
     <div className="container footer">
       <section className="footer_text">
         <p>footer</p>
+        <p>footer</p>
+        <p>footer</p>
+        <p>footer</p>
       </section>
     </div>
   );

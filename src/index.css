@@ -45,9 +45,21 @@ body {
   letter-spacing: 0.2rem;
   /* color: #929eb4; */
   color: #a79046;
-  padding: 20px;
   margin: 20px;
   line-height: 2rem;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  overflow: hidden; */
 }
 
 .header h2 {
@@ -55,19 +67,24 @@ body {
   color: transparent;
   background: linear-gradient(
     to bottom,
-    #f7d66cd5 0%,
-    #a7830ce5 45%,
-    #362f09 50%,
-    #806902 59%,
-    #d4ac27e5 80%
+    #f8dc7fd5 0%,
+    #a7830ce5 25%,
+    #8d6d03e5 45%,
+    #41380a 50%,
+    #5f5414 53%,
+    #806902 65%,
+    #d8a80ae5 100%
   );
   -webkit-background-clip: text;
+}
+
+.separator {
+  margin-top: 20px;
   /* text-shadow: 3px 3px 5px #111; */
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #50461159, #d3a614, #8069025d) 0 1
     100%;
-  padding-bottom: 15px;
 }
 
 /* .header {
@@ -81,6 +98,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  /* max-width: 800px; */
   overflow: hidden;
   z-index: 1;
 }
@@ -113,16 +131,26 @@ body {
 }
 
 .footer {
+  border: red solid 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
   background-color: #000;
   color: #a79046;
   height: 80vh;
+  padding-bottom: 20px;
   z-index: -1;
 }
 
 .footer_text {
+  border: red solid 1px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+}
+.footer p {
+  font-size: 1rem;
+  padding: 10px;
 }
 
 @media (max-width: 574px) {
