@@ -95,8 +95,8 @@ const Header = () => {
           detectRetina: true,
         }}
       />
+      <p>!!website is under construction!!</p>
       <section className="header">
-        <p>!!website is under construction!!</p>
         <br />
         <h2>Kristof Baranski Portfolio</h2>
         <hr className="separator" />
