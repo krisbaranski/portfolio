@@ -134,13 +134,21 @@ body {
 .footer {
   border: red solid 1px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #000;
   color: #a79046;
   height: 80vh;
   padding-bottom: 20px;
   z-index: -1;
+}
+
+.footer_social {
+  border: red solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .footer_text {
