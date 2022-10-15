@@ -1,6 +1,6 @@
 {
-  "homepage": "http://krisbaranski.github.io/hello_world/",
-  "name": "hello_world",
+  "homepage": "http://krisbaranski.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

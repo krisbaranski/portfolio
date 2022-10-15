@@ -95,15 +95,8 @@ const Header = () => {
           detectRetina: true,
         }}
       />
-      <p>!!website is under construction!!</p>
       <section className="header">
-        <br />
-        <h2>Kristof Baranski Portfolio</h2>
         <hr className="separator" />
-        <h4>
-          passion for challenging projects
-          <br /> influence the way you experience the web
-        </h4>
       </section>
     </header>
   );
