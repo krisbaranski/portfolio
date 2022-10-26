@@ -8,20 +8,20 @@
   overflow: auto;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  border: 1px solid red;
 }
 
 body {
   color: #fff;
 }
-/* 
+
 .hero h1 {
   font-size: 2rem;
   font-weight: 300;
   color: #a7830c;
   margin-bottom: 20px;
-} */
-
-.fixed {
+}
+*/ .fixed {
   position: fixed;
   top: 0;
   margin: 0 auto;
