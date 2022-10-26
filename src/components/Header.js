@@ -38,7 +38,7 @@ const Header = () => {
             },
             modes: {
               bubble: {
-                distance: 300,
+                distance: 200,
                 duration: 1,
                 opacity: 0.3,
                 size: 3,
@@ -58,7 +58,7 @@ const Header = () => {
             },
             links: {
               color: '#a7830c',
-              distance: 350,
+              distance: 450,
               enable: true,
               opacity: 0.2,
               width: 1,
@@ -71,13 +71,13 @@ const Header = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 1.2,
+              speed: 1.1,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 900,
+                value_area: 700,
               },
               value: 50,
             },
@@ -89,14 +89,15 @@ const Header = () => {
             },
             size: {
               random: true,
-              value: 3,
+              value: 2,
             },
           },
           detectRetina: true,
         }}
       />
       <section className="header">
-        <hr className="separator" />
+        <h1>Kris Baranski</h1>
+        <p>Im a frontend debveloper</p>
       </section>
     </header>
   );
