@@ -6,51 +6,73 @@ import Logo from '../assets/logo-portfolio-blue.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
+  // setting mobile nav
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  // change nav color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 70) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeColor);
+
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-14 text-[#264e86]">
-      <div className="z-10">
-        <img src={Logo} alt="Logo" style={{ width: '70px' }} />
-      </div>
+    <div>
+      <div
+        onScroll={changeColor}
+        className={
+          color
+            ? 'fixed w-full h-[60px] flex justify-between items-center px-14 bg-white'
+            : 'fixed w-full h-[60px] flex justify-between items-center px-14 bg-transparent '
+        }
+      >
+        <div className="z-10">
+          <img src={Logo} alt="Logo" style={{ width: '70px' }} />
+        </div>
 
-      {/* menu */}
-      <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+        {/* Desktop menu */}
+        <ul className="hidden md:flex text-[#264e86]">
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
 
-      {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? (
-          <FaBars className="text-[#264e86]" />
-        ) : (
-          <FaTimes className="text-white" />
-        )}
+        {/* Hamburger */}
+        <div onClick={handleClick} className="md:hidden z-20">
+          {!nav ? (
+            <FaBars className="text-[#264e86]" />
+          ) : (
+            <FaTimes className="text-white" />
+          )}
+        </div>
       </div>
 
       {/* Mobile menu */}
