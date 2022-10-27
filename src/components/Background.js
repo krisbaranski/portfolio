@@ -57,10 +57,10 @@ const Background = () => {
               value: '#a8bed8',
             },
             links: {
-              color: '#b9cce',
-              distance: 450,
+              color: '#a8bed8',
+              distance: 400,
               enable: true,
-              opacity: 0.2,
+              opacity: 0.3,
               width: 1,
             },
             collisions: {
@@ -82,7 +82,7 @@ const Background = () => {
               value: 50,
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
             },
             shape: {
               type: 'circle',

@@ -39,27 +39,52 @@ const Navbar = () => {
         {/* Desktop menu */}
         <ul className="hidden md:flex text-[#264e86]">
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="p-2 rounded hover:bg-[#264e86] hover:text-white"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="p-2 rounded hover:bg-[#264e86] hover:text-white"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              className="p-2 rounded hover:bg-[#264e86] hover:text-white"
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="p-2 rounded hover:bg-[#264e86] hover:text-white"
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="p-2 rounded hover:bg-[#264e86] hover:text-white"
+            >
               Contact
             </Link>
           </li>
