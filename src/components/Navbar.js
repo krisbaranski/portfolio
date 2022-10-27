@@ -28,11 +28,11 @@ const Navbar = () => {
         onScroll={changeColor}
         className={
           color
-            ? 'fixed w-full h-[60px] flex justify-between items-center px-14 bg-white'
-            : 'fixed w-full h-[60px] flex justify-between items-center px-14 bg-transparent '
+            ? 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-white'
+            : 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-transparent '
         }
       >
-        <div className="z-10">
+        <div className="z-50 px-8">
           <img src={Logo} alt="Logo" style={{ width: '70px' }} />
         </div>
 
@@ -64,15 +64,15 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+      </div>
 
-        {/* Hamburger */}
-        <div onClick={handleClick} className="md:hidden z-20">
-          {!nav ? (
-            <FaBars className="text-[#264e86]" />
-          ) : (
-            <FaTimes className="text-white" />
-          )}
-        </div>
+      {/* Hamburger */}
+      <div onClick={handleClick} className="md:hidden">
+        {!nav ? (
+          <FaBars className="fixed top-6 right-10 flex flex-col justify-center items-center text-[#264e86] z-30" />
+        ) : (
+          <FaTimes className="fixed top-6 right-10 flex flex-col justify-center items-center text-white z-30" />
+        )}
       </div>
 
       {/* Mobile menu */}
@@ -80,7 +80,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#264e86] flex flex-col justify-center items-center text-white'
+            : 'fixed top-0 left-0 w-full h-screen bg-[#264e86] flex flex-col justify-center items-center text-white z-20'
         }
       >
         <li className="py-6 text-4xl">
