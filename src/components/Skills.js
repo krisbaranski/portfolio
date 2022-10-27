@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div name="skills" className="w-full min-h-screen py-12 text-[#264e86]">
       {/* Container */}
-      <div className="max-w-[800px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[960px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-2 border-[#264e86] ">
             Skills
@@ -26,7 +26,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 self-center text-center py-8 z-10">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 self-center text-center py-8 z-10">
           <div className="bg-rose-900 text-white p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>

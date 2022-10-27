@@ -12,21 +12,21 @@ const Projects = () => {
       name="projects"
       className="w-full md:h-top text-[#264e86] bg-gradient-to-b from-transparent to-[#1b5f9d] py-10"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-2 text-[#264e86] border-[#264e86]">
             Projects
           </p>
-          <p className="py-6">Check out some of my projects</p>
+          <p className="py-6 font-bold">Check out some of my projects</p>
         </div>
 
         {/* Container */}
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-20">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-10">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Mahakala})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -92,7 +92,7 @@ const Projects = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Calc})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
@@ -124,7 +124,7 @@ const Projects = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${DiceRoll})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -157,7 +157,7 @@ const Projects = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Implement})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -190,7 +190,7 @@ const Projects = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${GuessNr})` }}
-            className="z-20 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="z-20 shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">

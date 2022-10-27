@@ -28,8 +28,8 @@ const Navbar = () => {
         onScroll={changeColor}
         className={
           color
-            ? 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-white'
-            : 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-transparent '
+            ? 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-white shadow-md shadow-grey-300'
+            : 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-transparent'
         }
       >
         <div className="z-50 px-8">
