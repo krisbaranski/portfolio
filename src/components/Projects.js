@@ -17,7 +17,7 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-2 text-[#264e86] border-[#264e86]">
             Projects
           </p>
-          <p className="py-6 font-bold">Check out some of my projects</p>
+          <p className="py-6 font-medium">Check out some of my projects</p>
         </div>
 
         {/* Container */}

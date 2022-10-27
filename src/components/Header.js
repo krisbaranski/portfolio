@@ -12,7 +12,7 @@ const Header = () => {
         <h2 className="text-2xl md:text-4xl font-bold text-[#264e86]">
           FRONTEND WEB DEVELOPER
         </h2>
-        <p className="text-[#264e86] py-4 max-w-[700px]">
+        <p className="text-[#264e86] py-4 max-w-[700px] font-medium">
           I’m a frontend developer specializing in building and designing
           exceptional digital experiences. Currently, I’m focused on building
           responsive web applications.
