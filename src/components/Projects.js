@@ -1,10 +1,10 @@
 import React from 'react';
-import GuessNr from '../assets/GuessNr.png';
 import Mahakala from '../assets/Mahakala.png';
 import Gfinder from '../assets/Gfinder.png';
+import Calc from '../assets/Calc.png';
 import DiceRoll from '../assets/DiceRoll.png';
 import Implement from '../assets/Implement.png';
-// import GuesA from '../assets/guesa.jpg';
+import GuessNr from '../assets/GuessNr.png';
 
 const Projects = () => {
   return (
@@ -91,18 +91,18 @@ const Projects = () => {
 
           {/* Grid Item */}
           <div
-            // style={{ backgroundImage: `url(${AudiAX})` }}
+            style={{ backgroundImage: `url(${Calc})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
-                MERN e-commerce
+                Calculator in JS, CSS3, HTML5
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://audiax.netlify.app/"
+                  href="https://krisbaranski.github.io/how_much_resin/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -111,7 +111,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/Front-E-commerce-2.0/tree/master"
+                  href="https://github.com/krisbaranski/how_much_resin"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
