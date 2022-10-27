@@ -13,14 +13,16 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <Background />
-      <Navbar />
-      <Header />
-      <Aboutme />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="max-w4xl">
+        <Background />
+        <Navbar />
+        <Header />
+        <Aboutme />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </Router>
   );
 }
