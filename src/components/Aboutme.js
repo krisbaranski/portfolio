@@ -17,7 +17,7 @@ export const Aboutme = () => {
             <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
           </div>
           <div>
-            <p className="font-medium">
+            <p className="font-semibold">
               I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
               for clients ranging from individuals and small-businesses all the
