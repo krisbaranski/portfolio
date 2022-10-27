@@ -12,7 +12,7 @@ const Footer = () => {
       >
         Privacy & Imprint
       </Link>
-      <p className="px-5">© Berlin</p>
+      <p className="px-5">© {new Date().getFullYear()} Berlin</p>
     </div>
   );
 };

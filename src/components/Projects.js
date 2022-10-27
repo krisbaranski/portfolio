@@ -1,6 +1,9 @@
 import React from 'react';
-// import DiShop from '../assets/dishop.jpeg';
-// import FreMa from '../assets/frema.jpg';
+import GuessNr from '../assets/GuessNr.png';
+import Mahakala from '../assets/Mahakala.png';
+import Gfinder from '../assets/Gfinder.png';
+import DiceRoll from '../assets/DiceRoll.png';
+import Implement from '../assets/Implement.png';
 // import GuesA from '../assets/guesa.jpg';
 
 const Projects = () => {
@@ -18,31 +21,32 @@ const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-20">
           {/* Grid Item */}
           <div
-            // style={{ backgroundImage: `url(${DiShop})` }}
+            style={{ backgroundImage: `url(${Mahakala})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React App,FireBase services and auth, Bootstrap, EmailJS
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
+                Professional Portfolio, ReactJS, CSS3, JSON
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://react-firebase-digital-shop.netlify.app/"
+                  href="https://mahakala-art.com"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Web Page
                   </button>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/React-Firebase"
+                  href="https://github.com/krisbaranski/mahakala-art"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -52,30 +56,30 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* Grid Item */}
           <div
-            // style={{ backgroundImage: `url(${VoCo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${Gfinder})` }}
+            className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Professional Portfolio made with React with CSS animations and
-                EmailJS
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
+                ReactJS App, fetch API, Netlify
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://eugeniarader.netlify.app/"
+                  href="https://github-finder041279.netlify.app/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Web Page
+                    Demo
                   </button>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/Vocal-Coach/"
+                  href="https://github.com/krisbaranski/github-finder"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -84,13 +88,14 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
           <div
             // style={{ backgroundImage: `url(${AudiAX})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
                 MERN e-commerce
               </span>
               <div className="pt-8 text-center">
@@ -115,52 +120,22 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            // style={{ backgroundImage: `url(${FreMa})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Angular App with MaterialUI consuming an API Rest
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://angular-api-freemarket.netlify.app/"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/Angular-Project"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
+          {/* Grid Item */}
           <div
-            // style={{ backgroundImage: `url(${nodeapp})` }}
+            style={{ backgroundImage: `url(${DiceRoll})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Animated simple 3D scenario built with React and Three
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
+                Dice roll game made in JS, CSS3, HTML5
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://thelonelycube.netlify.app/"
+                  href="https://krisbaranski.github.io/diceroll/index.html"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -169,7 +144,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/thelonelycube"
+                  href="https://github.com/krisbaranski/diceroll/tree/master"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -181,19 +156,19 @@ const Projects = () => {
 
           {/* Grid Item */}
           <div
-            // style={{ backgroundImage: `url(${GuesA})` }}
+            style={{ backgroundImage: `url(${Implement})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                JavaScript Vintage Game
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
+                JavaScript, CSS, HTML implementations
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://guess-a-game.netlify.app/"
+                  href="https://github.com/krisbaranski/implementations/blob/main/README.md"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -202,7 +177,40 @@ const Projects = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Mauro1442/Plain-JS-Game"
+                  href="https://github.com/krisbaranski/implementations"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${GuessNr})` }}
+            className="z-20 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
+                JavaScript Vintage Game
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://krisbaranski.github.io/guess_number_game/"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/krisbaranski/guess_number_game"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
