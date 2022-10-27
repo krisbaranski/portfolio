@@ -2,27 +2,31 @@ import React from 'react';
 
 export const Aboutme = () => {
   return (
-    <div className="container aboutme">
-      <h2>About me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-        consequuntur neque molestiae sed quos illum ipsa dolor quia perferendis.
-        Sapiente incidunt, porro adipisci inventore, facilis necessitatibus
-        architecto veritatis alias aliquid, ullam perspiciatis doloremque
-        voluptates libero nulla. Quae nulla, nam earum, rerum et reiciendis
-        tempora laborum tenetur esse obcaecati distinctio sapiente impedit ipsum
-        ipsa sunt, ut aperiam?
-      </p>
-      <br />
-      <p>
-        Temporibus est perspiciatis molestiae! Quasi, amet fuga quidem
-        accusantium, iusto voluptas commodi quis et consectetur aliquam quod
-        illum quo! Voluptate vitae, libero omnis consectetur explicabo dolorem
-        ratione aliquid voluptas rem tempora dolores ducimus atque? Blanditiis
-        asperiores accusamus amet, sed repellat provident omnis pariatur aliquid
-        minus, soluta eum debitis vel, repudiandae vitae iusto commodi facere.
-        Eaque, odio aliquam!
-      </p>
+    <div name="about" className="w-full h-screen text-[#264e86]">
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+          <div className="sm:text-right pb-8 pl-4">
+            <p className="text-4xl font-bold inline border-b-2 border-[#264e86]">
+              About me
+            </p>
+          </div>
+          <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi. I'm Kris, nice to meet you. Please take a look around.</p>
+          </div>
+          <div>
+            <p>
+              I am passionate about building excellent software that improves
+              the lives of those around me. I specialize in creating software
+              for clients ranging from individuals and small-businesses all the
+              way to large enterprise corporations. What would you do if you had
+              a software expert available at your fingertips?
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,149 +1,51 @@
 import React from 'react';
 
-const Contact = props => {
+const Contact = () => {
   return (
-    <div className="container">
-      <form className="container" onSubmit={props.handleSubmit} method="POST">
-        <div className="form-group">
-          <label>Email</label>
-          <input
-            type="email"
-            className="form-control"
-            aria-describedby="emailHelp"
-            placeholder="your email adress"
-            autocomplete="off"
-            required
-          />
+    <div
+      name="contact"
+      className="w-full h-top bg-[#1b5f9d] flex justify-center items-center py-14"
+    >
+      <form
+        method="POST"
+        action="https://getform.io/f/0d9a52aa-2e8a-4657-b853-9a2330ab87ec"
+        className="flex flex-col max-w-[600px] w-full"
+      >
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-2 border-white text-white">
+            Contact
+          </p>
+          <p className="text-white py-4">
+            Submit the form below or shoot me an
+            <a className="text-white pl-2" href="mailto:kris.baranski@web.de">
+              EMAIL
+            </a>
+          </p>
         </div>
-        <div className="form-group">
-          <label>Subject</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="your subject"
-            autocomplete="off"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Message</label>
-          <textarea
-            className="form-control"
-            rows="10"
-            placeholder="your message"
-            autocomplete="off"
-            required
-          ></textarea>
-        </div>
-        <div className="form-group">
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </div>
+        <input
+          className="bg-[#ffffff] p-2 rounded z-10"
+          type="text"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          className="my-4 p-2 bg-[#ffffff] rounded z-10"
+          type="email"
+          placeholder="Email"
+          name="email"
+        />
+        <textarea
+          className="bg-[#ffffff] p-2 rounded z-10"
+          name="message"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button className="text-white border-2 rounded hover:bg-white hover:border-white px-4 py-3 my-8 mx-auto flex items-center hover:text-[#264e86]">
+          Let's Work Together
+        </button>
       </form>
-      */}
     </div>
   );
 };
-
-// export default ContactForm;
-// import React from 'react';
-
-// class ContactForm extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       email: '',
-//       name: '',
-//       message: '',
-//     };
-//   }
-
-//   handleSubmit(event) {
-//     event.preventDefault();
-
-//     fetch('http://localhost:3002/send', {
-//       method: 'POST',
-//       body: JSON.stringify(this.state),
-//       headers: {
-//         Accept: 'application/json',
-//         'Content-Type': 'application/json',
-//       },
-//     })
-//       .then(response => response.json())
-//       .then(response => {
-//         if (response.status === 'success') {
-//           alert('Message Sent.');
-//           this.resetForm();
-//         } else if (response.status === 'fail') {
-//           alert('Message failed to send.');
-//         }
-//       });
-//   }
-
-//   render() {
-//     return (
-//       <div className="container">
-//         <form
-//           id="contact-form"
-//           onSubmit={this.handleSubmit.bind(this)}
-//           method="POST"
-//         >
-//           <div className="form-group">
-//             <label htmlFor="exampleInputEmail1">Email</label>
-//             <input
-//               type="email"
-//               className="form-control"
-//               aria-describedby="emailHelp"
-//               value={this.state.email}
-//               placeholder="your email address"
-//             autocomplete = 'off';
-//               onChange={this.onEmailChange.bind(this)}
-//             />
-//           </div>
-//           <div className="form-group">
-//             <label htmlFor="subject">Subject</label>
-//             <input
-//               type="text"
-//               className="form-control"
-//               value={this.state.subject}
-//               placeholder="your subject"
-//             autocomplete = 'off';
-//               onChange={this.onSubjectChange.bind(this)}
-//             />
-//           </div>
-
-//           <div className="form-group">
-//             <label htmlFor="message">Message</label>
-//             <textarea
-//               className="form-control"
-//               rows="5"
-//               value={this.state.message}
-//               placeholder="your message"
-//             autocomplete = 'off';
-//               onChange={this.onMessageChange.bind(this)}
-//             />
-//           </div>
-//           <button type="submit" className="btn btn-primary">
-//             Submit
-//           </button>
-//         </form>
-//       </div>
-//     );
-//   }
-
-//   onEmailChange(event) {
-//     this.setState({ email: event.target.value });
-//   }
-
-//   onSubjectChange(event) {
-//     this.setState({ subject: event.target.value });
-//   }
-
-//   onMessageChange(event) {
-//     this.setState({ message: event.target.value });
-//   }
-// }
-// }
 
 export default Contact;

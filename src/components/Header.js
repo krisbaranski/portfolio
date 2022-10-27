@@ -1,105 +1,31 @@
 import React from 'react';
-import Particles from 'react-tsparticles';
+import { Link } from 'react-scroll';
 
 const Header = () => {
-  const particlesInit = main => {
-    console.log(main);
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = container => {
-    console.log(container);
-  };
-
   return (
-    <header className="hero" id="hero">
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          background: {
-            color: {
-              value: 'transparent',
-            },
-          },
-          fpsLimit: 60,
-          interactivity: {
-            events: {
-              onClick: {
-                enable: true,
-                mode: 'push',
-              },
-              onHover: {
-                enable: true,
-                mode: 'repulse',
-              },
-              resize: true,
-            },
-            modes: {
-              bubble: {
-                distance: 200,
-                duration: 1,
-                opacity: 0.3,
-                size: 3,
-              },
-              push: {
-                quantity: 1,
-              },
-              repulse: {
-                distance: 130,
-                duration: 0.4,
-              },
-            },
-          },
-          particles: {
-            color: {
-              value: '#504611',
-            },
-            links: {
-              color: '#a7830c',
-              distance: 450,
-              enable: true,
-              opacity: 0.2,
-              width: 1,
-            },
-            collisions: {
-              enable: false,
-            },
-            move: {
-              direction: 'none',
-              enable: true,
-              outMode: 'bounce',
-              random: false,
-              speed: 1.1,
-              straight: false,
-            },
-            number: {
-              density: {
-                enable: true,
-                value_area: 700,
-              },
-              value: 50,
-            },
-            opacity: {
-              value: 0.5,
-            },
-            shape: {
-              type: 'circle',
-            },
-            size: {
-              random: true,
-              value: 2,
-            },
-          },
-          detectRetina: true,
-        }}
-      />
-      <section className="header">
-        <h1>Kris Baranski</h1>
-        <p>Im a frontend debveloper</p>
-      </section>
-    </header>
+    <div name="home" className="w-full h-screen">
+      {/* Container */}
+      <div className="max-w-[1000px] mx-auto p-8 flex flex-col justify-center h-full">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#264e86]">
+          Kris Baranski
+        </h1>
+        <h2 className="text-5xl sm:text-4xl font-bold text-[#264e86]">
+          FRONTEND WEB DEVELOPER
+        </h2>
+        <p className="text-[#264e86] py-4 max-w-[700px]">
+          I’m a frontend developer specializing in building and designing
+          exceptional digital experiences. Currently, I’m focused on building
+          responsive web applications.
+        </p>
+        <div>
+          <button className="text-[#264e86] group border-2 border-[#264e86] px-6 py-3 my-2 flex items-center hover:bg-[#264e86] hover:border-[#264e86] hover:text-white">
+            <Link to="work" smooth={true} duration={500}>
+              View Work
+            </Link>
+          </button>
+        </div>
+      </div>
+    </div>
   );
 };
 
