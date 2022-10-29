@@ -17,7 +17,7 @@ const Header = () => {
           exceptional digital experiences. Currently, I’m focused on building
           responsive web applications.
         </p>
-        <Button />
+        <Button text="View Work" />
       </div>
     </div>
   );
