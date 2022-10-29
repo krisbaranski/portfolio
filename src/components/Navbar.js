@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo-portfolio-blue.png';
-import { Link } from 'react-scroll';
 
 const Navbar = () => {
   // setting mobile nav
@@ -40,7 +40,7 @@ const Navbar = () => {
         <ul className="hidden md:flex text-[#264e86] font-semibold">
           <li>
             <Link
-              to="home"
+              to="/"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="about"
+              to="/about"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="skills"
+              to="/skills"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="projects"
+              to="/projects"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -80,7 +80,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="contact"
+              to="/contact"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -144,7 +144,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
+      {/* Sidebar */}
       <div className="hidden sm:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-600">
