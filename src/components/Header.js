@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import Button from './Button';
 
 const Header = () => {
   return (
@@ -17,13 +17,7 @@ const Header = () => {
           exceptional digital experiences. Currently, I’m focused on building
           responsive web applications.
         </p>
-        <div>
-          <button className="text-[#264e86] group border-2 border-[#264e86] px-6 py-3 my-2 flex items-center hover:bg-[#264e86] hover:border-[#264e86] hover:text-white">
-            <Link to="projects" smooth={true} duration={500}>
-              View Work
-            </Link>
-          </button>
-        </div>
+        <Button />
       </div>
     </div>
   );
