@@ -40,7 +40,7 @@ const Navbar = () => {
         <ul className="hidden md:flex text-[#264e86] font-semibold">
           <li>
             <Link
-              to="/"
+              to="home"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/about"
+              to="about"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/skills"
+              to="skills"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/projects"
+              to="projects"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
@@ -80,7 +80,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/contact"
+              to="contact"
               smooth={true}
               duration={500}
               className="p-2 rounded hover:bg-[#264e86] hover:text-white"
