@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import Background from './components/Background';
 import Navbar from './components/Navbar';
+import Sideboard from './components/Sideboard';
 import Header from './components/Header';
 import { Aboutme } from './components/Aboutme';
 import Skills from './components/Skills';
@@ -15,6 +16,7 @@ function App() {
     <Router>
       <Background />
       <Navbar />
+      <Sideboard />
       <Header />
       <Aboutme />
       <Skills />
