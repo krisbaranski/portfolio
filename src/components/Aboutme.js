@@ -4,25 +4,33 @@ export const Aboutme = () => {
   return (
     <div name="about" className="w-full  text-white ">
       <div className="flex flex-col justify-center items-center w-full py-20 bg-[#264e86]">
-        <div className="max-w-[800px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right py-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-2 border-white">
-              About me
+        <div className="py-8">
+          <p className="text-4xl font-bold text-left inline border-b-2 border-white">
+            About me
+          </p>
+        </div>
+        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid sm:grid-cols-3 gap-8 px-6 pb-8 font-semibold tracking-wide">
+          <div>
+            <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
+            <p>
+              I am passionate about building software that improves the lives of
+              those around me. I specialize in creating software for clients
+              ranging from individuals to small-businesses.
             </p>
           </div>
-          <div></div>
-        </div>
-        <div className="max-w-[600px] md:max-w-[800px] w-full grid sm:grid-cols-2 gap-8 px-6 pb-6">
-          <div className="sm:text-right text-2xl md:text-4xl font-bold">
-            <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
+          <div>
+            <p>
+              My journey began with fine art, went through handicrafts into
+              programing. It was always my greatest pleasure and satisfaction to
+              create something exeptional. Programing gives me unlimited
+              potential to do so.
+            </p>
           </div>
           <div>
-            <p className="font-semibold">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do, if you
-              had a software expert available at your fingertips?
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              maxime excepturi quidem aut ullam eius pariatur ad repudiandae
+              recusandae doloribus.
             </p>
           </div>
         </div>
