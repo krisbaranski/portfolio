@@ -16,8 +16,9 @@ const Button = props => {
   return (
     <div className="">
       <button className={tailwindcss}>
-        <Link to="projects" smooth={true} duration={500}>
+        <Link to={props.link} smooth={true} duration={500}>
           {props.text}
+          <link rel="stylesheet" href="{props.link}" />
         </Link>
       </button>
     </div>
