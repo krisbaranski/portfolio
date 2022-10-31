@@ -11,6 +11,7 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import MaterialUI from '../assets/materialui.png';
 import Tailwind from '../assets/tailwind.png';
+import Bash from '../assets/bash.png';
 
 const Skills = () => {
   return (
@@ -55,17 +56,21 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={NextImg} alt="HTML icon" />
             <p className="my-4">NEXTJS</p>
           </div>
-          <div className="bg-indigo-800 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
+          <div className="bg-green-900 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <p className="my-4">NODE JS</p>
           </div>
           <div className="bg-sky-200 z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 m-auto" src={MaterialUI} alt="HTML icon" />
             <p className="my-4">MATERIALUI</p>
           </div>
-          <div className="bg-green-900 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
+          <div className="bg-indigo-800 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="bg-lime-600 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Bash} alt="HTML icon" />
+            <p className="my-4">BASH</p>
           </div>
           <div className="bg-slate-900 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
