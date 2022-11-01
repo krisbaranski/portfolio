@@ -9,7 +9,7 @@ export const Aboutme = () => {
             About me
           </p>
         </div>
-        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid sm:grid-cols-3 gap-8 px-6 pb-8 font-semibold tracking-wide">
+        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid sm: grid-cols-2 md:grid-cols-3 gap-8 px-6 pb-8 font-semibold tracking-wide">
           <div>
             <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
             <p>
@@ -21,8 +21,8 @@ export const Aboutme = () => {
           <div>
             <p>
               My journey began with fine art, went through handicrafts into
-              programing. It was always my greatest pleasure and satisfaction to
-              create something exeptional. Programing gives me unlimited
+              programming. It was always my greatest pleasure and satisfaction
+              to create something exeptional. Programming gives me unlimited
               potential to do so.
             </p>
           </div>
