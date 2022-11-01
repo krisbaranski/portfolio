@@ -14,7 +14,7 @@ const Button = props => {
   }
 
   return (
-    <div className="">
+    <div>
       <button className={tailwindcss}>
         <Link to={props.link} smooth={true} duration={500}>
           {props.text}
