@@ -40,7 +40,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
-          <div className="bg-grey-200 z-10 p-2 shadow-md rounded shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="bg-slate-100 z-10 p-2 shadow-md rounded shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
             <p className="my-4">TYPESCRIPT</p>
           </div>
@@ -52,7 +52,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={GatsbyImg} alt="HTML icon" />
             <p className="my-4">GATSBY</p>
           </div>
-          <div className="bg-slate-700 z-10 text-white p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="bg-slate-600 z-10 text-white p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={NextImg} alt="HTML icon" />
             <p className="my-4">NEXTJS</p>
           </div>
@@ -72,7 +72,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Bash} alt="HTML icon" />
             <p className="my-4">BASH</p>
           </div>
-          <div className="bg-slate-900 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="bg-slate-800 text-white z-10 p-2 rounded shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
             <p className="my-4">GITHUB</p>
           </div>
