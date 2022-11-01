@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex text-[#264e86] font-semibold">
+        <ul className="hidden md:flex text-[#264e86] font-medium">
           <li>
             <Link
               to="home"
