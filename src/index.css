@@ -6,7 +6,7 @@
 @font-face {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: normal;
+  font-weight: lighter;
   src: url('./fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('./fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
