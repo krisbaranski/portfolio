@@ -31,7 +31,8 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
-                Professional Portfolio, ReactJS, CSS3, JSON
+                Professional Portfolio, ReactJS, CSS3, JSON, framer-motion
+                animation
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -64,7 +65,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
-                ReactJS App, fetch API, Netlify
+                ReactJS App, user fetch API, Netlify
               </span>
               <div className="pt-8 text-center">
                 <a
