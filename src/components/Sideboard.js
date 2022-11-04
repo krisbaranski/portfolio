@@ -41,7 +41,7 @@ const Sideboard = () => {
               className="flex justify-between items-center w-full text-white"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://kristofbaranski.com"
+              href="./assets/Baranski_CV_eng.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
