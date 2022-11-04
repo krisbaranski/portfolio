@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import CV from '../assets/Baranski_CV_eng.pdf';
 
 const Sideboard = () => {
   return (
@@ -41,7 +42,7 @@ const Sideboard = () => {
               className="flex justify-between items-center w-full text-white"
               target="_blank"
               rel="noopener noreferrer"
-              href="./assets/Baranski_CV_eng.pdf"
+              href={CV}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
