@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+// import Button from './Button';
 
 const Contact = () => {
   return (
@@ -28,20 +28,26 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ffffff] rounded z-10"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ffffff] p-2 rounded z-10"
           name="message"
           rows="10"
           placeholder="Message"
+          required
         ></textarea>
-        <Button text="Let's Work Together" color="blue" type="submit" />
+        <button className="text-white border-2 rounded hover:bg-white hover:border-white px-4 py-3 my-8 mx-auto flex items-center hover:text-[#264e86]">
+          Let's Work Together
+        </button>
+        {/* <Button text="Let's Work Together" color="blue" /> */}
       </form>
     </div>
   );
