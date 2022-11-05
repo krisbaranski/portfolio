@@ -41,7 +41,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <Button text="Let's Work Together" color="blue" />
+        <Button text="Let's Work Together" color="blue" type="submit" />
       </form>
     </div>
   );
