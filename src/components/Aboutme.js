@@ -30,7 +30,7 @@ export const Aboutme = () => {
               focus on technical aspects and to understand, which posibilities
               the technique has. It is always my greatest pleasure and
               satisfaction to create something exeptional. Thats why i'm trying
-              myself in different kinds if creative and technical fields to find
+              myself in different kinds of creative and technical fields to find
               out the best solutions and beauty.
             </p>
           </div>
