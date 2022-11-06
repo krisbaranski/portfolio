@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Aboutme = () => {
   return (
-    <div name="about" className="w-full  text-white ">
+    <div name="about" className="w-full  text-white py-12">
       <div className="flex flex-col justify-center items-center w-full py-20 bg-[#0467ce] opacity-60">
         <div className="py-8">
           <p className="text-4xl font-bold text-left inline border-b-2 border-white">
@@ -23,19 +23,21 @@ export const Aboutme = () => {
           </div>
           <div>
             <p>
-              My journey began with fine arts. It went through handicrafts like
-              working with wood into programming. It was always my greatest
-              pleasure and satisfaction to create something exeptional. Thats
-              why i'm trying myself in different kinds if creative and technical
-              fields to find out the best solutions and beauty. Programming
-              gives me unlimited potential to be creative.
+              My journey began with fine arts and creative handicrafts, e.g.
+              working with epoxy resin casting mixed with wood. I also wanted to
+              make my first websites myself, to have full control of structure,
+              design and to learn new skills. My preferenences are often to
+              focus on technical aspects and to understand, which posibilities
+              the technique has. It is always my greatest pleasure and
+              satisfaction to create something exeptional. Thats why i'm trying
+              myself in different kinds if creative and technical fields to find
+              out the best solutions and beauty.
             </p>
           </div>
           <div>
             <p>
-              I am passionate about building software and web development. I
-              specialize in creating software for clients ranging from
-              individuals to small-businesses.
+              Programming gives me unlimited potential to be creative. I am
+              passionate about web development and building software.
             </p>
           </div>
         </div>
