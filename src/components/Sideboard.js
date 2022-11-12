@@ -14,7 +14,7 @@ const Sideboard = () => {
               className="flex justify-between items-center w-full text-white"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/kris-baranski-a7a66511b/?locale=en_US"
+              href="https://www.linkedin.com/in/krisbaranski/?locale=en_US"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
