@@ -15,7 +15,7 @@ export const Aboutme = () => {
             <img
               src={Me}
               alt="Thats me, my portrait"
-              className="opacity-100 h-100px"
+              className="opacity-100 rounded shadow-md shadow-[#040c16]"
             />
           </div>
           <div>
