@@ -32,7 +32,7 @@ const Sideboard = () => {
           <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-700">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="mailto:kris.baranski@web.de"
+              href="mailto:mail@krisbaranski.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
