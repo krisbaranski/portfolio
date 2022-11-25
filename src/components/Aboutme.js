@@ -43,15 +43,15 @@ export const Aboutme = () => {
               Thats why i'm trying myself in different kinds of creative and
               technical fields to find out the best solutions and beauty.
             </p>
-          </div>
-          <div>
+            <br />
             <p>
               Programming gives me unlimited potential to be creative. I am
               passionate about web development and building software. Especially
               with JS libraries like ReactJS and frameworks like NextJS and
               Angular.
             </p>
-            <br />
+          </div>
+          <div>
             <p>
               They are made for different purposes. So, depending on project,
               one can pick fitting technology, build powerful and fast app on
