@@ -17,6 +17,7 @@ export const Aboutme = () => {
               alt="Thats me, my portrait"
               className="opacity-100 rounded shadow-md shadow-[#040c16]"
             />
+            <br />
             <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
           </div>
           <div>
@@ -34,8 +35,7 @@ export const Aboutme = () => {
               first websites myself, to have full control of structure, design
               and to learn new skills.
             </p>
-          </div>
-          <div>
+            <br />
             <p>
               My preferenences are often to focus on technical aspects, to
               understand which posibilities the technology has. It is always my
@@ -43,6 +43,8 @@ export const Aboutme = () => {
               Thats why i'm trying myself in different kinds of creative and
               technical fields to find out the best solutions and beauty.
             </p>
+          </div>
+          <div>
             <br />
             <p>
               Programming gives me unlimited potential to be creative. I am
