@@ -23,23 +23,23 @@ export const Aboutme = () => {
             <br />
             <p>
               I'm originally coming from Poland, where i studied fine arts,
-              worked as designer and teacher. Then 2005 i moved to Germany and
-              started my professional artist career. Mostly i'm working with
-              classical printing, painting and sculpture. So, how did i get into
+              worked as designer and teacher. Then 2005 i moved to Germany,
+              teached fine art, worked for art galeries and started my own
+              professional artist career. Mostly i'm working with classical
+              printing, painting and sculpture. So, how did i get into
               programming?
             </p>
             <br />
             <p>
-              My journey began with fine arts and creative handicrafts, e.g.
-              working with epoxy resin casting mixed with wood. I also wanted to
-              make my first websites myself, to have full control of structure,
+              My journey began with simple html and css. I also wanted to make
+              my first websites myself, to have full control of structure,
               design and to learn new skills.
             </p>
           </div>
           <div>
             <p>
               My preferenences are often to focus on technical aspects and to
-              understand, which posibilities the technique has. It is always my
+              understand, which posibilities the technology has. It is always my
               greatest pleasure and satisfaction to create something exeptional.
               Thats why i'm trying myself in different kinds of creative and
               technical fields to find out the best solutions and beauty.
@@ -47,7 +47,11 @@ export const Aboutme = () => {
             <br />
             <p>
               Programming gives me unlimited potential to be creative. I am
-              passionate about web development and building software.
+              passionate about web development and building software. Especially
+              with JS libraries like React/NextJS and frameworks like Angular.
+              They are made for different purposes. So, depending on project,
+              one can pick one and build wonderful app on their basis. I'm
+              excited to contribute to yours :-)
             </p>
           </div>
         </div>
