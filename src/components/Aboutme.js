@@ -19,8 +19,7 @@ export const Aboutme = () => {
             />
             <br />
             <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
-          </div>
-          <div>
+            <br />
             <p>
               I'm originally coming from Poland, where i studied fine arts,
               worked as designer and teacher. Then 2005 i moved to Germany,
@@ -29,7 +28,8 @@ export const Aboutme = () => {
               printing, painting and sculpture. So, how did i get into
               programming?
             </p>
-            <br />
+          </div>
+          <div>
             <p>
               My journey began with simple html and css. I wanted to make my
               first websites myself, to have full control of structure, design
@@ -45,7 +45,6 @@ export const Aboutme = () => {
             </p>
           </div>
           <div>
-            <br />
             <p>
               Programming gives me unlimited potential to be creative. I am
               passionate about web development and building software. Especially
