@@ -17,30 +17,29 @@ export const Aboutme = () => {
               alt="Thats me, my portrait"
               className="opacity-100 rounded shadow-md shadow-[#040c16]"
             />
+            <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
           </div>
           <div>
-            <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
-            <br />
             <p>
               I'm originally coming from Poland, where i studied fine arts,
               worked as designer and teacher. Then 2005 i moved to Germany,
-              teached fine art, worked for art galeries and started my own
+              teached fine arts, worked for art galeries and started my own
               professional artist career. Mostly i'm working with classical
               printing, painting and sculpture. So, how did i get into
               programming?
             </p>
             <br />
             <p>
-              My journey began with simple html and css. I also wanted to make
-              my first websites myself, to have full control of structure,
-              design and to learn new skills.
+              My journey began with simple html and css. I wanted to make my
+              first websites myself, to have full control of structure, design
+              and to learn new skills.
             </p>
           </div>
           <div>
             <p>
-              My preferenences are often to focus on technical aspects and to
-              understand, which posibilities the technology has. It is always my
-              greatest pleasure and satisfaction to create something exeptional.
+              My preferenences are often to focus on technical aspects, to
+              understand which posibilities the technology has. It is always my
+              great pleasure and satisfaction to create something exeptional.
               Thats why i'm trying myself in different kinds of creative and
               technical fields to find out the best solutions and beauty.
             </p>
@@ -48,10 +47,14 @@ export const Aboutme = () => {
             <p>
               Programming gives me unlimited potential to be creative. I am
               passionate about web development and building software. Especially
-              with JS libraries like React/NextJS and frameworks like Angular.
+              with JS libraries like ReactJS and frameworks like NextJS and
+              Angular.
+            </p>
+            <br />
+            <p>
               They are made for different purposes. So, depending on project,
-              one can pick one and build wonderful app on their basis. I'm
-              excited to contribute to yours :-)
+              one can pick fitting technology, build powerful and fast app on
+              their basis. I'm excited to contribute to yours :-)
             </p>
           </div>
         </div>
