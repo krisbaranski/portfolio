@@ -49,7 +49,6 @@ const Sideboard = () => {
           </li>
         </ul>
       </div>
-      ;
     </div>
   );
 };
