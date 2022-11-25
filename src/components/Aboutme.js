@@ -25,23 +25,21 @@ export const Aboutme = () => {
               worked as designer and teacher. Then 2005 i moved to Germany,
               teached fine arts, worked for art galeries and started my own
               professional artist career. Mostly i'm working with classical
-              printing, painting and sculpture. So, how did i get into
-              programming?
+              printing, painting and sculpture.
             </p>
           </div>
           <div>
+            <p>So, how did i get into programming?</p>
+            <br />
             <p>
               My journey began with simple html and css. I wanted to make my
               first websites myself, to have full control of structure, design
-              and to learn new skills.
-            </p>
-            <br />
-            <p>
-              My preferenences are often to focus on technical aspects, to
-              understand which posibilities the technology has. It is always my
-              great pleasure and satisfaction to create something exeptional.
-              Thats why i'm trying myself in different kinds of creative and
-              technical fields to find out the best solutions and beauty.
+              and to learn new skills. My preferenences are often to focus on
+              technical aspects, to understand which posibilities the technology
+              has. It is always my great pleasure and satisfaction to create
+              something exeptional. Thats why i'm trying myself in different
+              kinds of creative and technical fields to find out the best
+              solutions and beauty.
             </p>
             <br />
             <p>
