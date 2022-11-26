@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.39cfcff6.css",
-    "main.js": "/static/js/main.cb43f549.js",
+    "main.js": "/static/js/main.4938eece.js",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
-    "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.318cc2a2585f3264898e.pdf",
     "static/media/Mahakala.png": "/static/media/Mahakala.9e077ac47ecdcc6017ac.png",
+    "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.4f006586f5b361c4f48e.pdf",
     "static/media/Implement.png": "/static/media/Implement.50a3a143aad9ab013dff.png",
     "static/media/logo-portfolio-blue.png": "/static/media/logo-portfolio-blue.476f2cbceb46c58e1b1b.png",
     "static/media/lato-v23-latin-regular.svg": "/static/media/lato-v23-latin-regular.ec5307044f561bd0e346.svg",
@@ -29,10 +29,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.39cfcff6.css.map": "/static/css/main.39cfcff6.css.map",
-    "main.cb43f549.js.map": "/static/js/main.cb43f549.js.map"
+    "main.4938eece.js.map": "/static/js/main.4938eece.js.map"
   },
   "entrypoints": [
     "static/css/main.39cfcff6.css",
-    "static/js/main.cb43f549.js"
+    "static/js/main.4938eece.js"
   ]
 }
