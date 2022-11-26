@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39cfcff6.css",
-    "main.js": "/static/js/main.4938eece.js",
+    "main.css": "/static/css/main.5031d951.css",
+    "main.js": "/static/js/main.de4bf91a.js",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
     "static/media/Mahakala.png": "/static/media/Mahakala.9e077ac47ecdcc6017ac.png",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.4f006586f5b361c4f48e.pdf",
@@ -28,11 +28,11 @@
     "static/media/materialui.png": "/static/media/materialui.dcac3d68ac464dfdf779.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.39cfcff6.css.map": "/static/css/main.39cfcff6.css.map",
-    "main.4938eece.js.map": "/static/js/main.4938eece.js.map"
+    "main.5031d951.css.map": "/static/css/main.5031d951.css.map",
+    "main.de4bf91a.js.map": "/static/js/main.de4bf91a.js.map"
   },
   "entrypoints": [
-    "static/css/main.39cfcff6.css",
-    "static/js/main.4938eece.js"
+    "static/css/main.5031d951.css",
+    "static/js/main.de4bf91a.js"
   ]
 }
