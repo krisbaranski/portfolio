@@ -1,5 +1,7 @@
 import React from 'react';
 import Me from '../assets/portrait.jpg';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import CV from '../assets/Baranski_CV_eng.pdf';
 
 export const Aboutme = () => {
   return (
@@ -55,6 +57,16 @@ export const Aboutme = () => {
               one can pick fitting technology, build powerful and fast app on
               their basis. I'm excited to contribute to yours :-)
             </p>
+            <br />
+            <a
+              className="w-auto flex flex-col justify-between items-center text-white hover:scale-105 hover:text-[#FB923C]"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={CV}
+            >
+              <BsFillPersonLinesFill size={30} />
+              Resume
+            </a>
           </div>
         </div>
       </div>
