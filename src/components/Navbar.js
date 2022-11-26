@@ -11,11 +11,7 @@ const Navbar = () => {
   // change nav color when scrolling
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 70) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
+    window.scrollY >= 70 ? setColor(true) : setColor(false);
   };
 
   window.addEventListener('scroll', changeColor);
