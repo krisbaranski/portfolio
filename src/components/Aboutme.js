@@ -49,8 +49,8 @@ export const Aboutme = () => {
               My journey began with simple html and css. I wanted to make my
               first websites myself, to have full control of structure, design
               and to learn new skills. My preferenences are often to focus on
-              technical aspects, to understand which posibilities the technology
-              has.
+              technical aspects, to understand which possibilities the
+              technology has.
             </p>
             <br />
           </div>
@@ -68,8 +68,9 @@ export const Aboutme = () => {
             <p>
               They are made for different purposes. So, depending on project,
               one can pick fitting technology, build powerful and fast app on
-              their basis. I'm excited to contribute to yours :-)
+              their basis.
             </p>
+            <br /> <p>I'm excited to contribute to yours :-)</p>
             <br />
             <a
               className="w-auto flex flex-col justify-between items-center text-white hover:scale-105 hover:text-[#FB923C]"
