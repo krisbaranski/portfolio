@@ -7,7 +7,7 @@ export const Aboutme = () => {
   return (
     <div name="about" className="w-full  text-white py-12  z-50">
       <div className="flex flex-col justify-center items-center w-full py-20 bg-[#1A6CB8] opacity-80">
-        <div className="py-8">
+        <div className="py-8 pb-4">
           <p className="text-4xl font-bold text-left inline border-b-2 border-white">
             About me
           </p>
@@ -32,9 +32,10 @@ export const Aboutme = () => {
           </div>
           <div>
             <p>
-              When i say, i am an artist, people womnder how did i get into
+              When i say, i am an artist, people wonder how did i get into
               programming. So, how did i get here?
             </p>
+            <br />
             <p>
               Its quite simple. Programing means to me a tool, a method or kind
               of language for creating things on internet for ,others. To be
@@ -44,7 +45,6 @@ export const Aboutme = () => {
               making professional digital art in programming languages nowadays.
             </p>
             <br />
-            <p></p>
             <p>
               My journey began with simple html and css. I wanted to make my
               first websites myself, to have full control of structure, design
