@@ -7,8 +7,8 @@ export const Aboutme = () => {
   return (
     <div name="about" className="w-full  text-white py-12  z-50">
       <div className="flex flex-col justify-center items-center w-full py-20 bg-[#1A6CB8] opacity-80">
-        <div className="py-8">
-          <p className="text-4xl font-bold text-left inline border-b-2 border-white  pb-8">
+        <div className="pt-8 pb-12">
+          <p className="text-4xl font-bold text-left inline border-b-2 border-white">
             About me
           </p>
         </div>
@@ -64,6 +64,7 @@ export const Aboutme = () => {
               software. Especially with JS libraries like ReactJS and frameworks
               like NextJS and Angular.
             </p>
+            <br />
             <p>
               They are made for different purposes. So, depending on project,
               one can pick fitting technology, build powerful and fast app on
