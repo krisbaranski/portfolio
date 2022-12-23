@@ -31,8 +31,20 @@ export const Aboutme = () => {
             </p>
           </div>
           <div>
-            <p>So, how did i get into programming?</p>
+            <p>
+              When i say, i am an artist, people womnder how did i get into
+              programming. So, how did i get here?
+            </p>
+            <p>
+              Its quite simple. Programing means to me a tool, a method or kind
+              of language for creating things on internet for ,others. To be
+              visible, present values, informations etc. So to do it, one needs
+              to learn how it works in new technologies. It is not far away from
+              another media used in fine arts. There are even many artists
+              making professional digital art in programming languages nowadays.
+            </p>
             <br />
+            <p></p>
             <p>
               My journey began with simple html and css. I wanted to make my
               first websites myself, to have full control of structure, design
@@ -44,14 +56,14 @@ export const Aboutme = () => {
               solutions and beauty.
             </p>
             <br />
+          </div>
+          <div>
             <p>
               Programming gives me unlimited potential to be creative. I am
               passionate about web development and building software. Especially
               with JS libraries like ReactJS and frameworks like NextJS and
               Angular.
             </p>
-          </div>
-          <div>
             <p>
               They are made for different purposes. So, depending on project,
               one can pick fitting technology, build powerful and fast app on
