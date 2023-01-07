@@ -6,13 +6,13 @@ const Header = () => {
     <div name="home" className="w-full min-h-screen sm:h-screen">
       {/* Container */}
       <div className="max-w-[700px] mx-auto p-16 md:p-8 flex flex-col justify-center h-full">
-        <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold text-center text-[#264e86 z-10]">
+        <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold text-center text-[#264e86]  z-10">
           Kris Baranski
         </h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#264e86] z-10">
           FRONTEND WEB DEVELOPER
         </h2>
-        <p className="text-[#264e86] py-4 max-w-[600px] font-semibold text-center z-10">
+        <p className="text-[#264e86] py-4 max-w-[600px] font-semibold text-left z-10">
           I specialize in building and designing exceptional digital
           experiences. Currently, I’m focused on building responsive web
           applications and continously learning new technologies.
