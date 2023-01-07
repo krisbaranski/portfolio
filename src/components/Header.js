@@ -12,10 +12,12 @@ const Header = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#264e86] z-10">
           FRONTEND WEB DEVELOPER
         </h2>
-        <p className="text-[#264e86] py-4 max-w-[600px] font-semibold text-left z-10">
+        <p className="display-flex justify-center text-[#264e86] py-4 max-w-[700px] font-semibold text-center z-10">
           I specialize in building and designing exceptional digital
-          experiences. Currently, I’m focused on building responsive web
-          applications and continously learning new technologies.
+          experiences.
+          <br />
+          Currently, I’m focused on building responsive web applications and
+          continously learning new technologies.
         </p>
         <div className="w-full py-2 grid auto-cols-min justify-center sm:flex sm:flex-row sm:justify-evenly z-10">
           <Button text="my skills" link="skills" color="white" />
