@@ -1,7 +1,7 @@
 import React from 'react';
 import Mahakala from '../assets/Mahakala.png';
 import Gfinder from '../assets/Gfinder.png';
-import Calc from '../assets/Calc.png';
+import Dash from '../assets/Dashboard.png';
 import DiceRoll from '../assets/DiceRoll.png';
 import Implement from '../assets/Implement.png';
 import GuessNr from '../assets/GuessNr.png';
@@ -92,18 +92,18 @@ const Projects = () => {
 
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Calc})` }}
+            style={{ backgroundImage: `url(${Dash})` }}
             className="shadow-lg shadow-[#264e86] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="flex justify-center items-center p-2 text-center text-2xl font-bold text-white tracking-wider">
-                Calculator in JS, CSS3, HTML5
+                Dashboard React App, MUI, Yup Validation, Nivo Charts, Calendar
               </span>
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://krisbaranski.github.io/how_much_resin/"
+                  href="https://krisbaranski.github.io/dashboard_react_app/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -112,7 +112,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/krisbaranski/how_much_resin"
+                  href="https://github.com/krisbaranski/dashboard_react_app"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
