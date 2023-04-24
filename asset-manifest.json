@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.1565903d.css",
-    "main.js": "/static/js/main.870e1c25.js",
+    "main.js": "/static/js/main.3aaafeee.js",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.15600d71db3259b23a1b.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
     "static/media/Mahakala.png": "/static/media/Mahakala.9e077ac47ecdcc6017ac.png",
+    "static/media/Dashboard.png": "/static/media/Dashboard.429abad53320736222d5.png",
     "static/media/Implement.png": "/static/media/Implement.50a3a143aad9ab013dff.png",
     "static/media/logo-portfolio-blue.png": "/static/media/logo-portfolio-blue.476f2cbceb46c58e1b1b.png",
     "static/media/lato-v23-latin-regular.svg": "/static/media/lato-v23-latin-regular.ec5307044f561bd0e346.svg",
@@ -12,7 +13,6 @@
     "static/media/DiceRoll.png": "/static/media/DiceRoll.8863c0c07139c22f80d3.png",
     "static/media/Gfinder.png": "/static/media/Gfinder.dd5a305ab1229e122dd6.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/Calc.png": "/static/media/Calc.2f1be0a7a60dbc620e6c.png",
     "static/media/GuessNr.png": "/static/media/GuessNr.38ac87849ced8503e8b3.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/lato-v23-latin-regular.woff": "/static/media/lato-v23-latin-regular.292725486219768e6225.woff",
@@ -29,10 +29,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.1565903d.css.map": "/static/css/main.1565903d.css.map",
-    "main.870e1c25.js.map": "/static/js/main.870e1c25.js.map"
+    "main.3aaafeee.js.map": "/static/js/main.3aaafeee.js.map"
   },
   "entrypoints": [
     "static/css/main.1565903d.css",
-    "static/js/main.870e1c25.js"
+    "static/js/main.3aaafeee.js"
   ]
 }
