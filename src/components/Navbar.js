@@ -16,7 +16,7 @@ const Navbar = () => {
 
   window.addEventListener('scroll', changeColor);
 
-  const MENU_LINK = 'p-2 rounded hover:bg-[#e7e5e4] hover:text-stone-800';
+  const MENU_LINK = 'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800';
 
   return (
     <div>
@@ -80,9 +80,15 @@ const Navbar = () => {
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden">
         {!nav ? (
-          <FaBars className="fixed top-6 right-10 flex flex-col justify-center items-center text-[#e7e5e4] z-30" />
+          <FaBars
+            className="fixed top-6 right-10 flex flex-col justify-center items-center text-[#e7e5e4] z-30"
+            size={20}
+          />
         ) : (
-          <FaTimes className="fixed top-6 right-10 flex flex-col justify-center items-center text-white z-30" />
+          <FaTimes
+            className="fixed top-6 right-10 flex flex-col justify-center items-center text-white z-30"
+            size={20}
+          />
         )}
       </div>
 
@@ -91,23 +97,41 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'fixed top-0 left-0 w-full h-screen bg-[#e7e5e4] flex flex-col justify-center items-center text-white z-20'
+            : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur flex flex-col justify-center items-center text-[#f0f0f0] z-20'
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            className={MENU_LINK}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            className={MENU_LINK}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            className={MENU_LINK}
+          >
             Skills
           </Link>
         </li>
@@ -118,13 +142,20 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
+            className={MENU_LINK}
           >
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            className={MENU_LINK}
+          >
             Contact
           </Link>
         </li>
