@@ -6,7 +6,7 @@ const Header = () => {
     <div name="home" className="relative w-full min-h-screen sm:h-screen">
       {/* Container */}
       <div className="max-w-[700px] mx-auto p-16 md:p-8 flex flex-col justify-center h-full ">
-        <h1 className="text-1xl sm:text-2xl font-bold text-center text-[#e7e5e4] uppercase font-light z-10">
+        <h1 className="mt-20 md:mt-none text-1xl sm:text-2xl font-bold text-center text-[#e7e5e4] uppercase font-light z-10">
           Welcome <br />
           to my
         </h1>
