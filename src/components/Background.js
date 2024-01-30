@@ -20,7 +20,7 @@ const Background = () => {
         options={{
           background: {
             color: {
-              value: 'transparent',
+              value: '#0f172a',
             },
           },
           fpsLimit: 60,
@@ -54,10 +54,10 @@ const Background = () => {
           },
           particles: {
             color: {
-              value: '#a8bed8',
+              value: '#999',
             },
             links: {
-              color: '#a8bed8',
+              color: '#555',
               distance: 400,
               enable: true,
               opacity: 0.3,
