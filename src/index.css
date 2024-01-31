@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* elephant outline font */
+@font-face {
+  font-family: 'Elephant-Outline';
+  src: local('Elephant-Outline'),
+    url('./fonts/Elephant-Outline.otf') format('otf');
+}
+
 /* lato-regular - latin */
 @font-face {
   font-family: 'Lato';
@@ -34,6 +41,7 @@
   background-size: cover;
   background-position: center;
   height: 250px;
+  background-image: linear-gradient(to bottom #030712, #0d223b);
 }
 
 .content-div:hover {
