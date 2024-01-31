@@ -6,11 +6,10 @@ const Header = () => {
     <div name="home" className="relative w-full min-h-screen sm:h-screen">
       {/* Container */}
       <div className="max-w-[700px] mx-auto p-16 md:p-8 flex flex-col justify-center h-full ">
-        <h1 className="mt-20 md:mt-none text-1xl sm:text-2xl font-bold text-center text-[#e7e5e4] uppercase font-light z-10">
-          Welcome <br />
-          to my
+        <h1 className="mt-16 sm:mt-48 text-base sm:text-lg font-bold text-center text-[#e7e5e4] font-light z-10">
+          welcome to my
         </h1>
-        <h2 className="flex justify-center text-5xl sm:text-6xl md:text-7xl font-bold text-center text-[#e7e5e4] uppercase my-6 z-10">
+        <h2 className="flex justify-center font-elephant text-6xl xsm:text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl font-thin text-center text-[#e7e5e4] uppercase my-4 z-10">
           portfolio
         </h2>
         <p className="flex justify-center text-[#e7e5e4] py-4 max-w-[700px] font-light text-center z-10">
