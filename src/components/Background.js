@@ -20,10 +20,18 @@ const Background = () => {
         options={{
           background: {
             color: {
-              value: '#0f172a',
+              value: '#0d223b',
+              // value: ['#030712', '#082f49'],
             },
+            start: {
+              value: 'transparent',
+            },
+            stop: {
+              value: 'transparent',
+            },
+            angle: 90,
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           interactivity: {
             events: {
               onClick: {
