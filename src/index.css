@@ -7,7 +7,8 @@
   font-family: 'Elephant-Outline';
   src: local('Elephant-Outline'),
     url('./fonts/Elephant-Outline.otf') format('otf'),
-    url('./fonts/Elephant-Outline.woff') format('woff');
+    url('./fonts/Elephant-Outline.woff') format('woff'),
+    url('./fonts/Elephant-Outline.svg') format('svg');
 }
 
 /* lato-regular - latin */
