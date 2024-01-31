@@ -41,7 +41,7 @@
   background-size: cover;
   background-position: center;
   height: 250px;
-  background-image: linear-gradient(to bottom #030712, #0d223b);
+  /* background-image: linear-gradient(to bottom #030712, #0d223b); */
 }
 
 .content-div:hover {
