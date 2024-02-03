@@ -14,10 +14,8 @@
 /* lato-regular - latin */
 @font-face {
   font-family: 'Lato';
-  font-style: normal;
-  font-weight: lighter;
   src: url('./fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
+  src: local('Lato'),
     url('./fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */ url('./fonts/lato-v23-latin-regular.woff2') format('woff2'),
     /* Super Modern Browsers */ url('./fonts/lato-v23-latin-regular.woff')
@@ -43,9 +41,17 @@
   background-size: cover;
   background-position: center;
   height: 250px;
-  /* background-image: linear-gradient(to bottom #030712, #0d223b); */
+  background-image: linear-gradient(to bottom #030712, #0d223b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content-div:hover {
-  background-image: linear-gradient(to bottom, #264e86cc, #528de583) !important;
+  background-image: linear-gradient(to bottom #070e21, #0e2f57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
