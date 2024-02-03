@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         elephant: ['Elephant', 'sans'],
+        lato: ['Lato', 'sans'],
       },
       fontSize: {
         '10xl': '10rem',
