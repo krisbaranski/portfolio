@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="relative w-full min-h-screen py-12 text-[#999]"
+      className="relative w-full min-h-screen md:flex md:items-center py-12 text-[#999]"
     >
       {/* Container */}
       <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[960px] mx-auto p-4 flex flex-col justify-center w-full h-full">
