@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#1b5f9d] flex justify-center content-end items-center py-10 text-white">
+    <div className="relative w-full bg-[#0d223b] flex justify-center content-end items-center py-8 text-white">
       <Link
         to="home"
         smooth={true}
@@ -18,5 +18,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// {new Date().toLokaleDateString()}

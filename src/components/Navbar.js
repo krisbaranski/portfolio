@@ -19,17 +19,17 @@ const Navbar = () => {
   const MENU_LINK = 'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800';
 
   return (
-    <div>
-      <div
-        onScroll={changeColor}
-        className={
-          color
-            ? 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 backdrop-blur shadow-md shadow-grey-300'
-            : 'fixed w-full h-[60px] flex justify-between items-center md:px-14 z-20 bg-transparent'
-        }
-      >
-        <div className="z-50 px-8">
-          <img src={Logo} alt="Logo" style={{ width: '70px' }} />
+    <div
+      onScroll={changeColor}
+      className={
+        color
+          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur shadow-md shadow-grey-300'
+          : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent'
+      }
+    >
+      <div className="flex flex-row justify-between items-center ">
+        <div className="z-50 pl-8 md:pr-20">
+          <img src={Logo} alt="Logo" style={{ width: '65px' }} />
         </div>
 
         {/* Desktop menu */}
@@ -97,7 +97,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur flex flex-col justify-center items-center text-[#f0f0f0] z-20'
+            : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur-md flex flex-col justify-center items-center text-[#f0f0f0] z-20'
         }
       >
         <li className="py-6 text-4xl">

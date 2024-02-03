@@ -59,7 +59,7 @@ const Sideboard = () => {
 
       {/* Mobile sideboard */}
       <div className="hidden max-sm:flex flex-row fixed w-screen items-end bottom-[-12px] z-50">
-        <div className={MOBILE_LIST + ' bg-sky-800/50'}>
+        <div className={MOBILE_LIST + ' bg-sky-900'}>
           <a
             className={MOBILE_LINK}
             target="_blank"
@@ -70,7 +70,7 @@ const Sideboard = () => {
             Linkedin
           </a>
         </div>
-        <div className={MOBILE_LIST + ' bg-stone-700/50'}>
+        <div className={MOBILE_LIST + ' bg-stone-900'}>
           <a
             className={MOBILE_LINK}
             target="_blank"
@@ -81,12 +81,12 @@ const Sideboard = () => {
             Github
           </a>
         </div>
-        <div className={MOBILE_LIST + ' bg-emerald-900/50'}>
+        <div className={MOBILE_LIST + ' bg-emerald-900'}>
           <a className={MOBILE_LINK} href="mailto:mail@krisbaranski.com">
             <HiOutlineMail size={20} /> Email
           </a>
         </div>
-        <div className={MOBILE_LIST + ' bg-yellow-900/50'}>
+        <div className={MOBILE_LIST + ' bg-yellow-900'}>
           <a
             className={MOBILE_LINK}
             target="_blank"

@@ -1,19 +1,19 @@
 import React from 'react';
-// import Button from './Button';
+import Button from './Button';
 
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-top bg-[#1b5f9d] flex justify-center items-center py-14 px-2"
+      className="w-full h-top bg-[#082f49] flex justify-center items-center py-14 px-2"
     >
       <form
         method="POST"
         action="https://getform.io/f/3f64f3c3-eb15-42d3-9288-b6379cf7ea03"
-        className="flex flex-col max-w-[350px] sm:max-w-[500px] lg:max-w-[700px] w-full"
+        className="relative flex flex-col max-w-[350px] sm:max-w-[500px] lg:max-w-[700px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-2 border-white text-white">
+          <p className="text-4xl font-elephant font-light inline text-white">
             Contact
           </p>
           <p className="text-white py-4">
@@ -44,10 +44,7 @@ const Contact = () => {
           placeholder="Message"
           required
         ></textarea>
-        <button className="text-white border-2 rounded hover:bg-white hover:border-white px-4 py-3 my-8 mx-auto flex items-center hover:text-[#264e86]">
-          Let's Work Together
-        </button>
-        {/* <Button text="Let's Work Together" color="blue" /> */}
+        <Button text="Let's Work Together" color="blue" />
       </form>
     </div>
   );
