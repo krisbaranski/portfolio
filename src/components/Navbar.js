@@ -28,7 +28,7 @@ const Navbar = () => {
       }
     >
       <div className="flex flex-row justify-between items-center ">
-        <div className="z-50 pl-8 md:pr-20">
+        <div className="z-50 pl-8 md:pr-40">
           <img src={Logo} alt="Logo" style={{ width: '65px' }} />
         </div>
 
