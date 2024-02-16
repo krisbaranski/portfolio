@@ -34,9 +34,9 @@ const Header = () => {
           experiences.
         </p>
         <div className="w-full flex flex-row flex-wrap mb-4 sm:mb-24 justify-around py-2 text-wrap text-center z-10">
-          <Button text="my skills" link="skills" color="blue" />
-          <Button text="view work" link="projects" color="blue" />
-          <Button text="contact me" link="contact" color="blue" />
+          <Button text="my skills" link="/skills" color="blue" />
+          <Button text="view work" link="/projects" color="blue" />
+          <Button text="contact me" link="/contact" color="blue" />
         </div>
       </div>
     </motion.div>
