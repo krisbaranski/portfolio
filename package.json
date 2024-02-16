@@ -4,22 +4,23 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@mui/material": "^5.2.6",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.5.2",
     "file-saver": "^2.0.5",
-    "react": "^17.0.2",
-    "react-anagram-animation": "^1.1.3",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.6.0",
-    "react-router-dom": "^5.3.0",
+    "framer-motion": "^11.0.5",
+    "react": "^18.2.0",
+    "react-anagram-animation": "^1.4.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.0",
     "react-scripts": "^5.0.1",
-    "react-scroll": "^1.8.8",
+    "react-scroll": "^1.9.0",
     "react-tsparticles": "^1.37.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,9 +49,9 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "gh-pages": "^3.2.3",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.1"
+    "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
