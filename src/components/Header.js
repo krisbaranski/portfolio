@@ -14,8 +14,8 @@ const Header = () => {
       {/* Container */}
       <div className="max-w-[700px] mx-auto md:p-8 flex flex-col justify-center h-full">
         <h2
-          className="mt-16 sm:mt-48 text-base sm:text-lg font-light text-center
-          text-[#e7e5e4] font-light mt-24 mb-4 z-10"
+          className="mt-32 sm:mt-48 text-base sm:text-lg font-light text-center
+          text-[#e7e5e4] font-light mt-24 mb-6 z-10"
         >
           welcome to my
         </h2>
@@ -33,7 +33,7 @@ const Header = () => {
           responsive web applications and designing exceptional digital
           experiences.
         </p>
-        <div className="w-full flex flex-row flex-wrap mb-4 sm:mb-24 justify-around py-2 text-wrap text-center z-10">
+        <div className="w-full flex flex-row flex-wrap mb-4 sm:mb-24 justify-around p-4 text-wrap text-center z-10">
           <Button text="my skills" link="/skills" color="blue" />
           <Button text="view work" link="/projects" color="blue" />
           <Button text="contact me" link="/contact" color="blue" />
