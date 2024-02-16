@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/logo-portfolio-blue.png';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-scroll';
 
 const Navbar = () => {
   // setting mobile nav

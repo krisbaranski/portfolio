@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Button = props => {
   let tailwindcss;
@@ -16,9 +16,7 @@ const Button = props => {
   return (
     <div>
       <button className={tailwindcss}>
-        <Link to={props.link || '/#'} smooth={true} duration={500}>
-          {props.text}
-        </Link>
+        <Link to={props.link}>{props.text}</Link>
       </button>
     </div>
   );
