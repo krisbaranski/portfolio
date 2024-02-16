@@ -1,18 +1,34 @@
 import React from 'react';
 import Button from './Button';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   return (
-    <div name="home" className="relative w-full min-h-screen sm:h-screen">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+      name="home"
+      className="relative w-full min-h-screen sm:h-screen"
+    >
       {/* Container */}
-      <div className="max-w-[700px] mx-auto p-16 md:p-8 flex flex-col justify-center h-full ">
-        <h1 className="mt-16 sm:mt-48 text-base sm:text-lg font-light text-center text-[#e7e5e4] font-light z-10">
+      <div className="max-w-[700px] mx-auto md:p-8 flex flex-col justify-center h-full">
+        <h2
+          className="mt-16 sm:mt-48 text-base sm:text-lg font-light text-center
+          text-[#e7e5e4] font-light mt-24 mb-4 z-10"
+        >
           welcome to my
-        </h1>
-        <h2 className="flex justify-center font-elephant text-7xl xsm:text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl font-thin text-center text-[#e7e5e4] uppercase my-4 z-10">
-          portfolio
         </h2>
-        <p className="flex justify-center text-[#e7e5e4] py-4 max-w-[600px] font-lato font-light text-center z-10">
+        <h1 className="flex justify-center items-center font-elephant font-lighter text-6xl xsm:text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl font-thin text-[#e7e5e4] z-10">
+          <span className="text-7xl xsm:text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl">
+            p
+          </span>
+          ortfoli
+          <span className="text-7xl xsm:text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl">
+            o
+          </span>
+        </h1>
+        <p className="max-w-[420px] text-[#e7e5e4] mx-auto p-4 font-lato font-light text-center z-10">
           i specialize in frontend web development with focus on building
           responsive web applications and designing exceptional digital
           experiences.
@@ -23,7 +39,7 @@ const Header = () => {
           <Button text="contact me" link="contact" color="blue" />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,18 +1,21 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Me from '../assets/portrait.jpg';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import CV from '../assets/Baranski_CV_eng.pdf';
 
-export const Aboutme = () => {
+const Aboutme = () => {
   return (
-    <div name="about" className="w-full  text-white py-12  z-50">
-      <div className="flex flex-col justify-center items-center w-full py-20 bg-[#1A6CB8] opacity-80">
-        <div className="pt-8 pb-12">
-          <p className="text-4xl font-bold text-left inline border-b-2 border-white">
-            About me
-          </p>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+      name="about"
+      className="w-full min-h-screen md:flex md:items-center text-white pt-16 z-50"
+    >
+      <div className="relative flex flex-col justify-center items-center w-full mt-10 py-12 bg-sky-900/10">
+        <div className="pb-12">
+          <p className="text-4xl font-elephant inline border-white">About me</p>
         </div>
-        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid md:grid-cols-3 gap-8 px-6 pb-8 font-light tracking-wide">
+        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid md:grid-cols-3 gap-8 px-6 pb-8 font-thin tracking-wide">
           <div>
             <img
               src={Me}
@@ -20,14 +23,12 @@ export const Aboutme = () => {
               className="opacity-100 rounded shadow-md shadow-[#040c16]"
             />
             <br />
-            <p>Hi. I'm Kris, nice to meet you. Let me introduce myself.</p>
-            <br />
             <p>
-              Originally i come from Poland, where i studied fine arts, worked
-              as designer and teacher. Then 2005 i moved to Germany, teached
-              fine arts, worked for art galeries and started my own professional
-              artist career. Mostly i'm working with classical printing,
-              painting and sculpture.
+              My name is Kris. I come from Poland, where i studied fine arts and
+              worked as designer. Then 2005 i moved to Germany and started my
+              own professional artist career, teached fine arts and worked for
+              art galeries. Mostly i'm working with classical printing, painting
+              and sculpture.
             </p>
           </div>
           <div>
@@ -71,19 +72,11 @@ export const Aboutme = () => {
               their basis.
             </p>
             <br /> <p>I'm excited to contribute to yours :-)</p>
-            <br />
-            <a
-              className="w-auto flex flex-col justify-between items-center text-white hover:scale-105 hover:text-[#FB923C]"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={CV}
-            >
-              <BsFillPersonLinesFill size={30} />
-              Resume
-            </a>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
+
+export default Aboutme;

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/logo-portfolio-blue.png';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+// import { Link } from 'react-scroll';
 
 const Navbar = () => {
   // setting mobile nav
@@ -23,7 +24,7 @@ const Navbar = () => {
       onScroll={changeColor}
       className={
         color
-          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur shadow-md shadow-grey-300'
+          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur bg-[#f0f0f030]ite shadow-md shadow-grey-300'
           : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent'
       }
     >
@@ -35,18 +36,23 @@ const Navbar = () => {
         {/* Desktop menu */}
         <ul className="hidden md:flex text-[#e7e5e4] font-medium">
           <li>
-            <Link to="home" smooth={true} duration={500} className={MENU_LINK}>
+            <Link to="/" smooth={true} duration={500} className={MENU_LINK}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500} className={MENU_LINK}>
+            <Link
+              to="/about"
+              smooth={true}
+              duration={500}
+              className={MENU_LINK}
+            >
               About
             </Link>
           </li>
           <li>
             <Link
-              to="skills"
+              to="/skills"
               smooth={true}
               duration={500}
               className={MENU_LINK}
@@ -56,7 +62,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="projects"
+              to="/projects"
               smooth={true}
               duration={500}
               className={MENU_LINK}
@@ -66,7 +72,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="contact"
+              to="/contact"
               smooth={true}
               duration={500}
               className={MENU_LINK}
@@ -103,7 +109,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
-            to="home"
+            to="/"
             smooth={true}
             duration={500}
             className={MENU_LINK}
@@ -115,7 +121,7 @@ const Navbar = () => {
           {' '}
           <Link
             onClick={handleClick}
-            to="about"
+            to="/about"
             smooth={true}
             duration={500}
             className={MENU_LINK}
@@ -127,7 +133,7 @@ const Navbar = () => {
           {' '}
           <Link
             onClick={handleClick}
-            to="skills"
+            to="/skills"
             smooth={true}
             duration={500}
             className={MENU_LINK}
@@ -139,7 +145,7 @@ const Navbar = () => {
           {' '}
           <Link
             onClick={handleClick}
-            to="projects"
+            to="/projects"
             smooth={true}
             duration={500}
             className={MENU_LINK}
@@ -151,7 +157,7 @@ const Navbar = () => {
           {' '}
           <Link
             onClick={handleClick}
-            to="contact"
+            to="/contact"
             smooth={true}
             duration={500}
             className={MENU_LINK}
