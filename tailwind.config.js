@@ -10,6 +10,7 @@ module.exports = {
         '10xl': '10rem',
         '11xl': '12.5rem',
         '12xl': '15rem',
+        '13xl': '17rem',
       },
       fontWeight: {
         thin: '100',
