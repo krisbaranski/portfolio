@@ -12,11 +12,8 @@ const Header = () => {
       className="relative w-full min-h-screen sm:h-screen"
     >
       {/* Container */}
-      <div className="max-w-[700px] mx-auto md:p-8 flex flex-col justify-center h-full">
-        <h2
-          className="sm:mt-48 text-base sm:text-lg font-light text-center
-          text-[#e7e5e4] font-light mb-6 z-10"
-        >
+      <div className="relative flex flex-col justify-center items-center min-h-full max-w-[700px] mx-auto md:p-8">
+        <h2 className="flex justify-center items-center mt-24 sm:mt-32 text-base sm:text-lg font-light text-center text-[#e7e5e4] font-light mb-6 z-10">
           welcome to my
         </h2>
         <h1 className="flex justify-center items-center font-elephant font-lighter text-6xl xsm:text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl font-thin text-[#e7e5e4] z-10">
