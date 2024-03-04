@@ -23,7 +23,7 @@ const Navbar = () => {
       onScroll={changeColor}
       className={
         color
-          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur bg-[#f0f0f030]ite shadow-md shadow-grey-300'
+          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur bg-[#f0f0f030] shadow-md shadow-grey-300'
           : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent'
       }
     >
