@@ -17,7 +17,7 @@ import Bash from '../assets/bash.png';
 const BUTTON_CLASS =
   'p-1 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20';
 const BENTO_GRID =
-  'grid grid-rows-1 grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
+  'flex flex-col sm:grid sm:grid-rows-1 sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
 
 const Skills = () => {
   return (
@@ -34,12 +34,12 @@ const Skills = () => {
           <p className="text-4xl font-elephant font-light text-center z-10">
             Skills
           </p>
-          <p className="py-4 font-light text-center text-white">
+          <p className="py-4 font-light text-center text-balance text-white">
             These are technologies I'm familiar with and build my projects upon
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 self-center text-center p-8 z-10">
+        <div className="w-full flex flex-col sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-2 self-center text-center p-8 z-10">
           {/* Bento Grid*/}
           <div className={BENTO_GRID + ' col-span-2'}>
             <div className={BUTTON_CLASS + ' bg-rose-900 text-white'}>
