@@ -17,7 +17,7 @@ import Bash from '../assets/bash.png';
 const BUTTON_CLASS =
   'p-1 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20';
 const BENTO_GRID =
-  'flex flex-col justify-center sm:grid sm:grid-rows-1 sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
+  'flex flex-col sm:grid sm:grid-rows-1 sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
 
 const Skills = () => {
   return (
