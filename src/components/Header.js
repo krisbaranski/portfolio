@@ -14,8 +14,8 @@ const Header = () => {
       {/* Container */}
       <div className="max-w-[700px] mx-auto md:p-8 flex flex-col justify-center h-full">
         <h2
-          className="mt-32 sm:mt-48 text-base sm:text-lg font-light text-center
-          text-[#e7e5e4] font-light mt-24 mb-6 z-10"
+          className="sm:mt-48 text-base sm:text-lg font-light text-center
+          text-[#e7e5e4] font-light mb-6 z-10"
         >
           welcome to my
         </h2>
