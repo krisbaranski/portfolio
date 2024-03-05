@@ -41,7 +41,7 @@ const Skills = () => {
 
         <div className="w-full flex flex-col sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-2 self-center text-center p-8 z-10">
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' col-span-2'}>
+          <div className={BENTO_GRID + ' sm:col-span-2'}>
             <div className={BUTTON_CLASS + ' bg-rose-900 text-white'}>
               <img className="h-16 mx-auto" src={HTML} alt="HTML icon" />
               <p className="my-4">HTML</p>
@@ -52,7 +52,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' col-span-2'}>
+          <div className={BENTO_GRID + ' sm:col-span-2'}>
             <div className={BUTTON_CLASS + ' bg-amber-500 text-white'}>
               <img className="h-16 mx-auto" src={JavaScript} alt="JS icon" />
               <p className="my-4">JAVASCRIPT</p>
@@ -70,7 +70,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' col-span-3'}>
+          <div className={BENTO_GRID + ' sm:col-span-3'}>
             <div className={BUTTON_CLASS + ' bg-red-800 text-white'}>
               <img className="h-16 mx-auto" src={Angular} alt="Angular icon" />
               <p className="my-4">ANGULAR</p>
@@ -88,7 +88,7 @@ const Skills = () => {
           </div>
 
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' col-span-2'}>
+          <div className={BENTO_GRID + ' sm:col-span-2'}>
             <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
               <img className="h-16 m-auto" src={MaterialUI} alt="MUI icon" />
               <p className="my-4">MATERIALUI</p>
@@ -103,7 +103,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' col-span-2'}>
+          <div className={BENTO_GRID + ' sm:col-span-2'}>
             <div className={BUTTON_CLASS + ' bg-lime-600 text-white'}>
               <img className="h-16 mx-auto" src={Bash} alt="BASH icon" />
               <p className="my-4">BASH</p>
