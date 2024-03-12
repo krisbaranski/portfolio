@@ -35,7 +35,7 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4 font-light text-center text-balance text-white">
-            These are technologies I'm familiar with and build my projects upon
+            These are technologies i'm familiar with and use to build projects
           </p>
         </div>
 
