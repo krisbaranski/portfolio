@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.png';
-import Logo_hover from '../assets/logo_hover.png';
+import Logo from '../assets/logo_2.png';
+import Logo_hover from '../assets/logo_hover2.png';
 
 const Navbar = () => {
   // setting mobile nav
