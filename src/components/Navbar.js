@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="min-w-[700px] flex flex-row justify-between items-center ">
         <div className="z-50 pl-6">
-          <Link to={'/'} className="group">
+          <Link to={'/'} className="group" onClick={handleClick}>
             <img
               src={Logo}
               alt="Logo"
@@ -95,11 +95,20 @@ const Navbar = () => {
             : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur-md flex flex-col justify-center items-center text-[#f0f0f0] z-20'
         }
       >
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/" className={MENU_LINK}>
-            Home
+        {/* <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to={'/'} className="group">
+            <img
+              src={Logo}
+              alt="Logo"
+              className="group-hover:hidden w-[75px] transition duration-200 ease-in-out delay-200"
+            />
+            <img
+              src={Logo_hover}
+              alt="Logo"
+              className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
+            />
           </Link>
-        </li>
+        </li> */}
         <li className="py-6 text-4xl">
           {' '}
           <Link onClick={handleClick} to="/about" className={MENU_LINK}>
