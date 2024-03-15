@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/logo-portfolio-blue.png';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/logo.png';
+import Logo_hover from '../assets/logo_hover.png';
 
 const Navbar = () => {
   // setting mobile nav
@@ -16,7 +17,8 @@ const Navbar = () => {
 
   window.addEventListener('scroll', changeColor);
 
-  const MENU_LINK = 'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800';
+  const MENU_LINK =
+    'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800 transition-colors duration-200 ease-in-out delay-200';
 
   return (
     <div
@@ -27,59 +29,47 @@ const Navbar = () => {
           : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent'
       }
     >
-      <div className="flex flex-row justify-between items-center ">
-        <div className="z-50 pl-8 md:pr-40">
-          <img src={Logo} alt="Logo" style={{ width: '65px' }} />
+      <div className="min-w-[700px] flex flex-row justify-between items-center ">
+        <div className="z-50 pl-6">
+          <Link to={'/'} className="group">
+            <img
+              src={Logo}
+              alt="Logo"
+              className="group-hover:hidden w-[75px] transition duration-200 ease-in-out delay-200"
+            />
+            <img
+              src={Logo_hover}
+              alt="Logo"
+              className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
+            />
+          </Link>
         </div>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex text-[#e7e5e4] font-medium">
-          <li>
-            <Link to="/" smooth={true} duration={500} className={MENU_LINK}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/about"
-              smooth={true}
-              duration={500}
-              className={MENU_LINK}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/skills"
-              smooth={true}
-              duration={500}
-              className={MENU_LINK}
-            >
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/projects"
-              smooth={true}
-              duration={500}
-              className={MENU_LINK}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/contact"
-              smooth={true}
-              duration={500}
-              className={MENU_LINK}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <div>
+          <ul className="hidden md:flex text-[#e7e5e4] font-medium">
+            <li>
+              <Link to="/about" className={MENU_LINK}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/skills" className={MENU_LINK}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects" className={MENU_LINK}>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className={MENU_LINK}>
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
 
       {/* Hamburger */}
@@ -106,61 +96,31 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link
-            onClick={handleClick}
-            to="/"
-            smooth={true}
-            duration={500}
-            className={MENU_LINK}
-          >
+          <Link onClick={handleClick} to="/" className={MENU_LINK}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link
-            onClick={handleClick}
-            to="/about"
-            smooth={true}
-            duration={500}
-            className={MENU_LINK}
-          >
+          <Link onClick={handleClick} to="/about" className={MENU_LINK}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link
-            onClick={handleClick}
-            to="/skills"
-            smooth={true}
-            duration={500}
-            className={MENU_LINK}
-          >
+          <Link onClick={handleClick} to="/skills" className={MENU_LINK}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link
-            onClick={handleClick}
-            to="/projects"
-            smooth={true}
-            duration={500}
-            className={MENU_LINK}
-          >
+          <Link onClick={handleClick} to="/projects" className={MENU_LINK}>
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {' '}
-          <Link
-            onClick={handleClick}
-            to="/contact"
-            smooth={true}
-            duration={500}
-            className={MENU_LINK}
-          >
+          <Link onClick={handleClick} to="/contact" className={MENU_LINK}>
             Contact
           </Link>
         </li>
