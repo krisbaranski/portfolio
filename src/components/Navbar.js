@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="min-w-[700px] flex flex-row justify-between items-center ">
         <div className="z-50 pl-6">
-          <Link to={'/'} className="group" onClick={handleClick}>
+          <Link to={'/'} className="group">
             <img
               src={Logo}
               alt="Logo"
@@ -88,14 +88,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <ul
-        className={
-          !nav
-            ? 'hidden'
-            : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur-md flex flex-col justify-center items-center text-[#f0f0f0] z-20'
-        }
-      >
-        {/* <li className="py-6 text-4xl">
+      <div>
+        <ul
+          className={
+            !nav
+              ? 'hidden'
+              : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur-md flex flex-col justify-center items-center text-[#f0f0f0] z-20'
+          }
+        >
+          {/* <li className="py-6 text-4xl">
           <Link onClick={handleClick} to={'/'} className="group">
             <img
               src={Logo}
@@ -109,31 +110,32 @@ const Navbar = () => {
             />
           </Link>
         </li> */}
-        <li className="py-6 text-4xl">
-          {' '}
-          <Link onClick={handleClick} to="/about" className={MENU_LINK}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          {' '}
-          <Link onClick={handleClick} to="/skills" className={MENU_LINK}>
-            Skills
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          {' '}
-          <Link onClick={handleClick} to="/projects" className={MENU_LINK}>
-            Projects
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          {' '}
-          <Link onClick={handleClick} to="/contact" className={MENU_LINK}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+          <li className="py-6 text-4xl">
+            {' '}
+            <Link onClick={handleClick} to="/about" className={MENU_LINK}>
+              About
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            {' '}
+            <Link onClick={handleClick} to="/skills" className={MENU_LINK}>
+              Skills
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            {' '}
+            <Link onClick={handleClick} to="/projects" className={MENU_LINK}>
+              Projects
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            {' '}
+            <Link onClick={handleClick} to="/contact" className={MENU_LINK}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
