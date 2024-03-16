@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo_2.png';
-import Logo_hover from '../assets/logo_hover2.png';
+import Logo from '../assets/logo.png';
+import Logo_hover from '../assets/logo_hover.png';
 
 const Navbar = () => {
   // setting mobile nav
@@ -30,8 +30,8 @@ const Navbar = () => {
       }
     >
       <div className="min-w-[700px] flex flex-row justify-between items-center ">
-        <div className="z-50 pl-6">
-          <Link to={'/'} className="group">
+        <div className="z-50 pl-6 transition duration-200 ease-in-out delay-200">
+          <Link to={'/'} className="group flex flex-row">
             <img
               src={Logo}
               alt="Logo"
@@ -42,6 +42,9 @@ const Navbar = () => {
               alt="Logo"
               className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
             />
+            <span className="text-white text-3xl pb-1 pl-1 animate-blink ">
+              _
+            </span>
           </Link>
         </div>
 
