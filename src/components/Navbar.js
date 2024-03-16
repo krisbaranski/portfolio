@@ -42,7 +42,7 @@ const Navbar = () => {
               alt="Logo"
               className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
             />
-            <span className="text-white text-3xl pb-1 pl-1 animate-blink ">
+            <span className="text-white text-3xl pl-1 animate-blink hover:hidden">
               _
             </span>
           </Link>
