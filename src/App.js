@@ -6,6 +6,7 @@ import Background from './components/Background';
 import Navbar from './components/Navbar';
 import Sideboard from './components/Sideboard';
 import AnimatedRoutes from './components/AnimatedRoutes';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Sideboard />
         <AnimatedRoutes />
+        <Footer />
       </ScrollToTop>
     </Router>
   );
