@@ -11,67 +11,61 @@ const Aboutme = () => {
       name="about"
       className="w-full min-h-screen md:flex md:items-center text-white pt-16 z-50"
     >
-      <div className="relative flex flex-col justify-center items-center w-full mt-10 py-12 bg-sky-900/10">
+      <div className="relative flex flex-col justify-center items-center w-full mt-10 py-12 px-4 bg-sky-900/10">
         <div className="pb-12">
           <p className="text-4xl font-elephant inline border-white">About me</p>
         </div>
-        <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] w-full grid md:grid-cols-3 gap-8 px-6 pb-8 font-thin tracking-wide">
-          <div>
+        <div className="xsm:max-w-[350px] sm:max-w-[500px] md:max-w-[680px] lg:max-w-[950px] w-full flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 px-2 pb-8 font-thin tracking-wide">
+          <div className="md:col-span-2 md:mr-8 md:justify-self-end sm:w-[250px]">
             <img
               src={Me}
-              alt="Thats me, my portrait"
+              alt="Thats me"
               className="opacity-100 rounded shadow-md shadow-[#040c16]"
             />
-            <br />
-            <p>
-              My name is Kris. I come from Poland, where i studied fine arts and
-              worked as designer. Then 2005 i moved to Germany and started my
-              own professional artist career, teached fine arts and worked for
-              art galeries. Mostly i'm working with classical printing, painting
-              and sculpture.
+          </div>
+          <div
+            className="flex flex-col justify-center items-start h-[180px] sm:h-[250px] list-none md:ml-[-16px] md:col-span-2
+          rounded-md bg-sky-900/40"
+          >
+            <li className="py-1 text-balance">
+              Master of Education [Art Teacher]
+            </li>
+            <li className="py-4 text-balance">
+              Artist [Painter, Printer, Sculptor]
+            </li>
+            <li className="py-1 text-balance">Frontend web developer</li>
+          </div>
+          <div className="sm:col-span-2">
+            <p className="py-2">
+              Hi, my name is Kris. I'm polish and german citizen, husband and
+              father, currently living in Berlin, Germany. I have a master
+              degree in Fine Arts and Art Education. At the moment i'm studying
+              CS50 on Harvard edX Platform.
+            </p>
+            <p className="py-2">
+              My programming journey started some years ago with html and css.
+              Meanwhile i gained much more knowledge and experience of
+              programming technologies
+              <span className="text-bold text-indigo-400">
+                <a href="/skills"> [see: Skills] </a>
+              </span>
+              and use them to build new projects.
+            </p>
+            <p className="sm:py-2">
+              I prefere to focus on functional and desing aspects of web, with
+              passion to detail and precision. I love to figure out and realize
+              my tasks exactly as my customer wants it. Nothing is impossible!
             </p>
           </div>
-          <div>
-            <p>
-              When i say, i am an artist, people wonder how did i get into
-              programming. So, how did i get here?
+          <div className="sm:col-span-2">
+            <p className="sm:py-2">
+              It is always my great pleasure to create something exeptional.
+              Thats why i'm trying myself in different kinds of creative and
+              technical fields to find out the best solutions and beauty.
+              Programming gives me unlimited potential to be creative. I'm
+              passionate about web development and building software.
             </p>
-            <br />
-            <p>
-              Its quite simple. Programming means to me a tool, a method, a kind
-              of language for creating things on internet for others. To be
-              visible, present values, informations etc. So to do it, one needs
-              to learn how it works in new technologies. It is not far away from
-              another media used in fine arts. There are even many artists
-              making professional digital art in programming languages nowadays.
-            </p>
-            <br />
-            <p>
-              My journey began with simple html and css. I wanted to make my
-              first websites myself, to have full control of structure, design
-              and to learn new skills. My preferenences are often to focus on
-              technical aspects, to understand which possibilities the
-              technology has.
-            </p>
-            <br />
-          </div>
-          <div>
-            <p>
-              It is always my great pleasure and satisfaction to create
-              something exeptional. Thats why i'm trying myself in different
-              kinds of creative and technical fields to find out the best
-              solutions and beauty. Programming gives me unlimited potential to
-              be creative. I am passionate about web development and building
-              software. Especially with JS libraries like ReactJS and frameworks
-              like NextJS and Angular.
-            </p>
-            <br />
-            <p>
-              They are made for different purposes. So, depending on project,
-              one can pick fitting technology, build powerful and fast app on
-              their basis.
-            </p>
-            <br /> <p>I'm excited to contribute to yours :-)</p>
+            <p className="py-2">I'm excited to contribute to your project.</p>
           </div>
         </div>
       </div>
