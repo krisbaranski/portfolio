@@ -25,8 +25,8 @@ const Navbar = () => {
       onScroll={changeColor}
       className={
         color
-          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur bg-[#f0f0f030] shadow-md shadow-grey-300'
-          : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent'
+          ? 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 backdrop-blur-lg bg-[#f0f0f010] shadow-md shadow-grey-300 transition-color duration-200 ease-in-out delay-200'
+          : 'fixed w-full h-[60px] flex justify-between md:justify-center items-center md:px-14 z-20 bg-transparent transition-color duration-200 ease-in-out delay-200'
       }
     >
       <div className="min-w-[700px] flex flex-row justify-between items-center ">
@@ -99,20 +99,6 @@ const Navbar = () => {
               : 'fixed top-0 left-0 w-full h-screen bg-slate-900/40 backdrop-blur-md flex flex-col justify-center items-center text-[#f0f0f0] z-20'
           }
         >
-          {/* <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to={'/'} className="group">
-            <img
-              src={Logo}
-              alt="Logo"
-              className="group-hover:hidden w-[75px] transition duration-200 ease-in-out delay-200"
-            />
-            <img
-              src={Logo_hover}
-              alt="Logo"
-              className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
-            />
-          </Link>
-        </li> */}
           <li className="py-6 text-4xl">
             {' '}
             <Link onClick={handleClick} to="/about" className={MENU_LINK}>
