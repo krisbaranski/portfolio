@@ -3,21 +3,24 @@ import { motion } from 'framer-motion';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
+import C_lang from '../assets/c_lang.png';
+import Python from '../assets/python.png';
 import JavaScript from '../assets/javascript.png';
 import TypeScript from '../assets/typescript.png';
 import Angular from '../assets/angular.png';
 import ReactImg from '../assets/react.png';
 import NextImg from '../assets/nextjs.png';
 import Node from '../assets/node.png';
+import SQL from '../assets/sql.png';
 import GitHub from '../assets/github.png';
 import MaterialUI from '../assets/materialui.png';
 import Tailwind from '../assets/tailwind.png';
 import Bash from '../assets/bash.png';
 
 const BUTTON_CLASS =
-  'p-1 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20';
+  'p-2 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20 text-sm';
 const BENTO_GRID =
-  'flex flex-col sm:grid sm:grid-rows-1 sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
+  'flex flex-col sm:grid sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
 
 const Skills = () => {
   return (
@@ -29,7 +32,7 @@ const Skills = () => {
       name="skills"
     >
       {/* Container */}
-      <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[960px] mx-auto mt-24 p-2 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[350px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[960px] mx-auto mt-24 p-2 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-elephant font-light text-center z-10">
             Skills
@@ -39,38 +42,26 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full flex flex-col sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-2 self-center text-center p-8 z-10">
+        <div className="w-full flex justify-center flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-2 self-center text-center p-8 mx-auto z-10">
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-2'}>
+          <div className={BENTO_GRID + ' sm:col-span-2 sm:grid-rows-1'}>
             <div className={BUTTON_CLASS + ' bg-rose-900 text-white'}>
               <img className="h-16 mx-auto" src={HTML} alt="HTML icon" />
               <p className="my-4">HTML</p>
             </div>
             <div className={BUTTON_CLASS + ' bg-blue-900 text-white'}>
               <img className="h-16 mx-auto" src={CSS} alt="CSS icon" />
-              <p className="my-4">CSS</p>
+              <p className="m-4">CSS</p>
             </div>
           </div>
+
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-2'}>
-            <div className={BUTTON_CLASS + ' bg-amber-500 text-white'}>
-              <img className="h-16 mx-auto" src={JavaScript} alt="JS icon" />
-              <p className="my-4">JAVASCRIPT</p>
-            </div>
-            <div className={BUTTON_CLASS + ' bg-slate-100 text-blue-400'}>
-              <img className="h-16 mx-auto" src={TypeScript} alt="TS icon" />
-              <p className="my-4">TYPESCRIPT</p>
-            </div>
-          </div>
-          {/* Bento Grid*/}
-          <div className={BENTO_GRID}>
-            <div className={BUTTON_CLASS + ' bg-green-900 text-lime-400'}>
-              <img className="h-16 mx-auto" src={Node} alt="NODE icon" />
-              <p className="my-4">NODE JS</p>
-            </div>
-          </div>
-          {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-3'}>
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1'
+            }
+          >
             <div className={BUTTON_CLASS + ' bg-red-800 text-white'}>
               <img className="h-16 mx-auto" src={Angular} alt="Angular icon" />
               <p className="my-4">ANGULAR</p>
@@ -88,7 +79,55 @@ const Skills = () => {
           </div>
 
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-2'}>
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-2 xl:grid-rows-2 xl:grid-cols-2'
+            }
+          >
+            <div className={BUTTON_CLASS + ' bg-cyan-300 text-white'}>
+              <img className="h-16 mx-auto" src={C_lang} alt="C icon" />
+              <p className="my-4">C</p>
+            </div>
+            <div className={BUTTON_CLASS + ' bg-lime-600 text-white'}>
+              <img className="h-16 mx-auto" src={Python} alt="Python icon" />
+              <p className="my-4">PYTHON</p>
+            </div>
+            <div className={BUTTON_CLASS + ' bg-amber-500 text-white'}>
+              <img className="h-16 mx-auto" src={JavaScript} alt="JS icon" />
+              <p className="my-4">JAVASCRIPT</p>
+            </div>
+            <div className={BUTTON_CLASS + ' bg-slate-200 text-blue-400'}>
+              <img className="h-16 mx-auto" src={TypeScript} alt="TS icon" />
+              <p className="my-4">TYPESCRIPT</p>
+            </div>
+          </div>
+          {/* Bento Grid*/}
+          {/* 
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-1 sm:grid-rows-2 lg:col-span-2 lg:grid-rows-1'
+            }
+          >
+            <div className={BUTTON_CLASS + ' bg-green-900 text-lime-400'}>
+              <img className="h-16 mx-auto" src={Node} alt="NODE icon" />
+              <p className="my-4">NODE JS</p>
+            </div>
+            <div className={BUTTON_CLASS + ' bg-sky-900 text-white'}>
+              <img className="h-16 mx-auto" src={SQL} alt="SQL icon" />
+              <p className="my-4">SQL</p>
+            </div>{' '}
+          </div>
+            */}
+
+          {/* Bento Grid*/}
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-2 sm:grid-rows-1 md:col-span-1 md:grid-rows-2 lg:grid-rows-1 lg:col-span-2 xl:grid-rows-2 xl:grid-cols-1 xl:col-span-1'
+            }
+          >
             <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
               <img className="h-16 m-auto" src={MaterialUI} alt="MUI icon" />
               <p className="my-4">MATERIALUI</p>
@@ -102,8 +141,22 @@ const Skills = () => {
               <p className="my-4">TAILWIND</p>
             </div>
           </div>
+
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-2'}>
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4  lg:grid-cols-4 lg:grid-rows-1 xl:col-span-2 xl:grid-rows-2 xl:grid-cols-2'
+            }
+          >
+            <div className={BUTTON_CLASS + ' bg-green-900 text-lime-400'}>
+              <img className="h-16 mx-auto" src={Node} alt="NODE icon" />
+              <p className="my-4">NODE JS</p>
+            </div>
+            <div className={BUTTON_CLASS + ' bg-sky-900 text-white'}>
+              <img className="h-16 mx-auto" src={SQL} alt="SQL icon" />
+              <p className="my-4">SQL</p>
+            </div>
             <div className={BUTTON_CLASS + ' bg-lime-600 text-white'}>
               <img className="h-16 mx-auto" src={Bash} alt="BASH icon" />
               <p className="my-4">BASH</p>
