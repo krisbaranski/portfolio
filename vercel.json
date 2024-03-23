@@ -4,8 +4,9 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://www.krisbaranski.com/:path*"
+      "source": "/(.*)",
+      "destination": "https://www.krisbaranski.com/",
+      "permanent": false
     }
   ]
 }
