@@ -4,8 +4,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://www.krisbaranski.com/",
-      "permanent": false
+      "destination": "https://www.krisbaranski.com/"
     }
   ]
 }
