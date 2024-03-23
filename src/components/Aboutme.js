@@ -30,10 +30,10 @@ const Aboutme = () => {
           rounded-md backdrop-blur-sm bg-[#f0f0f010] border border-orange-200/20"
           >
             <li className="py-1 text-balance">
-              Master of Education [Art Teacher]
+              Master of education [MA, art teacher]
             </li>
             <li className="py-4 text-balance">
-              Artist [Painter, Printer, Sculptor]
+              Artist [painter, printmaker, sculptor]
             </li>
             <li className="py-1 text-balance">Frontend web developer</li>
           </div>
@@ -45,7 +45,7 @@ const Aboutme = () => {
               studying CS50 on Harvard edX Platform.
             </p>
             <p className="py-2">
-              My interessts in programming started couple of years ago with html
+              My interests in programming started couple of years ago with html
               and css. After some time i got curious about JavaScript and DOM.
               Meanwhile i gained much more knowledge and experience of
               programming technologies
@@ -57,10 +57,10 @@ const Aboutme = () => {
                   [see: Skills]
                 </a>
               </span>
-              and use them to build projects for Clients.
+              and use them to build projects for my clients.
             </p>
             <p className="sm:py-2 text-balance">
-              I prefere to focus on functional and visual aspects of the web,
+              I prefere to focus on visual and functional aspects of the web,
               with passion to detail, precision and playfullness. I love to
               figure out and realize my tasks exactly as my client wants it.
             </p>
