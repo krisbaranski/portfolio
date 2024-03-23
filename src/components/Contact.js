@@ -12,13 +12,17 @@ const Contact = () => {
         action="https://getform.io/f/3f64f3c3-eb15-42d3-9288-b6379cf7ea03"
         className="relative flex flex-col max-w-[350px] sm:max-w-[500px] lg:max-w-[700px] w-full mt-24"
       >
-        <div className="pb-8">
-          <p className="text-4xl font-elephant font-light inline text-white">
+        <div className="pb-8 mb-24">
+          <p className="text-7xl sm:text-8xl font-elephant font-light inline text-white  border-b-sky-100 underline underline-offset-8">
             Contact
           </p>
-          <p className="text-white py-4">
-            Submit the form below or send me an
-            <a className="text-white pl-2" href="mailto:mail@krisbaranski.com">
+          <p className="text-white text-balance py-4">
+            If you like to get in touch with me, please submit the form below or
+            send me an
+            <a
+              className="text-sky-400 pl-2 hover:text-sky-200"
+              href="mailto:mail@krisbaranski.com"
+            >
               EMAIL
             </a>
           </p>
@@ -44,7 +48,11 @@ const Contact = () => {
           placeholder="Message"
           required
         ></textarea>
-        <Button text="Let's Work Together" color="blue" />
+        <Button
+          text="Let's Work Together"
+          color="blue"
+          // className="flex justify-center p-32 border-2 border-red"
+        />
       </form>
     </div>
   );

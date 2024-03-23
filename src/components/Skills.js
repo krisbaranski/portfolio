@@ -32,13 +32,15 @@ const Skills = () => {
       name="skills"
     >
       {/* Container */}
-      <div className="max-w-[350px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[960px] mx-auto mt-24 p-2 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-elephant font-light text-center z-10">
+      <div className="max-w-[400px] sm:max-w-[440px] md:max-w-[620px] lg:max-w-[860px] mx-auto mt-24 p-2 flex flex-col justify-center w-full h-full">
+        <div className="pl-8 lg:pl-16 mb-24">
+          <p className="flex justify-start w-full text-7xl sm:text-8xl font-elephant font-light text-white text-center underline underline-offset-8 z-10">
             Skills
           </p>
-          <p className="py-4 font-light text-center text-balance text-white">
-            These are technologies i'm familiar with and use to build projects
+          <p className="flex justify-start w-full py-4 font-light text-balance text-white">
+            On this page i list all programming technologies and languages i'm
+            familiar with - from beginner to semi-professional grade. According
+            to clients project ideas, i use them to build apps, webpages, games:
           </p>
         </div>
 

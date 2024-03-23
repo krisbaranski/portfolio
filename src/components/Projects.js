@@ -43,25 +43,32 @@ const BUTTON_CLASS =
 const Projects = () => {
   return (
     <motion.div
-      className="relative w-full  min-h-screen md:flex md:items-center md:h-top text-[#264e86] bg-slate-900/50 py-10"
+      className="relative w-full min-h-screen md:flex md:items-center md:h-top text-[#264e86] bg-slate-900/50 py-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
       name="projects"
     >
       <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] mx-auto mt-24 p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-elephant font-light text-white text-center">
+        <div className="md:ml-24 pb-8 mb-24">
+          <p className="flex justify-start w-full text-7xl sm:text-8xl font-elephant font-light text-white text-center underline underline-offset-8">
             Projects
           </p>
-          <p className="py-6 font-light text-white text-center">
-            Check out some of my projects
+          <p className="flex justify-start py-6 font-light text-white text-balance text-left">
+            Here are some of my projects, which i built and maintain. You can
+            see a screenshot of the main page. On card flip you will see short
+            description, list of technologies i used and a link to the page.
+            Enjoy!
           </p>
         </div>
 
+        <div className="pb-8">
+          <p className="py-6 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+            Webpages
+          </p>
+        </div>
         {/* Container */}
         <div className={CARDS}>
-          {/* */}
           {/* Grid Item */}
           <div className={CARD}>
             <div className={FLIP_CARD}>
@@ -97,6 +104,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
           <div className={CARD}>
             <div className={FLIP_CARD}>
@@ -161,7 +169,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://mahakala-art.com"
+                    href="https://elisabethkoch.eu"
                   >
                     <button className={BUTTON_CLASS}>Web Page</button>
                   </a>
@@ -169,7 +177,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="py-8">
+          <p className="py-8 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+            Diverse projects
+          </p>
+        </div>
+        {/* Container */}
+        <div className={CARDS}>
           {/* Grid Item */}
           <div className={CARD}>
             <div className={FLIP_CARD}>
@@ -293,7 +309,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="py-8">
+          <p className="py-8 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+            Games
+          </p>
+        </div>
+        {/* Container */}
+        <div className={CARDS}>
           {/* Grid Item */}
           <div className={CARD}>
             <div className={FLIP_CARD}>
@@ -342,7 +366,7 @@ const Projects = () => {
               {/* Hover Effects */}
               <div className={CARD_BACK}>
                 <span className={CARD_TEXT}>
-                  Vintage Game <br /> guess a number
+                  Vintage Game <br /> - guess a number -
                 </span>
                 <div className="flex justify-center flex-row pt-4">
                   <img
