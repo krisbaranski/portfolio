@@ -13,7 +13,7 @@ const Aboutme = () => {
     >
       <div className="relative flex flex-col justify-center items-center w-full mt-10 py-12 px-4 bg-sky-900/10">
         <div className="pb-12">
-          <p className="text-7xl sm:text-8xl mb-24 font-elephant underline underline-offset-8">
+          <p className="text-7xl sm:text-8xl mb-24 font-elephant underline underline-offset-8 decoration-1">
             About me
           </p>
         </div>

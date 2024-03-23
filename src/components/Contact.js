@@ -13,7 +13,7 @@ const Contact = () => {
         className="relative flex flex-col max-w-[350px] sm:max-w-[500px] lg:max-w-[700px] w-full mt-24"
       >
         <div className="pb-8 mb-24">
-          <p className="text-7xl sm:text-8xl font-elephant font-light inline text-white  border-b-sky-100 underline underline-offset-8">
+          <p className="text-7xl sm:text-8xl font-elephant font-light inline text-white  border-b-sky-100 underline underline-offset-8 decoration-1">
             Contact
           </p>
           <p className="text-white text-balance py-4">

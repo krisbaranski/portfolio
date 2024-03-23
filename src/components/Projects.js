@@ -50,8 +50,8 @@ const Projects = () => {
       name="projects"
     >
       <div className="max-w-[400px] sm:max-w-[500px] md:max-w-[720px] lg:max-w-[950px] mx-auto mt-24 p-4 flex flex-col justify-center w-full h-full">
-        <div className="md:ml-24 pb-8 mb-24">
-          <p className="flex justify-start w-full text-7xl sm:text-8xl font-elephant font-light text-white text-center underline underline-offset-8">
+        <div className="pb-8 pl-8 lg:pl-16 mb-24">
+          <p className="flex justify-start w-full text-7xl sm:text-8xl font-elephant font-light text-white text-center underline underline-offset-8 decoration-1">
             Projects
           </p>
           <p className="flex justify-start py-6 font-light text-white text-balance text-left">
@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
 
         <div className="pb-8">
-          <p className="py-6 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+          <p className="py-6 font-elephant font-light text-2xl text-white text-center underline underline-offset-8 decoration-1">
             Webpages
           </p>
         </div>
@@ -180,7 +180,7 @@ const Projects = () => {
         </div>
 
         <div className="py-8">
-          <p className="py-8 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+          <p className="py-8 font-elephant font-light text-2xl text-white text-center underline underline-offset-8 decoration-1">
             Diverse projects
           </p>
         </div>
@@ -312,7 +312,7 @@ const Projects = () => {
         </div>
 
         <div className="py-8">
-          <p className="py-8 font-elephant font-light text-xl text-white text-center underline underline-offset-8">
+          <p className="py-8 font-elephant font-light text-2xl text-white text-center underline underline-offset-8 decoration-1">
             Games
           </p>
         </div>
