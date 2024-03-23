@@ -14,17 +14,25 @@ const Footer = () => {
       onScroll={changeColor}
       className={
         color
-          ? 'fixed w-full bottom-8 sm:bottom-0 bg-[#f0f0f010] flex justify-between md:justify-center content-between items-center sm:py-2 text-white backdrop-blur-lg z-20'
-          : 'fixed w-full bottom-8 sm:bottom-0 bg-[#0d223b] flex justify-between md:justify-center content-between items-center sm:py-2 mx-auto text-white z-20'
+          ? 'fixed w-full bottom-8 py-2 sm:bottom-0 bg-[#f0f0f010] flex justify-between md:justify-center content-between items-center sm:py-2 text-white backdrop-blur-lg z-20'
+          : 'fixed w-full bottom-8 py-2 sm:bottom-0 bg-[#0d223b] flex justify-between md:justify-center content-between items-center sm:py-2 mx-auto text-white z-20'
       }
     >
       <div className="w-[700px] flex flex-row justify-between items-center text-xs md:text-sm">
-        <Link
-          to="/imprint"
-          className="relative left-4 cursor-pointer p-2 rounded hover:bg-white hover:text-[#264e86]"
-        >
-          Privacy & Imprint
-        </Link>
+        <div className="m-1">
+          <Link
+            to="/impressum"
+            className="relative left-4 cursor-pointer p-2 rounded hover:bg-white hover:text-[#264e86]"
+          >
+            Impressum
+          </Link>
+          <Link
+            to="/policy"
+            className="relative left-4 cursor-pointer p-2 rounded hover:bg-white hover:text-[#264e86]"
+          >
+            Privacy
+          </Link>
+        </div>
         <p className="relative right-10 md:right-4 flex flex-col justify-center items-center text-white z-30">
           © {new Date().getFullYear()} Berlin
         </p>
