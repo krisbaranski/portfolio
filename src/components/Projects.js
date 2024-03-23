@@ -53,9 +53,10 @@ const Projects = () => {
             Projects
           </p>
           <p className="flex justify-start py-6 font-light text-white text-balance text-left">
-            Here are some of my projects, which i built and maintain. You can
-            see a screenshot of the main page. On card flip you will see short
+            Here i show some of my projects, which i built and maintain. You can
+            see screenshot of the main page. On card flip you can see short
             description, list of technologies i used and a link to the page.
+            <br />
             Enjoy!
           </p>
         </div>
@@ -383,7 +384,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://krisbaranski.github.io/houseofcards/index.html"
+                    href="https://krisbaranski.github.io/house_of_cards/"
                   >
                     <button className={BUTTON_CLASS}>Demo</button>
                   </a>
@@ -402,7 +403,7 @@ const Projects = () => {
               {/* Hover Effects */}
               <div className={CARD_BACK}>
                 <span className={CARD_TEXT}>
-                  Vintage Game <br /> - guess a number -
+                  Vintage Game <br /> guess a number
                 </span>
                 <div className="flex justify-center flex-row pt-4">
                   <img

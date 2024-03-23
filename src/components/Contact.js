@@ -1,10 +1,14 @@
 import React from 'react';
 import Button from './Button';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
-    <div
+    <motion.div
       name="contact"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
       className="w-full h-top bg-[#082f49] flex justify-center items-center py-14 px-2"
     >
       <form
@@ -54,7 +58,7 @@ const Contact = () => {
           // className="flex justify-center p-32 border-2 border-red"
         />
       </form>
-    </div>
+    </motion.div>
   );
 };
 
