@@ -32,7 +32,7 @@ const Skills = () => {
       name="skills"
     >
       {/* Container */}
-      <div className="max-w-[400px] sm:max-w-[440px] md:max-w-[620px] lg:max-w-[860px] mx-auto mt-24 p-2 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[400px] sm:max-w-[440px] md:max-w-[620px] lg:max-w-[860px] mx-auto my-24 p-4 flex flex-col justify-center w-full h-full">
         <div className="pl-8 lg:pl-16 mb-24">
           <p className="flex justify-start w-full text-7xl sm:text-8xl font-elephant font-light text-white text-center underline underline-offset-8 decoration-1 z-10">
             Skills
