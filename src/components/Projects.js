@@ -5,8 +5,9 @@ import Binta from '../assets/BINTA.png';
 import EK from '../assets/EK.png';
 import Gfinder from '../assets/Gfinder.png';
 import Dash from '../assets/Dashboard.png';
-import DiceRoll from '../assets/DiceRoll.png';
 import Implement from '../assets/Implement.png';
+import DiceRoll from '../assets/DiceRoll.png';
+import HoC from '../assets/HoC.png';
 import GuessNr from '../assets/GuessNr.png';
 
 import HTML from '../assets/html.png';
@@ -14,14 +15,11 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import TypeScript from '../assets/typescript.png';
 import Angular from '../assets/angular.png';
-// import GatsbyImg from '../assets/gatsby.png';
 import ReactImg from '../assets/react.png';
 import NextImg from '../assets/nextjs.png';
 // import Node from '../assets/node.png';
-// import GitHub from '../assets/github.png';
 import MaterialUI from '../assets/materialui.png';
 import Tailwind from '../assets/tailwind.png';
-// import Bash from '../assets/bash.png';
 
 const CARDS = 'grid md:grid-cols-2 lg:grid-cols-3 gap-4 z-10';
 const CARD = 'group h-64 [perspective:3200px]';
@@ -43,7 +41,7 @@ const BUTTON_CLASS =
 const Projects = () => {
   return (
     <motion.div
-      className="relative w-full min-h-screen md:flex md:items-center md:h-top text-[#264e86] bg-slate-900/50 py-10"
+      className="relative w-full min-h-screen md:flex md:items-center md:h-top text-[#264e86]  py-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
@@ -348,6 +346,44 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://krisbaranski.github.io/diceroll/index.html"
+                  >
+                    <button className={BUTTON_CLASS}>Demo</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div className={CARD}>
+            <div className={FLIP_CARD}>
+              <div
+                style={{ backgroundImage: `url(${HoC})` }}
+                className={CARD_FRONT}
+              ></div>
+              {/* Hover Effects */}
+              <div className={CARD_BACK}>
+                <span className={CARD_TEXT}>
+                  House of Cards <br /> cards decide what players do
+                </span>
+                <div className="flex justify-center flex-row pt-4">
+                  <img
+                    className="w-10 mx-auto p-1"
+                    src={Angular}
+                    alt="Angular icon"
+                  />
+                  <img className="w-10 mx-auto p-1" src={CSS} alt="CSS icon" />
+                  <img
+                    className="w-10 mx-auto p-1"
+                    src={TypeScript}
+                    alt="JS icon"
+                  />
+                </div>
+                <div className="pt-8 text-center">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://krisbaranski.github.io/houseofcards/index.html"
                   >
                     <button className={BUTTON_CLASS}>Demo</button>
                   </a>
