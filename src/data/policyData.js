@@ -18,8 +18,14 @@ const policyData = [
     title: '3. Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde ',
     content:
       'Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit: ',
-    address:
-      'https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.',
+    address: (
+      <a
+        href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
+        className="text-bold px-1 text-sky-400 hover:text-sky-200"
+      >
+        click here
+      </a>
+    ),
   },
   {
     id: 3,
@@ -37,9 +43,15 @@ const policyData = [
     id: 5,
     title: '6. Speicherdauer von Beiträgen und Kommentaren',
     content:
-      'Beiträge und Kommentare sowie damit in Verbindung stehende Daten, wie beispielsweise IP-Adressen, werden gespeichert. Der Inhalt verbleibt auf unserer Website, bis er vollständig gelöscht wurde oder aus rechtlichen Gründen gelöscht werden musste. Die Speicherung der Beiträge und Kommentare erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit bereits erfolgter Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.',
-    address:
-      'Quelle: https://www.mein-datenschutzbeauftragter.de/ Datenschutz-Konfigurator',
+      'Beiträge und Kommentare sowie damit in Verbindung stehende Daten, wie beispielsweise IP-Adressen, werden gespeichert. Der Inhalt verbleibt auf unserer Website, bis er vollständig gelöscht wurde oder aus rechtlichen Gründen gelöscht werden musste. Die Speicherung der Beiträge und Kommentare erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit bereits erfolgter Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt. Quelle: ',
+    address: (
+      <a
+        href="https://www.mein-datenschutzbeauftragter.de/"
+        className="text-bold px-1 text-sky-400 hover:text-sky-200"
+      >
+        click here
+      </a>
+    ),
   },
 ];
 
