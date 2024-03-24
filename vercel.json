@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "framework": "React",
+  "framework": "Create React App",
   "cleanUrls": true,
   "rewrites": [
     {
