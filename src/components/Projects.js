@@ -53,9 +53,10 @@ const Projects = () => {
             Projects
           </p>
           <p className="flex justify-start py-6 font-light text-white text-balance text-left">
-            Here i show some of my projects, which i built and maintain. You can
-            see screenshot of the main page. On card flip you can see short
-            description, list of technologies i used and a link to the page.
+            Here you can find selected projects, which i built and maintain. You
+            can see screenshot of the main page. On card flip you will find a
+            short description, list of technologies i used and a link to the
+            page.
             <br />
             Enjoy!
           </p>

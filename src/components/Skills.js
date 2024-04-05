@@ -38,9 +38,9 @@ const Skills = () => {
             Skills
           </p>
           <p className="flex justify-start w-full py-4 font-light text-balance text-white">
-            On this page i list all programming technologies and languages i'm
-            familiar with - from beginner to semi-professional grade. According
-            to clients project ideas, i use them to build apps, webpages, games:
+            Here i list all programming technologies and languages i'm familiar
+            with - from beginner to semi-professional grade. According to
+            clients project ideas, i use them to build apps, webpages, games:
           </p>
         </div>
 
@@ -104,24 +104,6 @@ const Skills = () => {
               <p className="my-4">TYPESCRIPT</p>
             </div>
           </div>
-          {/* Bento Grid*/}
-          {/* 
-          <div
-            className={
-              BENTO_GRID +
-              ' sm:col-span-1 sm:grid-rows-2 lg:col-span-2 lg:grid-rows-1'
-            }
-          >
-            <div className={BUTTON_CLASS + ' bg-green-900 text-lime-400'}>
-              <img className="h-16 mx-auto" src={Node} alt="NODE icon" />
-              <p className="my-4">NODE JS</p>
-            </div>
-            <div className={BUTTON_CLASS + ' bg-sky-900 text-white'}>
-              <img className="h-16 mx-auto" src={SQL} alt="SQL icon" />
-              <p className="my-4">SQL</p>
-            </div>{' '}
-          </div>
-            */}
 
           {/* Bento Grid*/}
           <div
