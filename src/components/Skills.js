@@ -1,21 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import C_lang from '../assets/c_lang.png';
-import Python from '../assets/python.png';
-import JavaScript from '../assets/javascript.png';
-import TypeScript from '../assets/typescript.png';
-import Angular from '../assets/angular.png';
-import ReactImg from '../assets/react.png';
-import NextImg from '../assets/nextjs.png';
-import Node from '../assets/node.png';
-import SQL from '../assets/sql.png';
-import GitHub from '../assets/github.png';
-import MaterialUI from '../assets/materialui.png';
-import Tailwind from '../assets/tailwind.png';
-import Bash from '../assets/bash.png';
+import HTML from '../assets/HTML.png';
+import CSS from '../assets/CSS.png';
+import C_lang from '../assets/C_lang.png';
+import Python from '../assets/Python.png';
+import JavaScript from '../assets/JavaScript.png';
+import TypeScript from '../assets/TypeScript.png';
+import Angular from '../assets/Angular.png';
+import ReactJS from '../assets/ReactJS.png';
+import NextJS from '../assets/NextJS.png';
+import Node from '../assets/Node.png';
+import SQL from '../assets/SQL.png';
+import GitHub from '../assets/Github.png';
+import MaterialUI from '../assets/MaterialUI.png';
+import Tailwind from '../assets/Tailwind.png';
+import Bash from '../assets/Bash.png';
 
 const BUTTON_CLASS =
   'p-2 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20 text-sm';
@@ -70,12 +70,12 @@ const Skills = () => {
             </div>
 
             <div className={BUTTON_CLASS + ' bg-sky-800 text-white'}>
-              <img className="h-16 mx-auto" src={ReactImg} alt="React icon" />
+              <img className="h-16 mx-auto" src={ReactJS} alt="ReactJS icon" />
               <p className="my-4">REACT</p>
             </div>
 
             <div className={BUTTON_CLASS + ' bg-slate-600 text-white'}>
-              <img className="h-16 mx-auto" src={NextImg} alt="NEXTJS icon" />
+              <img className="h-16 mx-auto" src={NextJS} alt="NEXTJS icon" />
               <p className="my-4">NEXTJS</p>
             </div>
           </div>
@@ -137,11 +137,11 @@ const Skills = () => {
               <img className="h-16 mx-auto" src={Node} alt="NODE icon" />
               <p className="my-4">NODE JS</p>
             </div>
-            <div className={BUTTON_CLASS + ' bg-sky-900 text-white'}>
+            <div className={BUTTON_CLASS + ' bg-indigo-300 text-white'}>
               <img className="h-16 mx-auto" src={SQL} alt="SQL icon" />
-              <p className="my-4">SQL</p>
+              <p className="my-4">SQLite</p>
             </div>
-            <div className={BUTTON_CLASS + ' bg-lime-600 text-white'}>
+            <div className={BUTTON_CLASS + ' bg-emerald-600 text-white'}>
               <img className="h-16 mx-auto" src={Bash} alt="BASH icon" />
               <p className="my-4">BASH</p>
             </div>

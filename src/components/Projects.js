@@ -10,16 +10,15 @@ import DiceRoll from '../assets/DiceRoll.png';
 import HoC from '../assets/HoC.png';
 import GuessNr from '../assets/GuessNr.png';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import TypeScript from '../assets/typescript.png';
-import Angular from '../assets/angular.png';
-import ReactImg from '../assets/react.png';
-import NextImg from '../assets/nextjs.png';
-// import Node from '../assets/node.png';
-import MaterialUI from '../assets/materialui.png';
-import Tailwind from '../assets/tailwind.png';
+import HTML from '../assets/HTML.png';
+import CSS from '../assets/CSS.png';
+import JavaScript from '../assets/JavaScript.png';
+import TypeScript from '../assets/TypeScript.png';
+import Angular from '../assets/Angular.png';
+import ReactJS from '../assets/ReactJS.png';
+import NextJS from '../assets/NextJS.png';
+import MaterialUI from '../assets/MaterialUI.png';
+import Tailwind from '../assets/Tailwind.png';
 
 const CARDS = 'grid md:grid-cols-2 lg:grid-cols-3 gap-4 z-10';
 const CARD = 'group h-64 [perspective:3200px]';
@@ -82,7 +81,7 @@ const Projects = () => {
                 <div className="flex justify-center flex-row pt-4">
                   <img
                     className="w-10 mx-auto p-1"
-                    src={ReactImg}
+                    src={ReactJS}
                     alt="React icon"
                   />
                   <img className="w-10 mx-auto p-1" src={CSS} alt="CSS icon" />
@@ -120,7 +119,7 @@ const Projects = () => {
                 <div className="flex justify-center flex-row pt-4">
                   <img
                     className="w-10 mx-auto p-1"
-                    src={NextImg}
+                    src={NextJS}
                     alt="React icon"
                   />
                   <img
@@ -199,7 +198,7 @@ const Projects = () => {
                 <div className="flex justify-center flex-row pt-4">
                   <img
                     className="w-10 mx-auto p-1"
-                    src={ReactImg}
+                    src={ReactJS}
                     alt="React icon"
                   />
                   <img
@@ -243,7 +242,7 @@ const Projects = () => {
                 <div className="flex justify-center flex-row pt-4">
                   <img
                     className="w-10 mx-auto p-1"
-                    src={ReactImg}
+                    src={ReactJS}
                     alt="React icon"
                   />
                   <img
