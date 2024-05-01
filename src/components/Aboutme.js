@@ -27,7 +27,7 @@ const Aboutme = () => {
             />
           </div>
           <div
-            className="flex flex-col justify-center items-start h-[180px] sm:h-[250px] lg:max-w-[320px] list-none md:ml-[-16px] md:col-span-2
+            className="flex flex-col justify-center items-start h-[180px] sm:h-[250px] lg:max-w-[320px] list-disc pl-8 md:ml-[-16px] md:col-span-2
           rounded-md backdrop-blur-sm bg-[#f0f0f010] border border-orange-200/20"
           >
             <li className="py-1 text-balance">
@@ -41,16 +41,21 @@ const Aboutme = () => {
           <div className="sm:col-span-2">
             <p className="py-2 text-balance">
               Hi, my name is Kris. I'm polish and german citizen, husband and
-              father, currently living in Berlin, Germany. I have a master
-              degree [MA] in Fine Arts and Art Education. At the moment i study
-              CS50's introduction to computer science and python on Harvard edX
-              Platform.
+              father, currently living in Berlin, Germany.
+            </p>
+            <p className="py-2">
+              I have a master degree [MA] in Fine Arts and Art Education. At the
+              moment i study CS50's introduction to computer science and python
+              on Harvard edX Platform.
             </p>
             <p className="py-2">
               My interests in programming started couple of years ago with html
               and css. After short time i've got curious about programming, in
-              particular JavaScript and DOM. Meanwhile i gained much more
-              knowledge and experience of programming technologies
+              particular JavaScript and DOM.
+            </p>
+            <p className="py-2">
+              Meanwhile i gained much more knowledge and experience of
+              programming technologies
               <span>
                 <Link
                   to={'/skills'}
@@ -73,18 +78,21 @@ const Aboutme = () => {
           </div>
           <div className="sm:col-span-2">
             <p className="sm:py-2 text-balance">
-              I prefere to focus on visual and functional aspects of the web,
-              with passion to detail, precision and playfullness. I love to
-              figure out and realize my tasks exactly as my client wants it.
-              <br />
-              Nothing is impossible!
+              I prefere to focus on visual and functional aspects of building a
+              webpage, with passion to detail, precision and playfullness. I
+              love to figure out and realize my tasks exactly as my client wants
+              it.
             </p>
+            <p className="sm:py-2">Nothing is impossible!</p>
             <p className="sm:py-2 text-balance">
               It is a great pleasure to create something exeptional. Thats why i
               research in wide spectrum of creative and technical fields to find
-              out the best solutions. Programming gives me limitless potential
-              to be creative. That is why as an artist i'm so passionate about
-              web development and building software.
+              out the best solutions.
+            </p>
+            <p className="sm:py-2">
+              Programming gives me limitless potential to be creative. That is
+              why as an artist i'm so passionate about web development and
+              building software.
             </p>
           </div>
         </div>
