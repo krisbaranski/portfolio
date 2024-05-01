@@ -3,8 +3,8 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://www.krisbaranski.com/"
+      "source": "/:a*",
+      "destination": "https://www.krisbaranski.com/(.*)"
     }
   ]
 }
