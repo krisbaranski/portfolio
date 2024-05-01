@@ -68,7 +68,7 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              '  sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1 lg:col-start-2'
+              '  sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1 lg:col-start-2 xl:col-start-2'
             }
           >
             <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
