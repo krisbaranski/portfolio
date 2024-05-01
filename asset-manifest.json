@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29bcfd32.css",
-    "main.js": "/static/js/main.a92f6692.js",
+    "main.js": "/static/js/main.793d92b2.js",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.15600d71db3259b23a1b.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
     "static/media/HoC.png": "/static/media/HoC.12cfb9f9a549711d5119.png",
@@ -28,7 +28,7 @@
     "static/media/SQL.png": "/static/media/SQL.5d0b0cd93c2f332a976c.png",
     "static/media/Bash.png": "/static/media/Bash.3b55c5f6aa8d7ab1a137.png",
     "static/media/Elephant-Outline.ttf": "/static/media/Elephant-Outline.6d18e5ca93520211397e.ttf",
-    "static/media/HTML.png": "/static/media/HTML.2ba4fabc69a89a8f71e6.png",
+    "static/media/Html.png": "/static/media/Html.2ba4fabc69a89a8f71e6.png",
     "static/media/Tailwind.png": "/static/media/Tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/CSS.png": "/static/media/CSS.69a82c2d9e45c933a9cb.png",
     "static/media/MaterialUI.png": "/static/media/MaterialUI.dcac3d68ac464dfdf779.png",
@@ -40,10 +40,10 @@
     "static/media/JavaScript.png": "/static/media/JavaScript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.29bcfd32.css.map": "/static/css/main.29bcfd32.css.map",
-    "main.a92f6692.js.map": "/static/js/main.a92f6692.js.map"
+    "main.793d92b2.js.map": "/static/js/main.793d92b2.js.map"
   },
   "entrypoints": [
     "static/css/main.29bcfd32.css",
-    "static/js/main.a92f6692.js"
+    "static/js/main.793d92b2.js"
   ]
 }
