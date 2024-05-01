@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.80571083.css",
-    "main.js": "/static/js/main.4731aad8.js",
+    "main.css": "/static/css/main.29bcfd32.css",
+    "main.js": "/static/js/main.a92f6692.js",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.15600d71db3259b23a1b.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
     "static/media/HoC.png": "/static/media/HoC.12cfb9f9a549711d5119.png",
@@ -32,16 +32,18 @@
     "static/media/Tailwind.png": "/static/media/Tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/CSS.png": "/static/media/CSS.69a82c2d9e45c933a9cb.png",
     "static/media/MaterialUI.png": "/static/media/MaterialUI.dcac3d68ac464dfdf779.png",
+    "static/media/Flask.png": "/static/media/Flask.9c7b02db430f6019d377.png",
     "static/media/C_lang.png": "/static/media/C_lang.254645bd44a60d630120.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.1d0c22359561b9ebbfcb.png",
     "static/media/Angular.png": "/static/media/Angular.29dda795d1a07386b37b.png",
     "static/media/Elephant-Outline.woff": "/static/media/Elephant-Outline.46f9a3c0c19db869a521.woff",
     "static/media/JavaScript.png": "/static/media/JavaScript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.80571083.css.map": "/static/css/main.80571083.css.map",
-    "main.4731aad8.js.map": "/static/js/main.4731aad8.js.map"
+    "main.29bcfd32.css.map": "/static/css/main.29bcfd32.css.map",
+    "main.a92f6692.js.map": "/static/js/main.a92f6692.js.map"
   },
   "entrypoints": [
-    "static/css/main.80571083.css",
-    "static/js/main.4731aad8.js"
+    "static/css/main.29bcfd32.css",
+    "static/js/main.a92f6692.js"
   ]
 }
