@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import HTML from '../assets/HTML.png';
+import HTML from '../assets/Html.png';
 import CSS from '../assets/CSS.png';
 import C_lang from '../assets/C_lang.png';
 import Python from '../assets/Python.png';
