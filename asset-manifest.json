@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ffdf6310.css",
-    "main.js": "/static/js/main.5bf680fa.js",
+    "main.js": "/static/js/main.ed054efc.js",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.15600d71db3259b23a1b.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
     "static/media/HoC.png": "/static/media/HoC.12cfb9f9a549711d5119.png",
@@ -40,10 +40,10 @@
     "static/media/JavaScript.png": "/static/media/JavaScript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.ffdf6310.css.map": "/static/css/main.ffdf6310.css.map",
-    "main.5bf680fa.js.map": "/static/js/main.5bf680fa.js.map"
+    "main.ed054efc.js.map": "/static/js/main.ed054efc.js.map"
   },
   "entrypoints": [
     "static/css/main.ffdf6310.css",
-    "static/js/main.5bf680fa.js"
+    "static/js/main.ed054efc.js"
   ]
 }
