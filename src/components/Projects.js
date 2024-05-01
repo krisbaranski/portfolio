@@ -10,7 +10,7 @@ import DiceRoll from '../assets/DiceRoll.png';
 import HoC from '../assets/HoC.png';
 import GuessNr from '../assets/GuessNr.png';
 
-import HTML from '../assets/Html.png';
+import HTML from '../assets/HTML.png';
 import CSS from '../assets/CSS.png';
 import JavaScript from '../assets/JavaScript.png';
 import TypeScript from '../assets/TypeScript.png';
