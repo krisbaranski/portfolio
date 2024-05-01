@@ -10,11 +10,13 @@ import TypeScript from '../assets/TypeScript.png';
 import Angular from '../assets/Angular.png';
 import ReactJS from '../assets/ReactJS.png';
 import NextJS from '../assets/NextJS.png';
+import Flask from '../assets/Flask.png';
 import Node from '../assets/Node.png';
 import SQL from '../assets/SQL.png';
 import GitHub from '../assets/Github.png';
 import MaterialUI from '../assets/MaterialUI.png';
 import Tailwind from '../assets/Tailwind.png';
+import Bootstrap from '../assets/Bootstrap.png';
 import Bash from '../assets/Bash.png';
 
 const BUTTON_CLASS =
@@ -61,22 +63,30 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              ' sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1'
+              '  sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1'
             }
           >
-            <div className={BUTTON_CLASS + ' bg-red-800 text-white'}>
-              <img className="h-16 mx-auto" src={Angular} alt="Angular icon" />
-              <p className="my-4">ANGULAR</p>
+            <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
+              <img className="h-16 m-auto" src={MaterialUI} alt="MUI icon" />
+              <p className="my-4">MATERIALUI</p>
             </div>
 
-            <div className={BUTTON_CLASS + ' bg-sky-800 text-white'}>
-              <img className="h-16 mx-auto" src={ReactJS} alt="ReactJS icon" />
-              <p className="my-4">REACT</p>
+            <div className={BUTTON_CLASS + ' bg-indigo-800 text-white'}>
+              <img
+                className="h-16 mx-auto"
+                src={Tailwind}
+                alt="Tailwind icon"
+              />
+              <p className="my-4">TAILWIND</p>
             </div>
 
-            <div className={BUTTON_CLASS + ' bg-slate-600 text-white'}>
-              <img className="h-16 mx-auto" src={NextJS} alt="NEXTJS icon" />
-              <p className="my-4">NEXTJS</p>
+            <div className={BUTTON_CLASS + ' bg-purple-200 text-purple-800'}>
+              <img
+                className="h-16 m-auto"
+                src={Bootstrap}
+                alt="Bootstrap icon"
+              />
+              <p className="my-4">BOOTSTRAP</p>
             </div>
           </div>
 
@@ -84,7 +94,7 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-2 xl:grid-rows-2 xl:grid-cols-2'
+              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-4 xl:grid-rows-1 xl:grid-cols-4'
             }
           >
             <div className={BUTTON_CLASS + ' bg-cyan-300 text-white'}>
@@ -109,20 +119,26 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              ' sm:col-span-2 sm:grid-rows-1 md:col-span-1 md:grid-rows-2 lg:grid-rows-1 lg:col-span-2 xl:grid-rows-2 xl:grid-cols-1 xl:col-span-1'
+              '  sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-4 xl:grid-rows-1 xl:grid-cols-4'
             }
           >
-            <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
-              <img className="h-16 m-auto" src={MaterialUI} alt="MUI icon" />
-              <p className="my-4">MATERIALUI</p>
+            <div className={BUTTON_CLASS + ' bg-red-800 text-white'}>
+              <img className="h-16 mx-auto" src={Angular} alt="Angular icon" />
+              <p className="my-4">ANGULAR</p>
             </div>
-            <div className={BUTTON_CLASS + ' bg-indigo-800 text-white'}>
-              <img
-                className="h-16 mx-auto"
-                src={Tailwind}
-                alt="Tailwind icon"
-              />
-              <p className="my-4">TAILWIND</p>
+            <div className={BUTTON_CLASS + ' bg-sky-800 text-white'}>
+              <img className="h-16 mx-auto" src={ReactJS} alt="ReactJS icon" />
+              <p className="my-4">REACT</p>
+            </div>
+
+            <div className={BUTTON_CLASS + ' bg-slate-600 text-white'}>
+              <img className="h-16 mx-auto" src={NextJS} alt="NEXTJS icon" />
+              <p className="my-4">NEXTJS</p>
+            </div>
+
+            <div className={BUTTON_CLASS + ' bg-sky-400 text-white'}>
+              <img className="h-16 mx-auto" src={Flask} alt="Flask icon" />
+              <p className="my-4">FLASK</p>
             </div>
           </div>
 
@@ -130,7 +146,7 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4  lg:grid-cols-4 lg:grid-rows-1 xl:col-span-2 xl:grid-rows-2 xl:grid-cols-2'
+              ' sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4  lg:grid-cols-4 lg:grid-rows-1 xl:col-span-4 xl:grid-rows-1 xl:grid-cols-4'
             }
           >
             <div className={BUTTON_CLASS + ' bg-green-900 text-lime-400'}>
