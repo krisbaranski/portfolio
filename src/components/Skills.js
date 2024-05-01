@@ -22,7 +22,7 @@ import Bash from '../assets/Bash.png';
 const BUTTON_CLASS =
   'p-2 rounded shadow-md shadow-[#040c1660] hover:scale-105 duration-200 z-20 text-sm';
 const BENTO_GRID =
-  'flex flex-col sm:grid sm:grid-flow-col gap-4 bg-[#cffafe20] rounded-xl p-4';
+  'flex flex-col sm:grid sm:grid-flow-col gap-4 bg-[#cffafe10] rounded-xl p-4 hover:bg-[#cffafe20]';
 
 const Skills = () => {
   return (
@@ -48,7 +48,12 @@ const Skills = () => {
 
         <div className="w-full flex justify-center flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-2 self-center text-center p-8 mx-auto z-10">
           {/* Bento Grid*/}
-          <div className={BENTO_GRID + ' sm:col-span-2 sm:grid-rows-1'}>
+          <div
+            className={
+              BENTO_GRID +
+              ' sm:col-span-2 sm:grid-rows-1 md:col-start-2 lg:col-start-1'
+            }
+          >
             <div className={BUTTON_CLASS + ' bg-rose-900 text-white'}>
               <img className="h-16 mx-auto" src={HTML} alt="HTML icon" />
               <p className="my-4">HTML</p>
@@ -63,7 +68,7 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              '  sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1'
+              '  sm:col-span-2 sm:grid-rows-2 md:col-span-3 md:grid-rows-1 lg:col-start-2'
             }
           >
             <div className={BUTTON_CLASS + ' bg-sky-200 text-sky-400'}>
@@ -119,7 +124,7 @@ const Skills = () => {
           <div
             className={
               BENTO_GRID +
-              '  sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-4 xl:grid-rows-1 xl:grid-cols-4'
+              '  sm:col-span-2 sm:grid-cols-2 sm:grid-rows-2 md:col-start-2 lg:col-span-4 lg:grid-cols-4 lg:grid-rows-1 xl:col-span-4 xl:grid-rows-1 xl:grid-cols-4 xl:col-start-2'
             }
           >
             <div className={BUTTON_CLASS + ' bg-red-800 text-white'}>
