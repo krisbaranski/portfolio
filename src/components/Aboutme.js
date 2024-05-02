@@ -96,7 +96,7 @@ const Aboutme = () => {
             </p>
           </div>
         </div>
-        <p className="pt-2 mb-20">
+        <p className="p-2 mb-20">
           I'm excited to contribute to your project. If you are interested,{' '}
           <span>
             <Link
