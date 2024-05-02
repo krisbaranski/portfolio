@@ -77,19 +77,19 @@ const Aboutme = () => {
             </p>
           </div>
           <div className="sm:col-span-2">
-            <p className="sm:py-2 text-balance">
+            <p className="py-2 text-balance">
               I prefere to focus on visual and functional aspects of building a
               webpage, with passion to detail, precision and playfullness. I
               love to figure out and realize my tasks exactly as my client wants
               it.
             </p>
-            <p className="sm:py-2">Nothing is impossible!</p>
-            <p className="sm:py-2 text-balance">
+            <p className="py-2">Nothing is impossible!</p>
+            <p className="py-2 text-balance">
               It is a great pleasure to create something exeptional. Thats why i
               research in wide spectrum of creative and technical fields to find
               out the best solutions.
             </p>
-            <p className="sm:py-2">
+            <p className="py-2">
               Programming gives me limitless potential to be creative. That is
               why as an artist i'm so passionate about web development and
               building software.
