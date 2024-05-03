@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2287be53.css",
-    "main.js": "/static/js/main.126ae610.js",
+    "main.js": "/static/js/main.5cc5c83f.js",
     "static/media/Baranski_CV_eng.pdf": "/static/media/Baranski_CV_eng.15600d71db3259b23a1b.pdf",
     "static/media/portrait.jpg": "/static/media/portrait.b27d02955d8b412c45d5.jpg",
-    "static/media/HoC.png": "/static/media/HoC.12cfb9f9a549711d5119.png",
-    "static/media/EK.png": "/static/media/EK.e72d4256ac9896dd8af2.png",
     "static/media/BINTA.png": "/static/media/BINTA.236271ee277e58ba738d.png",
+    "static/media/EK.png": "/static/media/EK.3945ddfdbd465e23d27f.png",
+    "static/media/HoC.png": "/static/media/HoC.95722228a74f3b5c964a.png",
     "static/media/Mahakala.png": "/static/media/Mahakala.9e077ac47ecdcc6017ac.png",
     "static/media/Dashboard.png": "/static/media/Dashboard.429abad53320736222d5.png",
     "static/media/Implement.png": "/static/media/Implement.50a3a143aad9ab013dff.png",
@@ -40,10 +40,10 @@
     "static/media/JavaScript.png": "/static/media/JavaScript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.2287be53.css.map": "/static/css/main.2287be53.css.map",
-    "main.126ae610.js.map": "/static/js/main.126ae610.js.map"
+    "main.5cc5c83f.js.map": "/static/js/main.5cc5c83f.js.map"
   },
   "entrypoints": [
     "static/css/main.2287be53.css",
-    "static/js/main.126ae610.js"
+    "static/js/main.5cc5c83f.js"
   ]
 }
