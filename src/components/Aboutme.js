@@ -49,9 +49,9 @@ const Aboutme = () => {
               on Harvard edX Platform.
             </p>
             <p className="py-2">
-              My interests in programming started couple of years ago with html
-              and css. After short time i've got curious about programming, in
-              particular JavaScript and DOM.
+              My interests in programming about 15 years ago with html and css.
+              After some time i've got curious about programming, in particular
+              JavaScript and DOM.
             </p>
             <p className="py-2">
               Meanwhile i gained much more knowledge and experience of
@@ -78,10 +78,10 @@ const Aboutme = () => {
           </div>
           <div className="sm:col-span-2">
             <p className="py-2 text-balance">
-              I prefere to focus on visual and functional aspects of building a
-              webpage, with passion to detail, precision and playfullness. I
-              love to figure out and realize my tasks exactly as my client wants
-              it.
+              I prefere to focus on visual and functional aspects of projects
+              called frontend development, with passion to detail, precision and
+              playfullness. I love to figure out and realize my tasks exactly as
+              my client wants it.
             </p>
             <p className="py-2">Nothing is impossible!</p>
             <p className="py-2 text-balance">
