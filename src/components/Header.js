@@ -1,8 +1,31 @@
 import React from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import Button from './Button';
 import { motion } from 'framer-motion';
 
 const Header = () => {
+  usePageSEO({
+    title: 'Kris Baranski | Web developer',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'react',
+      'UX/UI',
+      'framer-motion',
+      'Java Script',
+      'Tailwind',
+    ],
+    ogTitle: 'Kris Baranski | Web developer',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
   return (
     <motion.div
       className="relative w-full min-h-screen md:flex md:items-center md:h-top text-[#264e86] bg-slate-900/50 py-10"
