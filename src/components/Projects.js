@@ -42,7 +42,7 @@ const Projects = () => {
   usePageSEO({
     title: 'Kris Baranski | Projects',
     description:
-      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      'Here you can find selected projects, which i built and maintain. You can see screenshot of the main page. On card flip you will find a short description, list of technologies i used and a link to the page.',
     keywords: [
       'portfolio',
       'frontend',
@@ -58,7 +58,7 @@ const Projects = () => {
     ],
     ogTitle: 'Kris Baranski | Projects',
     ogDescription:
-      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      'Here you can find selected projects, which i built and maintain. You can see screenshot of the main page. On card flip you will find a short description, list of technologies i used and a link to the page.',
     ogImage:
       'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
     ogUrl: 'https://krisbaranski.com/',

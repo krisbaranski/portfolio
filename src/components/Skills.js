@@ -29,7 +29,7 @@ const Skills = () => {
   usePageSEO({
     title: 'Kris Baranski | Skills',
     description:
-      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      "Here i list all programming technologies and languages i'm familiar with - from beginner to semi-professional grade. According to clients project ideas, i use them to build apps, webpages, games",
     keywords: [
       'portfolio',
       'frontend',
@@ -57,7 +57,7 @@ const Skills = () => {
     ],
     ogTitle: 'Kris Baranski | Skills',
     ogDescription:
-      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      "Here i list all programming technologies and languages i'm familiar with - from beginner to semi-professional grade. According to clients project ideas, i use them to build apps, webpages, games",
     ogImage:
       'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
     ogUrl: 'https://krisbaranski.com/',

@@ -1,8 +1,31 @@
 import React from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import Button from './Button';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
+  usePageSEO({
+    title: 'Kris Baranski | Contact',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences. If you like to get in touch with me, please submit the form below or send me an email',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'react',
+      'UX/UI',
+      'framer-motion',
+      'Java Script',
+      'Tailwind',
+    ],
+    ogTitle: 'Kris Baranski | Contact',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences. If you like to get in touch with me, please submit the form below or send me an email',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
   return (
     <motion.div
       name="contact"
