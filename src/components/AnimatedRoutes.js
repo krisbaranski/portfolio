@@ -8,6 +8,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Impressum from './Impressum';
 import PrivacyPolicy from './PrivacyPolicy';
+import NotFound from './NotFound';
 
 import { AnimatePresence } from 'framer-motion';
 
@@ -24,6 +25,7 @@ const AnimatedRoutes = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
   );
