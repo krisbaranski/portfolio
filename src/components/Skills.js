@@ -1,4 +1,5 @@
 import React from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import { motion } from 'framer-motion';
 
 import HTML from '../assets/HTML.png';
@@ -25,6 +26,42 @@ const BENTO_GRID =
   'flex flex-col sm:grid sm:grid-flow-col gap-4 bg-[#cffafe10] rounded-xl p-4 hover:bg-[#cffafe20]';
 
 const Skills = () => {
+  usePageSEO({
+    title: 'Kris Baranski | Skills',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'UX/UI',
+      'framer-motion',
+      'HTML',
+      'CSS',
+      'MaterialUI',
+      'Tailwind',
+      'Bootstrap',
+      'C',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+      'Angular',
+      'ReactJS',
+      'NextJS',
+      'Flask',
+      'NodeJS',
+      'SQLite',
+      'Bash',
+      'Github',
+    ],
+    ogTitle: 'Kris Baranski | Skills',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
   return (
     <motion.div
       className="relative w-full min-h-screen md:flex md:items-center py-12 text-[#999]"

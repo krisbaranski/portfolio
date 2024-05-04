@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';
@@ -19,6 +20,29 @@ const Navbar = () => {
 
   const MENU_LINK =
     'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800 transition-colors duration-200 ease-in-out delay-200';
+
+    usePageSEO({
+      title: 'Kris Baranski | Web developer',
+      description:
+        'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      keywords: [
+        'portfolio',
+        'frontend',
+        'web',
+        'development',
+        'react',
+        'UX/UI',
+        'framer-motion',
+        'Java Script',
+        'Tailwind',
+      ],
+      ogTitle: 'Kris Baranski | Web developer',
+      ogDescription:
+        'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+      ogImage:
+        'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+      ogUrl: 'https://krisbaranski.com/',
+    });
 
   return (
     <div

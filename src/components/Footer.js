@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -8,6 +9,29 @@ const Footer = () => {
   };
 
   window.addEventListener('scroll', changeColor);
+
+  usePageSEO({
+    title: 'Kris Baranski | Web developer',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'react',
+      'UX/UI',
+      'framer-motion',
+      'Java Script',
+      'Tailwind',
+    ],
+    ogTitle: 'Kris Baranski | Web developer',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
 
   return (
     <div

@@ -1,4 +1,5 @@
 import React from 'react';
+import usePageSEO from '../hooks/usePageSEO';
 import { motion } from 'framer-motion';
 import Mahakala from '../assets/Mahakala.png';
 import Binta from '../assets/BINTA.png';
@@ -38,6 +39,30 @@ const BUTTON_CLASS =
   'text-center rounded px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-slate-900 hover:text-sky-200';
 
 const Projects = () => {
+  usePageSEO({
+    title: 'Kris Baranski | Projects',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'webpages',
+      'dashboard',
+      'react',
+      'UX/UI',
+      'framer-motion',
+      'Java Script',
+      'Tailwind',
+    ],
+    ogTitle: 'Kris Baranski | Projects',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
   return (
     <motion.div
       className="relative w-full min-h-screen md:flex md:items-center md:h-top text-[#264e86]  py-10"
