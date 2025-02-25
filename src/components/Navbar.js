@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import usePageSEO from '../hooks/usePageSEO';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.png';
-import Logo_hover from '../assets/logo_hover.png';
+// import Logo from '../assets/logo.png';
+// import Logo_hover from '../assets/logo_hover.png';
 
 const Navbar = () => {
   // setting mobile nav
@@ -19,30 +19,30 @@ const Navbar = () => {
   window.addEventListener('scroll', changeColor);
 
   const MENU_LINK =
-    'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800 transition-colors duration-200 ease-in-out delay-200';
+    'p-2 rounded hover:bg-[#f0f0f0] hover:text-stone-800 transition-colors duration-200 ease-out delay-5';
 
-    usePageSEO({
-      title: 'Kris Baranski | Web developer',
-      description:
-        'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
-      keywords: [
-        'portfolio',
-        'frontend',
-        'web',
-        'development',
-        'react',
-        'UX/UI',
-        'framer-motion',
-        'Java Script',
-        'Tailwind',
-      ],
-      ogTitle: 'Kris Baranski | Web developer',
-      ogDescription:
-        'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
-      ogImage:
-        'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
-      ogUrl: 'https://krisbaranski.com/',
-    });
+  usePageSEO({
+    title: 'Kris Baranski | Web developer',
+    description:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    keywords: [
+      'portfolio',
+      'frontend',
+      'web',
+      'development',
+      'react',
+      'UX/UI',
+      'framer-motion',
+      'Java Script',
+      'Tailwind',
+    ],
+    ogTitle: 'Kris Baranski | Web developer',
+    ogDescription:
+      'I specialize in frontend web development with focus on building responsive web applications and designing exceptional digital experiences.',
+    ogImage:
+      'https://www.krisbaranski.com/static/media/portrait.b27d02955d8b412c45d5.jpg',
+    ogUrl: 'https://krisbaranski.com/',
+  });
 
   return (
     <div
@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="min-w-[700px] flex flex-row justify-between items-center ">
         <div className="z-50 pl-6 transition duration-200 ease-in-out delay-200">
           <Link to={'/'} className="group flex flex-row">
-            <img
+            {/* <img
               src={Logo}
               alt="Logo"
               className="group-hover:hidden w-[75px] transition duration-200 ease-in-out delay-200"
@@ -65,8 +65,16 @@ const Navbar = () => {
               src={Logo_hover}
               alt="Logo"
               className="hidden group-hover:block w-[75px] transition duration-200 ease-in-out delay-200"
-            />
-            <span className="text-white text-3xl pl-1 animate-blink hover:hidden">
+            /> */}
+            <p
+              to="/"
+              className={
+                MENU_LINK + ' text-[#e7e5e4] pr-[2px] font-xl items-end'
+              }
+            >
+              Kris Baranski
+            </p>
+            <span className="text-white text-2xl animate-blink hover:hidden">
               _
             </span>
           </Link>
