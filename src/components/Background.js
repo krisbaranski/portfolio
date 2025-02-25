@@ -20,10 +20,17 @@ const Background = () => {
         options={{
           background: {
             color: {
+              value: '#030712',
+            },
+            start: {
               value: 'transparent',
             },
+            stop: {
+              value: 'transparent',
+            },
+            angle: 90,
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           interactivity: {
             events: {
               onClick: {
@@ -47,20 +54,20 @@ const Background = () => {
                 quantity: 1,
               },
               repulse: {
-                distance: 130,
+                distance: 80,
                 duration: 0.4,
               },
             },
           },
           particles: {
             color: {
-              value: '#a8bed8',
+              value: '#999',
             },
             links: {
-              color: '#a8bed8',
+              color: '#555',
               distance: 400,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.2,
               width: 1,
             },
             collisions: {
@@ -71,15 +78,15 @@ const Background = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 1.1,
+              speed: 0.1,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 700,
+                value_area: 600,
               },
-              value: 50,
+              value: 60,
             },
             opacity: {
               value: 0.3,
@@ -89,7 +96,7 @@ const Background = () => {
             },
             size: {
               random: true,
-              value: 2,
+              value: 3,
             },
           },
           detectRetina: true,
