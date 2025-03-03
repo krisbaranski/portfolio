@@ -61,13 +61,13 @@ const Background = () => {
           },
           particles: {
             color: {
-              value: '#999',
+              value: '#b1872440',
             },
             links: {
-              color: '#555',
+              color: '#b1872420',
               distance: 400,
               enable: true,
-              opacity: 0.2,
+              opacity: 0.15,
               width: 1,
             },
             collisions: {
@@ -78,7 +78,7 @@ const Background = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 0.1,
+              speed: 0.2,
               straight: false,
             },
             number: {
